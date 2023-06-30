@@ -36,7 +36,7 @@ jobs:
 
           # filter ((vmess|trojan) & (websocket))
 
-          yq '[.proxies.[] | select((.type == "vmess" or .type == "trojan") and (.port == "443") and (.tls == "true") and (.network == "ws")) | .server = "172.67.139.111"]' ./raw.yaml \
+          yq '[.proxies.[] | select((.type == "vmess" or .type == "trojan") and (.port == "443") and (.tls == "true") and (.network == "ws")) | .server = "104.16.66.85"]' ./raw.yaml \
 
           | yq '{"proxies": .}' > ${{ env.RESULT }}
 
