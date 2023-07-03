@@ -1,7 +1,33 @@
 proxies:
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1E9_ID_印度尼西亚_0@31"
+    name: "\U0001F1FA\U0001F1F8_US_美国_3_0@23"
+    network: ws
+    port: 443
+    server: 104.16.66.85
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
+    ws-opts:
+      headers:
+        host: cdnca1.digisport.shop
+      path: /16575
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EC\U0001F1E7_GB_英国_0@28"
+    network: ws
+    port: 443
+    server: 104.16.66.85
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    ws-opts:
+      path: /chat
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1E9_ID_印度尼西亚_1@31"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -15,19 +41,7 @@ proxies:
       path: /vmws
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EC\U0001F1E7_GB_英国_0@33"
-    network: ws
-    port: 443
-    server: 104.16.66.85
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    ws-opts:
-      path: /chat
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_8_0@34"
+    name: "\U0001F1FA\U0001F1F8_US_美国_8_1@34"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -41,7 +55,7 @@ proxies:
       path: /vmess
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_2_1@2"
+    name: "\U0001F1FA\U0001F1F8_US_美国_2_2@2"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -55,7 +69,7 @@ proxies:
       path: /ports/45314
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F3\U0001F1F1_NL_荷兰_1@13"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F3\U0001F1F1_NL_荷兰_2@13"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -69,7 +83,7 @@ proxies:
       path: /speedtest
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0_HK_香港_3_1@27"
+    name: "\U0001F1ED\U0001F1F0_HK_香港_3_2@27"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -84,7 +98,7 @@ proxies:
       path: /hls/us8.m3u8
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F8\U0001F1EC_SG_新加坡_2_1@29"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F8\U0001F1EC_SG_新加坡_2_2@29"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -99,7 +113,7 @@ proxies:
       path: /
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_5_2@20"
+    name: "\U0001F1FA\U0001F1F8_US_美国_5_3@20"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -113,7 +127,7 @@ proxies:
       path: /12796
   - alterId: 0
     cipher: auto
-    name: "\U0001F1E8\U0001F1E6_CA_加拿大_2@27"
+    name: "\U0001F1E8\U0001F1E6_CA_加拿大_3@27"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -127,21 +141,7 @@ proxies:
       path: /3G6WPDL7
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_1_3@11"
-    network: ws
-    port: 443
-    server: 104.16.66.85
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
-    ws-opts:
-      headers:
-        host: cdnca1.digisport.shop
-      path: /16575
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_4@2"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_5@2"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -155,7 +155,7 @@ proxies:
       path: /P6kpn5UKG40MNLK2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_7_4@44"
+    name: "\U0001F1FA\U0001F1F8_US_美国_7_5@44"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -169,7 +169,7 @@ proxies:
       path: /
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_5@30"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_6@30"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -183,7 +183,7 @@ proxies:
       path: /P6kpn5UKG40MNLK2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0_HK_香港_6@1"
+    name: "\U0001F1ED\U0001F1F0_HK_香港_7@1"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -198,7 +198,7 @@ proxies:
       path: /zh-cn
   - alterId: 0
     cipher: auto
-    name: "\U0001F1E8\U0001F1F7_CR_哥斯达黎加_6@8"
+    name: "\U0001F1E8\U0001F1F7_CR_哥斯达黎加_7@8"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -212,7 +212,7 @@ proxies:
       path: /shirker
   - alterId: 0
     cipher: aes-128-gcm
-    name: "\U0001F1E8\U0001F1F3_CN_中国_2_6@16"
+    name: "\U0001F1E8\U0001F1F3_CN_中国_2_7@16"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -226,7 +226,7 @@ proxies:
       path: /cec6f2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_3_6@31"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_3_7@31"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -240,7 +240,7 @@ proxies:
       path: /P6kpn5UKG40MNLK2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_5_6@38"
+    name: "\U0001F1FA\U0001F1F8_US_美国_5_7@38"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -254,7 +254,7 @@ proxies:
       path: /S4PSg9xqUClN2kJ4SOPKqC6
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_3_7@35"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_3_8@35"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -268,7 +268,7 @@ proxies:
       path: /P6kpn5UKG40MNLK2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_7_7@39"
+    name: "\U0001F1FA\U0001F1F8_US_美国_7_8@39"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -282,7 +282,7 @@ proxies:
       path: /speedtest
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_9_7@42"
+    name: "\U0001F1FA\U0001F1F8_US_美国_9_8@42"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -296,7 +296,7 @@ proxies:
       path: /S4PSg9xqUClN2kJ4SOPKqC6
   - alterId: 0
     cipher: auto
-    name: "\U0001F1F3\U0001F1F1_NL_荷兰_9@2"
+    name: "\U0001F1F3\U0001F1F1_NL_荷兰_10@2"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -310,7 +310,7 @@ proxies:
       path: /
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11@27"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12@27"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -324,7 +324,7 @@ proxies:
       path: /14161
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_4_11@28"
+    name: "\U0001F1FA\U0001F1F8_US_美国_4_12@28"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -338,7 +338,7 @@ proxies:
       path: /S4PSg9xqUClN2kJ4SOPKqC6
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_6_11@34"
+    name: "\U0001F1FA\U0001F1F8_US_美国_6_12@34"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -352,7 +352,7 @@ proxies:
       path: /835757
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_3_13@11"
+    name: "\U0001F1FA\U0001F1F8_US_美国_3_14@11"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -366,7 +366,7 @@ proxies:
       path: /pq/usfh2?ed=2048
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1E6_UA_乌克兰->\U0001F1EC\U0001F1E7_GB_英国_13@14"
+    name: "\U0001F1FA\U0001F1E6_UA_乌克兰->\U0001F1EC\U0001F1E7_GB_英国_14@14"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -380,7 +380,7 @@ proxies:
       path: /P6kpn5UKG40MNLK2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EF\U0001F1F5_JP_日本_3_13@32"
+    name: "\U0001F1EF\U0001F1F5_JP_日本_3_14@32"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -394,7 +394,7 @@ proxies:
       path: /
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1E6_UA_乌克兰->\U0001F1EC\U0001F1E7_GB_英国_2_14@31"
+    name: "\U0001F1FA\U0001F1E6_UA_乌克兰->\U0001F1EC\U0001F1E7_GB_英国_2_15@31"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -408,7 +408,7 @@ proxies:
       path: /P6kpn5UKG40MNLK2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国_15@31"
+    name: "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国_16@31"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -422,7 +422,7 @@ proxies:
       path: /835757
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7_FR_法国_15@32"
+    name: "\U0001F1EB\U0001F1F7_FR_法国_16@32"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -436,7 +436,7 @@ proxies:
       path: /
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_4_17@25"
+    name: "\U0001F1FA\U0001F1F8_US_美国_4_18@25"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -450,7 +450,7 @@ proxies:
       path: /835757
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦_19@1"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦_20@1"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -464,7 +464,7 @@ proxies:
       path: /ws1341380505
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_3_19@27"
+    name: "\U0001F1FA\U0001F1F8_US_美国_3_20@27"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -478,7 +478,7 @@ proxies:
       path: /835757
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F3_IN_印度_21@26"
+    name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F3_IN_印度_22@26"
     network: ws
     port: 443
     server: 104.16.66.85
@@ -492,7 +492,7 @@ proxies:
       path: /sometimesnaive
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8_US_美国_6_21@28"
+    name: "\U0001F1FA\U0001F1F8_US_美国_6_22@28"
     network: ws
     port: 443
     server: 104.16.66.85
