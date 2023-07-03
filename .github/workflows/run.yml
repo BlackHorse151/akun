@@ -13,7 +13,7 @@ jobs:
       - uses: mikefarah/yq@master
       - name: Get Proxies
         run: |
-          curl -sSL 'https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml' > ./raw.yaml
+          curl -sSL 'https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml' > ./raw.yaml
       - name: proccess
         run: |
           # filter ((vmess|trojan) & (websocket))
