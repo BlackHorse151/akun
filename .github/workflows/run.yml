@@ -17,7 +17,7 @@ jobs:
       - name: proccess
         run: |
           # filter ((vmess|trojan) & (websocket))
-          yq '[.proxies.[] | select((.type == "vless" or .type == "vmess" or .type == "trojan") and (.skip-cert-verify == true) and (.port == 443) and (.network == "ws")) | .server = "104.16.66.85"]' ./raw.yaml \
+          yq '[.proxies.[] | select((.type == "vless" or .type == "vmess" or .type == "trojan") and (.skip-cert-verify == true) and (.port == 443) and (.network == "ws"))' ./raw.yaml \
           | yq '{"proxies": .}' > ${{ env.RESULT }}
       - name: Prepare
         run: |
