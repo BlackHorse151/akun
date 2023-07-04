@@ -1,5 +1,5 @@
 proxies:
-  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|229.09"
+  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|230.58"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: vau1.0bad.com
     udp: true
-  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|411.5"
+  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|489.47"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: meetzoom.disnet.gq
     udp: true
-  - name: "@daorzadannet|\U0001F1FA\U0001F1F8|62.94"
+  - name: "@daorzadannet|\U0001F1FA\U0001F1F8|94.08"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -47,7 +47,23 @@ proxies:
       headers:
         Host: us-6.0rd.net
     udp: true
-  - name: "@vless_vmess|\U0001F1FA\U0001F1F8|14.36"
+  - name: "@customv2ray|\U0001F1FA\U0001F1F8|74.34"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1687165779141
+      headers:
+        Host: ""
+    udp: true
+  - name: "@vless_vmess|\U0001F6A9|6.24"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -63,7 +79,7 @@ proxies:
       headers:
         Host: purple-math-02be.bangolan09284.workers.dev
     udp: true
-  - name: "@ovpn2|\U0001F6A9|14.32"
+  - name: "@ovpn2|\U0001F6A9|6.61"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -78,4 +94,65 @@ proxies:
       path: /Lsv4s7nS0ErewnEN
       headers:
         Host: channel3.unlimiteddev.tk
+    udp: true
+  - name: "@ConfigsHUB|\U0001F1FA\U0001F1F8|6.26"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9AE93878-6FB4-431A-A4C8-528EFE01A8DF
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Lille.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Lille.kotick.site
+    udp: true
+  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|89.1"
+    server: 104.16.66.85
+    port: 443
+    type: vless
+    uuid: 78215585-8f97-0501-2023-d8b924b1ac89
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 20230704.quranglobal-av.link
+    network: ws
+    ws-opts:
+      path: /alive
+      headers:
+        Host: 20230704.quranglobal-av.link
+    udp: true
+  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|89.01"
+    server: 104.16.66.85
+    port: 443
+    type: vless
+    uuid: 78215585-8f97-0501-2023-d8b924b1ac89
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 20230704.quranglobal-av.link
+    network: ws
+    ws-opts:
+      path: /alive
+      headers:
+        Host: 20230704.quranglobal-av.link
+    udp: true
+  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|89.36"
+    server: 104.16.66.85
+    port: 443
+    type: vless
+    uuid: 78215585-8f97-0501-2023-d8b924b1ac89
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 20230704.quranglobal-av.link
+    network: ws
+    ws-opts:
+      path: /alive
+      headers:
+        Host: 20230704.quranglobal-av.link
     udp: true
