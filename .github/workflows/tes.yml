@@ -1,0 +1,51 @@
+name: PHP Script Workflow
+
+on:
+
+  workflow_dispatch:
+
+  schedule:
+
+    - cron: '0 0 * * *' # Menjalankan setiap hari pukul 00:00 UTC
+
+jobs:
+
+  run_php_script:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+
+        uses: shivammathur/setup-php@v2
+
+        with:
+
+          php-version: '7.4'
+
+      - name: Install Composer
+
+        run: |
+
+          php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+
+          php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+      - name: Install Dependencies
+
+        run: composer install
+
+      - name: Execute PHP Script
+
+        run: php script.php
+
+      - name: Create Subscribe Directory
+        run: mkdir -p subscribe
+
+      - name: Move File to Subscribe Directory
+        run: mv a.yaml subscribe/
