@@ -1,4 +1,20 @@
 proxies:
+  - name: "@free4allVPN|\U0001F1ED\U0001F1F0|195.25"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 04b38baf-5b78-4937-b27a-83057b08b776
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
   - name: "@free4allVPN|\U0001F1E6\U0001F1FA|230.58"
     server: 104.16.66.85
     port: 443
@@ -155,4 +171,17 @@ proxies:
       path: /alive
       headers:
         Host: 20230704.quranglobal-av.link
+    udp: true
+  - name: "|@xrayzxn|13.46"
+    server: 104.16.66.85
+    port: 443
+    type: trojan
+    password: a55f52b9-bd3d-466a-ba72-a085d79921e2
+    skip-cert-verify: true
+    sni: uosobshokabbskja.chikaveloiee.gq
+    network: ws
+    ws-opts:
+      path: /RzBm5FTn4dG1GF8WjrVTSeG3l1Hh
+      headers:
+        Host: uosobshokabbskja.chikaveloiee.gq
     udp: true
