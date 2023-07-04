@@ -9,24 +9,14 @@ jobs:
   running:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Install yq
-        run: |
-          sudo wget https://github.com/mikefarah/yq/releases/download/v4.9.6/yq_linux_amd64.tar.gz
-          sudo tar xvf yq_linux_amd64.tar.gz
-          sudo mv yq_linux_amd64 yq
-          sudo chmod +x yq
-          sudo mv yq /usr/local/bin/
+      - uses: actions/checkout@v3
+      - uses: mikefarah/yq@master
       - name: Get Proxies
         run: |
           curl -sSL 'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml' > ./raw.yaml
       - name: proccess
         run: |
           # filter ((vmess|trojan) & (websocket))
-
-
           yq '[.proxies.[] | select((.type == "vmess" or .type == "trojan") and (.alterId == 0) and (.port == 443) and (.tls == true) and (.network == "ws")) | .server = "104.16.66.85"]' ./raw.yaml \
           | yq '{"proxies": .}' > ${{ env.RESULT }}
       - name: Prepare
