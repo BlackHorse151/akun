@@ -2,7 +2,7 @@ name: "Proxies Subs"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 6 * * *'
+    - cron: '45 5 * * *'
 env:
   RESULT: 'proxies-subs.yml'
 jobs:
