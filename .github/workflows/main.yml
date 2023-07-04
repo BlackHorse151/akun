@@ -1,0 +1,57 @@
+name: Convert V2RayLink
+
+on:
+
+  workflow_dispatch:
+
+  schedule:
+
+    - cron: '0 0 * * *'
+
+env:
+
+  RESULT_DIR: 'subscribe'
+
+  FILENAME: 'raw.txt'
+
+jobs:
+
+  convert:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+
+        uses: actions/checkout@v3
+
+      - name: Get V2RayLink
+
+        run: |
+
+          curl -sSL 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt' > v2raylink.txt
+
+      - name: Install Python
+
+        uses: actions/setup-python@v2
+
+        with:
+
+          python-version: '3.x'
+
+      - name: Install dependencies
+
+        run: pip install v2ray2clash
+
+      - name: Convert V2RayLink to Clash
+        run: |
+          v2ray2clash -i v2raylink.txt -o ${{ env.RESULT_DIR }}/${{ env.FILENAME }}
+
+      - name: Push changes to repository
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ${{ env.RESULT_DIR }}/${{ env.FILENAME }}
+          git commit -m "Update converted V2RayLink"
+          git push
