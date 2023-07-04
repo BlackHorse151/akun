@@ -1,5 +1,4 @@
-
-name: Convert V2Ray Link to Clash
+name: Convert V2RayLink to Clash
 
 on:
 
@@ -7,15 +6,7 @@ on:
 
   schedule:
 
-    - cron: '0 0 * * *' # Run everyday at midnight
-
-env:
-
-  CONVERTER_VERSION: 'v1.0.0'
-
-  SUBSCRIBE_DIR: 'subscribe'
-
-  RAW_FILE: 'raw.txt'
+    - cron: '0 0 * * *' # Run the workflow daily at midnight
 
 jobs:
 
@@ -27,38 +18,27 @@ jobs:
 
       - name: Checkout Repository
 
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
-      - name: Install Python
+      - name: Install clashctl
 
-        uses: actions/setup-python@v2
-
-        with:
-
-          python-version: '3.x'
-
-      - name: Install Dependencies
-
-        run: pip install v2ray-config==1.1.0
-
-      - name: Get V2Ray Link
-
-        run: curl -sSL 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt' > v2ray_links.txt
-
-      - name: Convert V2Ray Link to Clash- name: Convert V2Ray Link to Clash
         run: |
-          python -c "from v2ray_config import V2rayConfig; V2rayConfig('v2ray_links.txt').to_clash('raw.txt')"
 
-      - name: Prepare Subscribe Directory
-        run: mkdir -p ${{ env.SUBSCRIBE_DIR }}
+          sudo curl -L https://github.com/Dreamacro/clash/releases/latest/download/clash-linux-amd64.gz -o /usr/local/bin/clash.gz
 
-      - name: Move Raw File to Subscribe Directory
-        run: mv ${{ env.RAW_FILE }} ${{ env.SUBSCRIBE_DIR }}/${{ env.RAW_FILE }}
+          sudo gunzip -f /usr/local/bin/clash.gz
 
-      - name: Commit and Push Changes
+          sudo chmod +x /usr/local/bin/clash
+
+      - name: Get V2RayLink
+
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ${{ env.SUBSCRIBE_DIR }}/${{ env.RAW_FILE }}
-          git commit -m "Update raw.txt"
-          git push
+
+          curl -sSL 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt' > raw.txt
+
+      - name: Convert to Clash
+
+        run: |
+
+          clash -i raw.txt -o /subscribe/raw.txt
+
