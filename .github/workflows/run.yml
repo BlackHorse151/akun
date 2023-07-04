@@ -13,7 +13,7 @@ jobs:
       - uses: mikefarah/yq@master
       - name: Get Proxies
         run: |
-          curl -sSL 'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml' > ./raw.yaml
+          curl -sSL 'https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/meta/mix.yml' > ./raw.yaml
       - name: proccess
         run: |
           # filter ((vmess|trojan) & (websocket))
