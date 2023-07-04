@@ -18,7 +18,7 @@ jobs:
         run: |
           # filter ((vmess|trojan) & (websocket))
           yq '.proxies[] | select((.type == "vmess" or .type == "trojan") and (.alterId == 0) and (.port == 443) and (.tls == True) and (.network == "ws")) | .server = "104.16.66.85"' raw.yaml \
-          | yq '{"proxies": [.]}' > ${{ env.RESULT }}
+          | yq '{"proxies": [.]}' > proxies-subs.yml
       - name: Prepare
         run: |
           echo "RELEASE_NAME=Updated on $(date +%F)" >> $GITHUB_ENV
