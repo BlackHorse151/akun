@@ -32,21 +32,15 @@ jobs:
 
           curl -sSL 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt' > v2raylink.txt
 
-      - name: Install Python
-
-        uses: actions/setup-python@v2
-
-        with:
-
-          python-version: '3.x'
-
-      - name: Install dependencies
-
-        run: pip install v2ray2clash
+      - name: Install v2rayA2c
+        run: |
+          git clone https://github.com/yanzisu/v2rayA2c.git
+          cd v2rayA2c
+          pip install -r requirements.txt
 
       - name: Convert V2RayLink to Clash
         run: |
-          v2ray2clash -i v2raylink.txt -o ${{ env.RESULT_DIR }}/${{ env.FILENAME }}
+          python v2rayA2c/v2rayA2c.py -i v2raylink.txt -o ${{ env.RESULT_DIR }}/${{ env.FILENAME }}
 
       - name: Push changes to repository
         run: |
