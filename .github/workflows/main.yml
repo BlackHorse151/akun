@@ -24,7 +24,7 @@ jobs:
 
         run: |
 
-          sudo curl -L https://github.com/Dreamacro/clash/releases/latest/download/clash-linux-amd64.gz -o /usr/local/bin/clash.gz
+          sudo curl -L https://github.com/Dreamacro/clash/releases/download/v1.17.0/clash-linux-amd64-v3-v1.17.0.gz -o /usr/local/bin/clash.gz
 
           sudo gunzip -f /usr/local/bin/clash.gz
 
