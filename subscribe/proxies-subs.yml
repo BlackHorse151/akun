@@ -1,21 +1,5 @@
 proxies:
-  - name: "@free4allVPN|\U0001F1ED\U0001F1F0|161.61"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 04b38baf-5b78-4937-b27a-83057b08b776
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
-  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|201.34"
+  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|217.72"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -31,7 +15,7 @@ proxies:
       headers:
         Host: vau1.0bad.com
     udp: true
-  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|334.76"
+  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|222.76"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -47,11 +31,43 @@ proxies:
       headers:
         Host: meetzoom.disnet.gq
     udp: true
-  - name: "@vless_vmess|\U0001F6A9|2.89"
+  - name: "@daorzadannet|\U0001F1F1\U0001F1FA|109.03"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee
+    uuid: ea7b8d70-1910-11ee-b234-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: lu.0rd.net
+    network: ws
+    ws-opts:
+      path: /@hopev2ray
+      headers:
+        Host: lu.0rd.net
+    udp: true
+  - name: "@prrofile_purple|\U0001F1FA\U0001F1F8|6.4"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: a5627d41-bfdc-483e-b522-b18f462e3cb5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: eu3.unioreo.rip
+    network: ws
+    ws-opts:
+      path: /mioooo?ed=2048
+      headers:
+        Host: eu3.unioreo.rip
+    udp: true
+  - name: "@ShadowProxy66|\U0001F1E9\U0001F1EA|103.97"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
@@ -59,11 +75,27 @@ proxies:
     servername: ""
     network: ws
     ws-opts:
-      path: /root/
+      path: /chat
       headers:
         Host: ""
     udp: true
-  - name: "@ovpn2|\U0001F6A9|2.99"
+  - name: "@vless_vmess|\U0001F1F8\U0001F1EC|251.19"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: ""
+    udp: true
+  - name: "@ovpn2|\U0001F6A9|7.12"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -79,7 +111,23 @@ proxies:
       headers:
         Host: channel3.unlimiteddev.tk
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|69.5"
+  - name: "@vpn_tehran|\U0001F6A9|15.1"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796
+      headers:
+        Host: amstd.digires.shop
+    udp: true
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|14.96"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -95,7 +143,7 @@ proxies:
       headers:
         Host: v.fal.saintink.ir
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|5.4"
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|8.75"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -111,7 +159,7 @@ proxies:
       headers:
         Host: v.fal.saintink.ir
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|4.72"
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|13.44"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -127,7 +175,7 @@ proxies:
       headers:
         Host: v.fal.saintink.ir
     udp: true
-  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|156.7"
+  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|90.17"
     server: 104.16.66.85
     port: 443
     type: vless
@@ -135,14 +183,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 20230705.quranglobal-av.link
+    servername: 20230706.quranglobal-av.link
     network: ws
     ws-opts:
       path: /alive
       headers:
-        Host: 20230705.quranglobal-av.link
+        Host: 20230706.quranglobal-av.link
     udp: true
-  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|155.63"
+  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|90.85"
     server: 104.16.66.85
     port: 443
     type: vless
@@ -150,14 +198,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 20230705.quranglobal-av.link
+    servername: 20230706.quranglobal-av.link
     network: ws
     ws-opts:
       path: /alive
       headers:
-        Host: 20230705.quranglobal-av.link
+        Host: 20230706.quranglobal-av.link
     udp: true
-  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|157"
+  - name: "@v2freevpn|\U0001F1E9\U0001F1EA|90.09"
     server: 104.16.66.85
     port: 443
     type: vless
@@ -165,25 +213,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 20230705.quranglobal-av.link
+    servername: 20230706.quranglobal-av.link
     network: ws
     ws-opts:
       path: /alive
       headers:
-        Host: 20230705.quranglobal-av.link
-    udp: true
-  - name: "@freeconfigv2|\U0001F1E9\U0001F1EA|156.01"
-    server: 104.16.66.85
-    port: 443
-    type: vless
-    uuid: 78215585-8f97-0501-2023-d8b924b1ac89
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 20230705.quranglobal-av.link
-    network: ws
-    ws-opts:
-      path: /alive
-      headers:
-        Host: 20230705.quranglobal-av.link
+        Host: 20230706.quranglobal-av.link
     udp: true
