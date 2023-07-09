@@ -1,5 +1,5 @@
 proxies:
-  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|250.64"
+  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|207.15"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -15,23 +15,39 @@ proxies:
       headers:
         Host: vau1.0bad.com
     udp: true
-  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|429.62"
+  - name: "@vpn_ioss|\U0001F1EF\U0001F1F5|173.3"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: a869c557-5c7d-426f-9039-0279c16352bc
+    uuid: 9bd3cf22-f244-4ee3-9555-ab232fefaa22
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 0kxedm1x8q8lksmj12.xingbayun.buzz
+    network: ws
+    ws-opts:
+      path: /zh-cn
+      headers:
+        Host: 0kxedm1x8q8lksmj12.xingbayun.buzz
+    udp: true
+  - name: "@v2ray1_ng|\U0001F1EB\U0001F1F7|197.01"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c0b8be40-1ae9-11ee-b130-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: meetzoom.disnet.gq
+    servername: uk.0rd.net
     network: ws
     ws-opts:
-      path: /vmessws
+      path: /@hopev2ray
       headers:
-        Host: meetzoom.disnet.gq
+        Host: uk.0rd.net
     udp: true
-  - name: "@vless_vmess|\U0001F1F8\U0001F1EC|251.94"
+  - name: "@vless_vmess|\U0001F1E9\U0001F1EA|144.77"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -47,7 +63,23 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "@ovpn2|\U0001F6A9|9.12"
+  - name: "@vless_vmess|\U0001F6A9|15.85"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 7f061d39-2670-4355-8590-fef2acd927ed
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /9b08c0d789
+      headers:
+        Host: ""
+    udp: true
+  - name: "@ovpn2|\U0001F1FA\U0001F1F8|14.43"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -63,23 +95,23 @@ proxies:
       headers:
         Host: channel3.unlimiteddev.tk
     udp: true
-  - name: "@vpn_tehran|\U0001F6A9|8.96"
+  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|19.24"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    uuid: 7f061d39-2670-4355-8590-fef2acd927ed
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: amstd.digires.shop
+    servername: ""
     network: ws
     ws-opts:
-      path: /12796
+      path: /9b08c0d789
       headers:
-        Host: amstd.digires.shop
+        Host: ""
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|14.75"
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|61.25"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -95,7 +127,7 @@ proxies:
       headers:
         Host: v.fal.saintink.ir
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|13.7"
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|61.54"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -111,7 +143,7 @@ proxies:
       headers:
         Host: v.fal.saintink.ir
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|17.6"
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|15.95"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -126,34 +158,4 @@ proxies:
       path: /speedtest/Kansas.kotick.site
       headers:
         Host: v.fal.saintink.ir
-    udp: true
-  - name: "@LoRd_uL4mo|\U0001F1E9\U0001F1EA|89.8"
-    server: 104.16.66.85
-    port: 443
-    type: vless
-    uuid: 168aafcb-e9ed-4ece-8288-5a91e35eb841
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: details.TEHRANSHOP.top
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: details.TEHRANSHOP.top
-    udp: true
-  - name: "@LoRd_uL4mo|\U0001F6A9|5.37"
-    server: 104.16.66.85
-    port: 443
-    type: vless
-    uuid: 168aafcb-e9ed-4ece-8288-5a91e35eb841
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: details.TEHRANSHOP.top
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: details.TEHRANSHOP.top
     udp: true
