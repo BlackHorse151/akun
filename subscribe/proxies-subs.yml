@@ -1,5 +1,5 @@
 proxies:
-  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|207.15"
+  - name: "@free4allVPN|\U0001F1E6\U0001F1FA|247.56"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -15,71 +15,39 @@ proxies:
       headers:
         Host: vau1.0bad.com
     udp: true
-  - name: "@vpn_ioss|\U0001F1EF\U0001F1F5|173.3"
+  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|341.55"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 9bd3cf22-f244-4ee3-9555-ab232fefaa22
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 0kxedm1x8q8lksmj12.xingbayun.buzz
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: 0kxedm1x8q8lksmj12.xingbayun.buzz
-    udp: true
-  - name: "@v2ray1_ng|\U0001F1EB\U0001F1F7|197.01"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: c0b8be40-1ae9-11ee-b130-205c6d5f5d78
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: uk.0rd.net
+    servername: meetzoom.disnet.gq
     network: ws
     ws-opts:
-      path: /@hopev2ray
+      path: /vmessws
       headers:
-        Host: uk.0rd.net
+        Host: meetzoom.disnet.gq
     udp: true
-  - name: "@vless_vmess|\U0001F1E9\U0001F1EA|144.77"
+  - name: "@oneclickvpnkeys|\U0001F1FA\U0001F1F8|264.56"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 54b222f8-cec6-4d65-b55f-7bbedd8673a0
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: us26.ulifeai.com
     network: ws
     ws-opts:
-      path: /chat
+      path: /swoole
       headers:
-        Host: ""
+        Host: us26.ulifeai.com
     udp: true
-  - name: "@vless_vmess|\U0001F6A9|15.85"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 7f061d39-2670-4355-8590-fef2acd927ed
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /9b08c0d789
-      headers:
-        Host: ""
-    udp: true
-  - name: "@ovpn2|\U0001F1FA\U0001F1F8|14.43"
+  - name: "@ovpn2|\U0001F6A9|9.2"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -95,39 +63,55 @@ proxies:
       headers:
         Host: channel3.unlimiteddev.tk
     udp: true
-  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|19.24"
+  - name: "@vpn_tehran|\U0001F6A9|9.27"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 7f061d39-2670-4355-8590-fef2acd927ed
+    uuid: D8813DCB-426C-4952-B384-8951B0444EC1
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /9b08c0d789
-      headers:
-        Host: ""
-    udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|61.25"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 13D878A5-DEAC-426D-921C-4500C0BB01D8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v.fal.saintink.ir
+    servername: green-water-bb30.walidfree23.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: v.fal.saintink.ir
+        Host: green-water-bb30.walidfree23.workers.dev
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|61.54"
+  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|9.19"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: D8813DCB-426C-4952-B384-8951B0444EC1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: flat-dust-887e.bangolan116339.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: flat-dust-887e.bangolan116339.workers.dev
+    udp: true
+  - name: "@vpn_tehran|\U0001F1F3\U0001F1F1|140.11"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|26.34"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -143,7 +127,7 @@ proxies:
       headers:
         Host: v.fal.saintink.ir
     udp: true
-  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|15.95"
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|17.7"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -158,4 +142,20 @@ proxies:
       path: /speedtest/Kansas.kotick.site
       headers:
         Host: v.fal.saintink.ir
+    udp: true
+  - name: "@freeconfigv2|\U0001F6A9|9.73"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 4282ff8f-6b6f-41e3-b721-1963a95e342c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: link2.kuaidog001.top
+    network: ws
+    ws-opts:
+      path: /news
+      headers:
+        Host: link2.kuaidog001.top
     udp: true
