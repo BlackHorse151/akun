@@ -1,5 +1,5 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_523"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_525"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -15,55 +15,71 @@ proxies:
       headers:
         Host: ws-aicdn.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_524"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_527"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
+    uuid: 4029e6a8-952d-453f-b166-c8519337b45c
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ws-aicdn.com
+    servername: www.microsoft.com
     network: ws
     ws-opts:
-      path: /index
+      path: /zh-cn
       headers:
-        Host: ws-aicdn.com
+        Host: www.microsoft.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_526"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_533"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
+    uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ws-aicdn.com
+    servername: www.microsoft.com
     network: ws
     ws-opts:
-      path: /index
+      path: /zh-cn
       headers:
-        Host: ws-aicdn.com
+        Host: www.microsoft.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_543"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_536"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
+    uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ws-aicdn.com
+    servername: www.microsoft.com
     network: ws
     ws-opts:
-      path: /index
+      path: /zh-cn
       headers:
-        Host: ws-aicdn.com
+        Host: www.microsoft.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 HK_544"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_537"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 4029e6a8-952d-453f-b166-c8519337b45c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.microsoft.com
+    network: ws
+    ws-opts:
+      path: /zh-cn
+      headers:
+        Host: www.microsoft.com
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 HK_543"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -72,12 +88,28 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hk1.looooooongnet.lol
+    servername: telewebion.com
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: hk1.looooooongnet.lol
+        Host: telewebion.com
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_548"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ws-aicdn.com
+    network: ws
+    ws-opts:
+      path: /index
+      headers:
+        Host: ws-aicdn.com
     udp: true
   - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_550"
     server: 104.16.66.85
@@ -112,22 +144,6 @@ proxies:
         Host: ws-aicdn.com
     udp: true
   - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_552"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ws-aicdn.com
-    network: ws
-    ws-opts:
-      path: /index
-      headers:
-        Host: ws-aicdn.com
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_553"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -191,7 +207,7 @@ proxies:
       headers:
         Host: ws-aicdn.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_557"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_561"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -207,23 +223,55 @@ proxies:
       headers:
         Host: ws-aicdn.com
     udp: true
-  - name: "\U0001F1EF\U0001F1F5 Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_676"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_563"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666
+    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: oci.donpau.com
+    servername: ws-aicdn.com
     network: ws
     ws-opts:
-      path: /
+      path: /index
       headers:
-        Host: oci.donpau.com
+        Host: ws-aicdn.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1F7\U0001F1F4RO-\U0001F1FA\U0001F1F8US_844"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_564"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ws-aicdn.com
+    network: ws
+    ws-opts:
+      path: /index
+      headers:
+        Host: ws-aicdn.com
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_565"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: e45ca52e-abd2-3853-ba2d-5b6991c1a6c0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ws-aicdn.com
+    network: ws
+    ws-opts:
+      path: /index
+      headers:
+        Host: ws-aicdn.com
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1F7\U0001F1F4RO-\U0001F1FA\U0001F1F8US_853"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -239,183 +287,7 @@ proxies:
       headers:
         Host: delicate-meadow-b728.mahdihajizade123080019624.workers.dev
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1291"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1306"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us52.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /OFglbcWQ8P3dJUA7yf
-      headers:
-        Host: us52.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1309"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 203b2ab2-4994-4193-8193-6631a575edb0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us53.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /GSoTl9ZoYG5V2R0k4tUTGI8k
-      headers:
-        Host: us53.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1340"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 301d815f-a02a-4c2c-a424-b16cf0a241ae
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us59.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /4a5yXsGODBM1cvl9TzyF0SHR3v
-      headers:
-        Host: us59.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1341"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vus5.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vus5.0bad.com
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1348"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: f3464642-f113-4575-aa33-f68aef56b5c0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us54.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /mePGXW6SFZZw2QyAqaYK
-      headers:
-        Host: us54.encrypted.my.id
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1FA\U0001F1F8US-\U0001F1ED\U0001F1F0HK_1397"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 78422c74-9a71-4193-8953-a9446dacd782
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: hk.kkpp.online
-    network: ws
-    ws-opts:
-      path: /dksfjeyrbfSGERgrsfgsdfrq/
-      headers:
-        Host: hk.kkpp.online
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1399"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us50.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
-      headers:
-        Host: us50.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1404"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: e71fef74-5caa-4447-9fc0-27184bd926c1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudflare.piaole.me
-    network: ws
-    ws-opts:
-      path: /huawei
-      headers:
-        Host: cloudflare.piaole.me
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1407"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1467"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: twilight-limit-d663.bangolan052488.workers.dev
-    network: ws
-    ws-opts:
-      path: /speedtest/Lille.kotick.site
-      headers:
-        Host: twilight-limit-d663.bangolan052488.workers.dev
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC Relay_\U0001F1FA\U0001F1F8US-\U0001F1F8\U0001F1ECSG_1471"
+  - name: "\U0001F1F8\U0001F1EC Relay_\U0001F1FA\U0001F1F8US-\U0001F1F8\U0001F1ECSG_1309"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -431,71 +303,23 @@ proxies:
       headers:
         Host: linkedin.disnet.gq
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1515"
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1FA\U0001F1F8US-\U0001F1ED\U0001F1F0HK_1310"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 18351862-d953-4ab9-afae-4998dcd56f8b
+    uuid: 78422c74-9a71-4193-8953-a9446dacd782
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us57.encrypted.my.id
+    servername: hk.kkpp.online
     network: ws
     ws-opts:
-      path: /wRDYyXAgH6oASzMKs65VUYw
+      path: /dksfjeyrbfSGERgrsfgsdfrq/
       headers:
-        Host: us57.encrypted.my.id
+        Host: hk.kkpp.online
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1545"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: aab6d192-00dc-4284-beda-bc44bc65758c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us45.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /tG5vcs17wGgTff
-      headers:
-        Host: us45.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1546"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us44.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /MqINN7CF6UeFSASP4LNTFNn
-      headers:
-        Host: us44.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1547"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us47.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /pSAXxD8Ib7FZloqUMG
-      headers:
-        Host: us47.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1573"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1338"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -511,23 +335,7 @@ proxies:
       headers:
         Host: us55.encrypted.my.id
     udp: true
-  - name: "\U0001F1EF\U0001F1F5 Relay_\U0001F1FA\U0001F1F8US-\U0001F1EF\U0001F1F5JP_1586"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ming2.kiwireich.com
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: ming2.kiwireich.com
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1621"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1347"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -542,4 +350,196 @@ proxies:
       path: /Kansas.kotick.site/speedtest
       headers:
         Host: delicate-meadow-b728.mahdihajizade123080019624.workers.dev
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1357"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6cc722d0-f6b5-4179-be13-c15cb9e75dd9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us51.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /84BxD2shFYFpsiRGXACUPqWt
+      headers:
+        Host: us51.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1389"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us50.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+      headers:
+        Host: us50.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US_1420"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Lille.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Lille.kotick.site
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1461"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us47.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /pSAXxD8Ib7FZloqUMG
+      headers:
+        Host: us47.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1529"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18351862-d953-4ab9-afae-4998dcd56f8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us57.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /wRDYyXAgH6oASzMKs65VUYw
+      headers:
+        Host: us57.encrypted.my.id
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1FA\U0001F1F8US-\U0001F1ED\U0001F1F0HK_1562"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 78422c74-9a71-4193-8953-a9446dacd782
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hk.kkpp.online
+    network: ws
+    ws-opts:
+      path: /dksfjeyrbfSGERgrsfgsdfrq/
+      headers:
+        Host: hk.kkpp.online
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US_1590"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: twilight-limit-d663.bangolan052488.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: twilight-limit-d663.bangolan052488.workers.dev
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1595"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us52.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /OFglbcWQ8P3dJUA7yf
+      headers:
+        Host: us52.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1620"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: steep-bread-ef2e.labegob718911.workers.dev
+    network: ws
+    ws-opts:
+      path: /vus3.0bad.com/chat
+      headers:
+        Host: steep-bread-ef2e.labegob718911.workers.dev
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US_1624"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Lille.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Lille.kotick.site
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1647"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.kotick.site
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1703"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: steep-bread-ef2e.labegob718911.workers.dev
+    network: ws
+    ws-opts:
+      path: /vus3.0bad.com/chat
+      headers:
+        Host: steep-bread-ef2e.labegob718911.workers.dev
     udp: true
