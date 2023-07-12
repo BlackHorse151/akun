@@ -1,5 +1,5 @@
 <?php
-$isi = file_get_contents("https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt");
+$isi = base64_decode(file_get_contents("https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt"));
 $baris = explode("\n", $isi);
 // Menghitung total baris
 $totalBaris = count($baris);
