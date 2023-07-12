@@ -1,6 +1,4 @@
 
-
-
 name: Run PHP Script
 
 on:
@@ -21,7 +19,8 @@ jobs:
 
       - name: Checkout Repository
 
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+      - uses: mikefarah/yq@master
 
       - name: Set up PHP
 
@@ -33,7 +32,9 @@ jobs:
 
       - name: Run PHP Script
 
-        run: php script.php
+        run: |
+           php script.php
+           yq e '[.proxies.[] | select((.port == 443) and(.alterId == 0) and (.servername != "") and (.tls == true) and (.network == "ws")) | .server = "104.16.66.85"]' a.yaml | yq e '{"proxies": .}' > b.yaml
 
       - name: Commit and Push Changes
 
@@ -47,4 +48,4 @@ jobs:
 
           git commit -m "Update data"
 
-          git pus
+          git push
