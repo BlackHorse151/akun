@@ -24,14 +24,16 @@ jobs:
 
         with:
 
-          php-version: '7.4' # Versi PHP yang digunakan
+          php-version: '8.0' # Versi PHP yang digunakan
 
       - name: Run PHP Script
 
         run: |
+           composer install
            php script.php
+           composer require symfony/yaml
            yq e '[.proxies.[] | select((.port == 443) and(.alterId == 0) and (.servername != "") and (.tls== true) and (.network == "ws")) | .server = "104.16.66.85"]' a.yaml | yq e '{"proxies": .}' > b.yaml
-
+           php convert.php
       - name: Commit and Push Changes
 
         run: |
