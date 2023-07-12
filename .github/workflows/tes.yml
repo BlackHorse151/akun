@@ -30,7 +30,7 @@ jobs:
 
         run: |
            php script.php
-           yq e '[.proxies.[] | select((.port == 443) and(.alterId == 0) and (.servername != "") or (.servername != "ws-aicdn.com") and (.tls == true) and (.network == "ws")) | .server = "104.16.66.85"]' a.yaml | yq e '{"proxies": .}' > b.yaml
+           yq e '[.proxies.[] | select((.port == 443) and(.alterId == 0) and (.servername != "") and (.tls== true) and (.network == "ws")) | .server = "104.16.66.85"]' a.yaml | yq e '{"proxies": .}' > b.yaml
 
       - name: Commit and Push Changes
 
