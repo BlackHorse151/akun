@@ -159,22 +159,6 @@ proxies:
       headers:
         Host: ws-aicdn.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_526"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: d2d1e43b-c5ab-3aa1-a648-126bfc794f42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /hls/us8.m3u8
-      headers:
-        Host: ""
-    udp: true
   - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_527"
     server: 104.16.66.85
     port: 443
@@ -206,38 +190,6 @@ proxies:
       path: /index
       headers:
         Host: ws-aicdn.com
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_533"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: afa2b3af-248e-43a1-ad6b-076cca22e302
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5 JP_647"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1F7\U0001F1F4RO-\U0001F1FA\U0001F1F8US_821"
     server: 104.16.66.85
@@ -302,22 +254,6 @@ proxies:
       path: /index
       headers:
         Host: ws-aicdn.com
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1400"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: d2d1e43b-c5ab-3aa1-a648-126bfc794f42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /hls/us8.m3u8
-      headers:
-        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1414"
     server: 104.16.66.85
@@ -463,38 +399,6 @@ proxies:
       headers:
         Host: vus4.0bad.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1599"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1623"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
-      headers:
-        Host: ""
-    udp: true
   - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1665"
     server: 104.16.66.85
     port: 443
@@ -510,86 +414,6 @@ proxies:
       path: /vus3.0bad.com:443/chat
       headers:
         Host: routewsuser.99freaking.workers.dev
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1667"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: d2d1e43b-c5ab-3aa1-a648-126bfc794f42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /hls/us8.m3u8
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1669"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /MqINN7CF6UeFSASP4LNTFNn
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1675"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: e9dc5466-3768-4d45-8fd0-f1181139bb4e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /4DJIP58JF6JTq4HIG0yr
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1679"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 82f58397-480e-4975-b3ec-fea904dc5912
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /O0emfe0pBfYovpz5526rhq
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1681"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: afa2b3af-248e-43a1-ad6b-076cca22e302
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1699"
     server: 104.16.66.85
@@ -622,22 +446,6 @@ proxies:
       path: /GSoTl9ZoYG5V2R0k4tUTGI8k
       headers:
         Host: us53.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1710"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 86f8f25d-9d26-41a6-a75b-e0ef992cc74a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /rxrsOUmNbuTJCk4izFEHWrb9qm
-      headers:
-        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1711"
     server: 104.16.66.85
