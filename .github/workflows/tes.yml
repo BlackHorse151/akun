@@ -7,7 +7,7 @@ on:
 
   schedule:
 
-    - cron: '0 0 * * *' # Menjadwalkan menjalankan workflow setiap hari jam 00:00 UTC
+    - cron: '0 */2 * * *' # Menjadwalkan menjalankan workflow setiap hari jam 00:00 UTC
 
 jobs:
 
