@@ -2,7 +2,7 @@
 require_once 'vendor/autoload.php'; // Pastikan Anda sudah menginstal pustaka Symfony YAML melalui Composer
 
 use Symfony\Component\Yaml\Yaml;
-
+$a = "";
 function convertToV2RayLink($yaml) {
     $proxies = Yaml::parse($yaml)['proxies'];
     $vmessUrls = [];
@@ -49,6 +49,8 @@ $v2rayLinks = convertToV2RayLink(file_get_contents("b.yaml"));
 file_put_contents("sing-box.txt", "");
 foreach ($v2rayLinks as $link) {
     echo $link . "\n";
+    $a .= $link."\n";
     file_put_contents("sing-box.txt", $link."\n", FILE_APPEND);
 }
+file_put_contents("sing-box-base64.txt", base64_encode($a));
 ?>
