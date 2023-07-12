@@ -5,39 +5,36 @@ use Symfony\Component\Yaml\Yaml;
 
 function convertToV2RayLink($yaml) {
     $proxies = Yaml::parse($yaml)['proxies'];
-    $v2rayLinks = [];
     foreach ($proxies as $proxy) {
-        $v2rayLink = 'vmess://';
+        $vmessUrl = 'vmess://';
 
-        $v2rayLink .= base64_encode($proxy['type'] . ':' . $proxy['uuid']) . '@';
-        $v2rayLink .= $proxy['server'] . ':' . $proxy['port'] . '/';
-        $v2rayLink .= '?security=' . $proxy['cipher'];
+        $name = $proxy['servername'];
+        $server = $proxy['server'];
+        $port = $proxy['port'];
+        $uuid = $proxy['uuid'];
+        $alterId = $proxy['alterId'];
+        $cipher = $proxy['cipher'];
+        $tls = $proxy['tls'];
+        $skipCertVerify = $proxy['skip-cert-verify'];
+        $servername = $proxy['servername'];
+        $network = $proxy['network'];
+        $path = urlencode($proxy['ws-opts']['path']);
+        $headersHost = urlencode($proxy['ws-opts']['headers']['Host']);
+        $udp = $proxy['udp'];
 
-        if ($proxy['tls']) {
-            $v2rayLink .= '&tls=true';
-            if ($proxy['skip-cert-verify']) {
-                $v2rayLink .= '&skip-cert-verify=true';
-            }
-        }
+        $vmessUrl .= base64_encode("{$server}:{$port}/?add={$servername}&aid={$alterId}&host={$servername}&path=%2F{$path}&tls={$tls}&sni={$servername}&type=ws&v=2&security={$cipher}&servername={$servername}&network={$network}&wsHeaders=Host%3A%20{$headersHost}&udp={$udp}&allowInsecure={$skipCertVerify}");
 
-        if ($proxy['network'] === 'ws') {
-            $v2rayLink .= '&network=ws';
-            $v2rayLink .= '&wsPath=' . urlencode($proxy['ws-opts']['path']);
-            $v2rayLink .= '&wsHost=' . urlencode($proxy['ws-opts']['headers']['Host']);
-        }
-
-        if ($proxy['udp']) {
-            $v2rayLink .= '&udp=true';
-        }
-
-        $v2rayLinks[] = $v2rayLink;
+        $vmessUrls[] = [
+            'name' => $name,
+            'url' => $vmessUrl
+        ];
     }
-    return $v2rayLinks;
+    return $vmessUrls;
 }
 $v2rayLinks = convertToV2RayLink(file_get_contents("b.yaml"));
 file_put_contents("sing-box.txt", "");
 foreach ($v2rayLinks as $link) {
-    echo $link . "\n";
-    file_put_contents("sing-box.txt", $link."\n", FILE_APPEND);
+    echo $link["url"] . "\n";
+    file_put_contents("sing-box.txt", $link["url"]."\n", FILE_APPEND);
 }
 ?>
