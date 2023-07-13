@@ -52,13 +52,10 @@ foreach ($v2rayLinks as $link) {
     $a .= $link."\n";
     //file_put_contents("sing-box.txt", $link."\n", FILE_APPEND);
 }
-file_put_contents("sing-box-base64.txt", base64_encode($a));
-shell_exec("sudo sh ./utils/speedtest.sh");
-shell_exec('git config --local user.name "github-actions[bot]"');
-shell_exec('git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"');
-shell_exec('git add .');
-shell_exec('git commit -m "Update data"');
-shell_exec('git push');
+$a = base64_encode($a);
+file_put_contents("sing-box-base64.txt", $a);
+shell_exec("chmod +x ./lite-linux-amd64");
+shell_exec("./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt")
 $speedtest = json_decode(file_get_contents("output.json"));
 file_put_contents("sing-box.txt", "");
 foreach($speedtest->nodes as $akun) {
