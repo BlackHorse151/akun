@@ -20,7 +20,7 @@ foreach ($url as $link) {
     $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
     for ($i = 0; $i < $totalBaris; $i++) {
         $bagian = $baris[$i];
-        if (preg_match("/(vmess)/i", $bagian)) {
+        if (preg_match("/(vmess://)/i", $bagian)) {
             echo $i . " => " . $bagian . "\n";
             $bagianTeks = $bagian . "|";
             $bagianUrl = urlencode($bagianTeks);
