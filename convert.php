@@ -62,7 +62,7 @@ shell_exec('git push');
 $speedtest = json_decode(file_get_contents("output.json"));
 file_put_contents("sing-box.txt", "");
 foreach($speedtest->nodes as $akun) {
-    if($akun->ping != "0") {
+    if($akun->isok == true) {
         file_put_contents("sing-box.txt", $akun->link."\n", FILE_APPEND);
     }
 }
