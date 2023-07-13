@@ -4,6 +4,7 @@
 //https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
 $url = [
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
+    "https://raw.githubusercontent.com/ardi5209/TelegramV2rayCollector/main/sub/mix_base64",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
