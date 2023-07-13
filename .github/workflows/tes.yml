@@ -38,7 +38,7 @@ jobs:
 
            php script.php
 
-           yq e '[.proxies.[] | select((.alterId == 0) and (.servername != "") and (.tls== true) and (.network == "ws")) | .server = "104.16.66.85"]' a.yaml | yq e '{"proxies": .}' > b.yaml
+           yq e '[.proxies.[] | select((.alterId == 0) and (.tls== true) and (.network == "ws"))' a.yaml | yq e '{"proxies": .}' > b.yaml
 
            php convert.php
 
