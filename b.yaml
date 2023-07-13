@@ -1,5 +1,37 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1F7\U0001F1F4RO-\U0001F1FA\U0001F1F8US_881"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1F7\U0001F1F4RO-\U0001F1FA\U0001F1F8US_832"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: royal-art-3ea4.inie7f2g4h.workers.dev
+    network: ws
+    ws-opts:
+      path: /vus3.0bad.com/chat
+      headers:
+        Host: royal-art-3ea4.inie7f2g4h.workers.dev
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1299"
+    server: 104.16.66.85
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1304"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -8,62 +40,30 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: delicate-meadow-b728.mahdihajizade123080019624.workers.dev
+    servername: Kansas.kotick.site
     network: ws
     ws-opts:
-      path: /Kansas.kotick.site/speedtest
+      path: /speedtest
       headers:
-        Host: delicate-meadow-b728.mahdihajizade123080019624.workers.dev
+        Host: Kansas.kotick.site
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1333"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1308"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us47.encrypted.my.id
+    servername: steep-bread-ef2e.labegob718911.workers.dev
     network: ws
     ws-opts:
-      path: /pSAXxD8Ib7FZloqUMG
+      path: /vus3.0bad.com/chat
       headers:
-        Host: us47.encrypted.my.id
+        Host: steep-bread-ef2e.labegob718911.workers.dev
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1334"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6cc722d0-f6b5-4179-be13-c15cb9e75dd9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us51.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /84BxD2shFYFpsiRGXACUPqWt
-      headers:
-        Host: us51.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1341"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: f3464642-f113-4575-aa33-f68aef56b5c0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us54.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /mePGXW6SFZZw2QyAqaYK
-      headers:
-        Host: us54.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1394"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1310"
     server: 104.16.66.85
     port: 2053
     type: vmess
@@ -79,7 +79,7 @@ proxies:
       headers:
         Host: ylks.vtcss.top
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1397"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1312"
     server: 104.16.66.85
     port: 2053
     type: vmess
@@ -95,7 +95,87 @@ proxies:
       headers:
         Host: ylks.vtcss.top
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1426"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1322"
+    server: 104.16.66.85
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1325"
+    server: 104.16.66.85
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1326"
+    server: 104.16.66.85
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1372"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us50.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+      headers:
+        Host: us50.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1373"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 82f58397-480e-4975-b3ec-fea904dc5912
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us48.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /O0emfe0pBfYovpz5526rhq
+      headers:
+        Host: us48.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1390"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -111,119 +191,39 @@ proxies:
       headers:
         Host: us53.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1441"
-    server: 104.16.66.85
-    port: 2053
-    type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ylks.vtcss.top
-    network: ws
-    ws-opts:
-      path: /qwer
-      headers:
-        Host: ylks.vtcss.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1458"
-    server: 104.16.66.85
-    port: 2053
-    type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ylks.vtcss.top
-    network: ws
-    ws-opts:
-      path: /qwer
-      headers:
-        Host: ylks.vtcss.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1459"
-    server: 104.16.66.85
-    port: 2053
-    type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ylks.vtcss.top
-    network: ws
-    ws-opts:
-      path: /qwer
-      headers:
-        Host: ylks.vtcss.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1462"
+  - name: "\U0001F1FA\U0001F1F8 US_1405"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    uuid: bc329892-2028-49ba-b594-aa14c0ee8f92
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Kansas.kotick.site
+    servername: 220exclusive.designnovation-me.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /trky.digires.shop/20861
       headers:
-        Host: Kansas.kotick.site
+        Host: 220exclusive.designnovation-me.workers.dev
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1466"
-    server: 104.16.66.85
-    port: 2053
-    type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ylks.vtcss.top
-    network: ws
-    ws-opts:
-      path: /qwer
-      headers:
-        Host: ylks.vtcss.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1474"
-    server: 104.16.66.85
-    port: 2053
-    type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ylks.vtcss.top
-    network: ws
-    ws-opts:
-      path: /qwer
-      headers:
-        Host: ylks.vtcss.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1484"
+  - name: "\U0001F1F8\U0001F1EC Relay_\U0001F1FA\U0001F1F8US-\U0001F1F8\U0001F1ECSG_1436"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 2CCC8DAB-53C6-741F-6309-446107D82FC1
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Kansas.kotick.site
+    servername: linkedin.disnet.gq
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /vmessws
       headers:
-        Host: Kansas.kotick.site
+        Host: linkedin.disnet.gq
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1508"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1445"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -232,14 +232,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vus5.0bad.com
+    servername: vus4.0bad.com
     network: ws
     ws-opts:
       path: /chat
       headers:
-        Host: vus5.0bad.com
+        Host: vus4.0bad.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1527"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1493"
     server: 104.16.66.85
     port: 8443
     type: vmess
@@ -255,71 +255,7 @@ proxies:
       headers:
         Host: cloudconebbb.gorgorchicken.one
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1529"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vus3.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vus3.0bad.com
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1543"
-    server: 104.16.66.85
-    port: 4430
-    type: vmess
-    uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: mixv4-0.194610.xyz
-    network: ws
-    ws-opts:
-      path: /a185d5dc-c726-466c-98f2-ba494e63695f
-      headers:
-        Host: mixv4-0.194610.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1546"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 0dce8b7e-4189-427b-95b7-93fc55d25115
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us55.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /PxcYlDIHtv3GtsBfhm1AaayIV
-      headers:
-        Host: us55.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1555"
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1566"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1557"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -335,23 +271,55 @@ proxies:
       headers:
         Host: us44.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1588"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1558"
     server: 104.16.66.85
-    port: 443
+    port: 2053
     type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: ylks.vtcss.top
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /qwer
       headers:
-        Host: Lille.kotick.site
+        Host: ylks.vtcss.top
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1612"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1560"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us47.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /pSAXxD8Ib7FZloqUMG
+      headers:
+        Host: us47.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1595"
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6cc722d0-f6b5-4179-be13-c15cb9e75dd9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us51.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /84BxD2shFYFpsiRGXACUPqWt
+      headers:
+        Host: us51.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1665"
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -367,7 +335,7 @@ proxies:
       headers:
         Host: us52.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1675"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1668"
     server: 104.16.66.85
     port: 8443
     type: vmess
@@ -383,35 +351,35 @@ proxies:
       headers:
         Host: ra.679888.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1F7\U0001F1F4RO_1778"
+  - name: "\U0001F1FA\U0001F1F8 US_1673"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: a128a5af-518a-4bc8-851e-b1f68b2c49d2
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 4.saintink.eu.org
+    servername: Lille.kotick.site
     network: ws
     ws-opts:
-      path: ro2.v2rayserv.com/vmess
+      path: /speedtest
       headers:
-        Host: 4.saintink.eu.org
+        Host: Lille.kotick.site
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1794"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1703"
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us50.encrypted.my.id
+    servername: steep-bread-ef2e.labegob718911.workers.dev
     network: ws
     ws-opts:
-      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+      path: /vus3.0bad.com/chat
       headers:
-        Host: us50.encrypted.my.id
+        Host: steep-bread-ef2e.labegob718911.workers.dev
     udp: true
