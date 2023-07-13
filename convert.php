@@ -56,7 +56,7 @@ file_put_contents("sing-box-base64.txt", base64_encode($a));
 shell_exec("sudo sh ./utils/speedtest.sh");
 $speedtest = json_decode(file_get_contents("output.json"));
 file_put_contents("sing-box.txt", "");
-foreach($speedtest["nodes"] as $akun) {
+foreach($speedtest as $akun) {
     if($akun->ping != "0") {
         file_put_contents("sing-box.txt", $akun->link."\n", FILE_APPEND);
     }
