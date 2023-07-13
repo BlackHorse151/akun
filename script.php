@@ -6,17 +6,11 @@ $url = [
     "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
-    "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
-$uc = count($url) - 1;
 file_put_contents("a.yaml", "proxies:");
 foreach ($url as $link) {
-    if ($url[$uc] == $link) {
-        $isi = file_get_contents($link);
-    } else {
-        $isi = base64_decode(file_get_contents($link));
-    }
+    $isi = base64_decode(file_get_contents($link));
     $baris = explode("\n", $isi);
     // Menghitung total baris
     $totalBaris = count($baris);
