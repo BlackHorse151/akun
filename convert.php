@@ -53,7 +53,7 @@ foreach ($v2rayLinks as $link) {
     //file_put_contents("sing-box.txt", $link."\n", FILE_APPEND);
 }
 file_put_contents("sing-box-base64.txt", base64_encode($a));
-shell_exec("sudo sh ./utils/speedtest.sh")
+shell_exec("sudo sh ./utils/speedtest.sh");
 $speedtest = json_decode(file_get_contents("output.json"));
 file_put_contents("sing-box.txt", "");
 foreach($speedtest["nodes"] as $akun) {
