@@ -38,7 +38,7 @@ function convertToV2RayLink($yaml) {
             'port' => $port,
             'v' => '2',
             'scy' => $cipher,
-            'ps' => $ps,
+            'ps' => $servername,
             'net' => $network,
             'allowInsecure' => $skipCertVerify,
         ]));
