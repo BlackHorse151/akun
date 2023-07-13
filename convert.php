@@ -56,7 +56,7 @@ foreach ($v2rayLinks as $link) {
 $a = base64_encode($a);
 file_put_contents("sing-box-base64.txt", $a);
 shell_exec("chmod +x ./lite-linux-amd64");
-shell_exec("./lite-linux-amd64 --config config.json --test {$a}");
+shell_exec("./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt");
 $speedtest = json_decode(file_get_contents("output.json"));
 file_put_contents("sing-box.txt", "");
 foreach($speedtest->nodes as $akun) {
