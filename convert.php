@@ -24,6 +24,7 @@ function convertToV2RayLink($yaml) {
         $servername = $proxy['servername'];
         if($servername == "") {
             $servername = $server;
+            $server = "104.16.66.85";
         }
         $network = $proxy['network'];
         $path = $proxy['ws-opts']['path'];
@@ -31,7 +32,7 @@ function convertToV2RayLink($yaml) {
         $udp = $proxy['udp'];
 
         $vmessUrl .= base64_encode(json_encode([
-            'add' => $server,
+            'add' => "104.16.66.85",
             'aid' => $alterId,
             'host' => $servername,
             'id' => $uuid,
