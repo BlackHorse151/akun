@@ -11,6 +11,7 @@ function convertToV2RayLink($yaml) {
         $vmessUrl = 'vmess://';
 
         $server = $proxy['server'];
+        $ps = $proxy['name'];
         $port = $proxy['port'];
         $uuid = $proxy['uuid'];
         $alterId = $proxy['alterId'];
@@ -37,7 +38,7 @@ function convertToV2RayLink($yaml) {
             'port' => $port,
             'v' => '2',
             'scy' => $cipher,
-            'ps' => $servername,
+            'ps' => $ps,
             'net' => $network,
             'allowInsecure' => $skipCertVerify,
         ]));
