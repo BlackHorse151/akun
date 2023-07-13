@@ -22,6 +22,9 @@ function convertToV2RayLink($yaml) {
         }
         $skipCertVerify = $proxy['skip-cert-verify'];
         $servername = $proxy['servername'];
+        if($servername == "") {
+            $servername = $server;
+        }
         $network = $proxy['network'];
         $path = $proxy['ws-opts']['path'];
         $headersHost = urlencode($proxy['ws-opts']['headers']['Host']);
