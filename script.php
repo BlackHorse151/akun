@@ -4,6 +4,7 @@
 //https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
 $url = [
     "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vmess_base64",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
     "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
     "https://muma16fx.netlify.app/",
@@ -18,15 +19,17 @@ foreach ($url as $link) {
     // Menghitung total baris
     $totalBaris = count($baris);
     $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+    $git = explode("://", $link)[1];
     //file_put_contents("a.yaml", "proxies:");
     // Menginisialisasi variabel untuk menyimpan hasil URL
     $in = 0;
     $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
     for ($i = 0; $i < $totalBaris; $i++) {
         $bagian = $baris[$i];
+        echo "\r                                               \r";
         if (preg_match("/vmess:\/\//i", $bagian)) {
             //echo $i . " => " . $bagian . "\n";
-            echo "[{$i}/{$totalBaris}] {$link} \r";
+            echo " [{$i}/{$totalBaris}] {$git} \r";
             $bagianTeks = $bagian . "|";
             $bagianUrl = urlencode($bagianTeks);
             $urlHasil .= $bagianUrl;
