@@ -30,6 +30,10 @@ jobs:
 
       - name: Convert And Speedtest
         run : php convert.php
+        
+      - name: Pull Changes
+
+        run: git pull
 
       - name: Commit and Push Changes
 
