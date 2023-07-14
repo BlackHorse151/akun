@@ -21,12 +21,13 @@ jobs:
       - name: Install Composer dependencies
         run: composer install
 
-      - name: Run PHP Script
-        run: php script.php
+      #- name: Run PHP Script
+        #run: php script.php
 
       - name: Process YAML files
         run: |
-          yq e '[.proxies[] | select((.alterId == 0) and (.tls == true) and (.network == "ws"))]' a.yaml > b.yaml
+          yq e '[.proxies.[] | select((.alterId == 0) and (.tls== true) and (.network == "ws"))]' a.yaml | yq e '{"proxies": .}' > b.yaml
+          # yq e '[.proxies[] | select((.alterId == 0) and (.tls == true) and (.network == "ws"))]' a.yaml > b.yaml
       - name: Convert And Speedtest
         run : php convert.php
 
