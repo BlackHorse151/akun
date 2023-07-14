@@ -1,4 +1,84 @@
 proxies:
+  - name: adi|0701 - ip1
+    server: aa.zzzr.ltd
+    port: 8443
+    type: vmess
+    uuid: 1112e248-d026-11eb-8f91-00163c62af29
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /mnCKp30k/
+      headers:
+        Host: ""
+    udp: true
+  - name: adi|0703 - ip3
+    server: workers.dev
+    port: 443
+    type: vmess
+    uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: buyvm.proxypool.ga
+    network: ws
+    ws-opts:
+      path: /111111.online
+      headers:
+        Host: buyvm.proxypool.ga
+    udp: true
+  - name: adi|0703 - ip3 2
+    server: www.digitalocean.com
+    port: 443
+    type: vmess
+    uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: by.6111.online
+    network: ws
+    ws-opts:
+      path: /111111.online
+      headers:
+        Host: by.6111.online
+    udp: true
+  - name: adi|0703 - | 8.88Mb
+    server: ac2088.herokuapp.com
+    port: 443
+    type: vmess
+    uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess
+      headers:
+        Host: ""
+    udp: true
+  - name: adi|0703 - ip3
+    server: ping.pe
+    port: 443
+    type: vmess
+    uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: by.6111.online
+    network: ws
+    ws-opts:
+      path: /111111.online
+      headers:
+        Host: by.6111.online
+    udp: true
   - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1F7\U0001F1F4RO-\U0001F1FA\U0001F1F8US_802"
     server: 45.85.119.106
     port: 443
