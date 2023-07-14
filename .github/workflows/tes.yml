@@ -21,8 +21,8 @@ jobs:
       - name: Install Composer dependencies
         run: composer install
 
-      #- name: Run PHP Script
-        #run: php script.php
+      - name: Run PHP Script
+        run: php script.php
 
       - name: Process YAML files
         run: |
