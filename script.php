@@ -6,6 +6,9 @@ $url = [
     "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vmess_base64",
     "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
+    "https://muma16fx.netlify.app/",
+    "https://youlianboshi.netlify.app/",
+    "https://qiaomenzhuanfx.netlify.app/",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
