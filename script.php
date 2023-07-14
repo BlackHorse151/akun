@@ -26,7 +26,7 @@ foreach ($url as $link) {
         $bagian = $baris[$i];
         if (preg_match("/vmess:\/\//i", $bagian)) {
             //echo $i . " => " . $bagian . "\n";
-            echo "[{$i}/{$totalBaris] {$link} \r";
+            echo "[{$i}/{$totalBaris}] {$link} \r";
             $bagianTeks = $bagian . "|";
             $bagianUrl = urlencode($bagianTeks);
             $urlHasil .= $bagianUrl;
