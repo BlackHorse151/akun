@@ -1,4 +1,164 @@
 proxies:
+  - name: "@free4allVPN|\U0001F1FA\U0001F1F8|10.76"
+    server: cloudconebbb.gorgorchicken.one
+    port: 8443
+    type: vmess
+    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconebbb.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconebbb
+      headers:
+        Host: cloudconebbb.gorgorchicken.one
+    udp: true
+  - name: "@free4allVPN|\U0001F1FA\U0001F1F8|64.8"
+    server: vus5.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vus5.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vus5.0bad.com
+    udp: true
+  - name: "@xrayzxn|\U0001F1EB\U0001F1F7|643.63"
+    server: amin.karkas1.ir
+    port: 443
+    type: vmess
+    uuid: 53ce1028-f703-4ed8-9a27-438fa370a92c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amin.karkas1.ir
+    network: ws
+    ws-opts:
+      path: /t14FEa4TBzLbwZsNkGkxxW7
+      headers:
+        Host: amin.karkas1.ir
+    udp: true
+  - name: "@vless_vmess|\U0001F1E9\U0001F1EA|161.37"
+    server: vde2.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: ""
+    udp: true
+  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|9.35"
+    server: 203.23.104.242
+    port: 2053
+    type: vmess
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: b5.iraniancp.click
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b5.iraniancp.click
+    udp: true
+  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|22.05"
+    server: 203.23.104.242
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+  - name: "@vpn_tehran|\U0001F1E9\U0001F1EA|161.66"
+    server: 188.114.99.29
+    port: 443
+    type: vmess
+    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rock.blanku.me
+    network: ws
+    ws-opts:
+      path: /wss13889
+      headers:
+        Host: rock.blanku.me
+    udp: true
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|8.28"
+    server: 172.67.197.17
+    port: 443
+    type: vmess
+    uuid: E63CEEB4-2F58-4C75-8572-4A6F016FB8CE
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v.saintink.eu.org
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: v.saintink.eu.org
+    udp: true
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|10.66"
+    server: 172.67.197.17
+    port: 443
+    type: vmess
+    uuid: E63CEEB4-2F58-4C75-8572-4A6F016FB8CE
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v.saintink.eu.org
+    network: ws
+    ws-opts:
+      path: /speedtest/Kansas.kotick.site
+      headers:
+        Host: v.saintink.eu.org
+    udp: true
+  - name: "@freeconfigv2|\U0001F1FA\U0001F1F8|11.05"
+    server: 172.67.197.17
+    port: 443
+    type: vmess
+    uuid: E63CEEB4-2F58-4C75-8572-4A6F016FB8CE
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v.saintink.eu.org
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: v.saintink.eu.org
+    udp: true
   - name: adi|0701 - ip1
     server: aa.zzzr.ltd
     port: 8443
@@ -79,231 +239,7 @@ proxies:
       headers:
         Host: by.6111.online
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_778"
-    server: 104.160.19.138
-    port: 4430
-    type: vmess
-    uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /a185d5dc-c726-466c-98f2-ba494e63695f
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_781"
-    server: vus4.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vus4.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vus4.0bad.com
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_782"
-    server: Lille.kotick.site
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_806"
-    server: 47.254.17.235
-    port: 443
-    type: vmess
-    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_811"
-    server: vus5.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_813"
-    server: us55.encrypted.my.id
-    port: 443
-    type: vmess
-    uuid: 0dce8b7e-4189-427b-95b7-93fc55d25115
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us55.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /PxcYlDIHtv3GtsBfhm1AaayIV
-      headers:
-        Host: us55.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_817"
-    server: 172.66.43.240
-    port: 443
-    type: vmess
-    uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: z.zorro.tk
-    network: ws
-    ws-opts:
-      path: /ou
-      headers:
-        Host: z.zorro.tk
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_819"
-    server: z.zorro.tk
-    port: 443
-    type: vmess
-    uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: z.zorro.tk
-    network: ws
-    ws-opts:
-      path: /ou
-      headers:
-        Host: z.zorro.tk
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_821"
-    server: mixv4-0.194610.xyz
-    port: 4430
-    type: vmess
-    uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /a185d5dc-c726-466c-98f2-ba494e63695f
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_827"
-    server: us52.encrypted.my.id
-    port: 443
-    type: vmess
-    uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us52.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /OFglbcWQ8P3dJUA7yf
-      headers:
-        Host: us52.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_836"
-    server: us44.encrypted.my.id
-    port: 443
-    type: vmess
-    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us44.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /MqINN7CF6UeFSASP4LNTFNn
-      headers:
-        Host: us44.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_838"
-    server: 173.245.58.237
-    port: 2053
-    type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ylks.vtcss.top
-    network: ws
-    ws-opts:
-      path: /qwer
-      headers:
-        Host: ylks.vtcss.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_841"
-    server: us48.encrypted.my.id
-    port: 443
-    type: vmess
-    uuid: 82f58397-480e-4975-b3ec-fea904dc5912
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us48.encrypted.my.id
-    network: ws
-    ws-opts:
-      path: /O0emfe0pBfYovpz5526rhq
-      headers:
-        Host: us48.encrypted.my.id
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_842"
-    server: 47.88.89.251
-    port: 443
-    type: vmess
-    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /MqINN7CF6UeFSASP4LNTFNn
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_843"
+  - name: "\U0001F1FA\U0001F1F8 US_822"
     server: 192.3.150.233
     port: 8443
     type: vmess
@@ -319,27 +255,11 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Pool_\U0001F1FA\U0001F1F8US_861"
-    server: 23.247.137.71
-    port: 3331
-    type: vmess
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1010"
-    server: us49.encrypted.my.id
+  - name: "\U0001F1F8\U0001F1EC Relay_\U0001F1FA\U0001F1F8US-\U0001F1F8\U0001F1ECSG_828"
+    server: linkedin.disnet.gq
     port: 443
     type: vmess
-    uuid: 86f8f25d-9d26-41a6-a75b-e0ef992cc74a
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
     alterId: 0
     cipher: auto
     tls: true
@@ -347,11 +267,43 @@ proxies:
     servername: ""
     network: ws
     ws-opts:
-      path: /rxrsOUmNbuTJCk4izFEHWrb9qm
+      path: /vmessws
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1021"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_841"
+    server: vus4.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vus4.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vus4.0bad.com
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_846"
+    server: 190.93.244.64
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_879"
     server: 172.67.147.156
     port: 443
     type: vmess
@@ -367,11 +319,11 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1026"
-    server: char.samrg.buzz
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_943"
+    server: maous1.wzgmail.com
     port: 443
     type: vmess
-    uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+    uuid: 9680b792-fd51-35cc-bd8c-d05d2503eb58
     alterId: 0
     cipher: auto
     tls: true
@@ -379,59 +331,219 @@ proxies:
     servername: ""
     network: ws
     ws-opts:
-      path: /cutino
+      path: /hls/us8.m3u8
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1050"
-    server: us53.encrypted.my.id
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_946"
+    server: maous1.wzgmail.com
     port: 443
     type: vmess
-    uuid: 203b2ab2-4994-4193-8193-6631a575edb0
+    uuid: de80b48c-4924-3d2b-acf1-0914faf07361
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us53.encrypted.my.id
+    servername: ""
     network: ws
     ws-opts:
-      path: /GSoTl9ZoYG5V2R0k4tUTGI8k
+      path: /hls/us8.m3u8
       headers:
-        Host: us53.encrypted.my.id
+        Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1120"
-    server: cold-dawn-9246.fly.dev
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_948"
+    server: maous2.wzgmail.com
     port: 443
     type: vmess
-    uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+    uuid: 9680b792-fd51-35cc-bd8c-d05d2503eb58
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cold-dawn-9246.fly.dev
+    servername: ""
     network: ws
     ws-opts:
-      path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+      path: /hls/us8.m3u8
       headers:
-        Host: cold-dawn-9246.fly.dev
+        Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1124"
-    server: ahsorathiyaa.fly.dev
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_954"
+    server: maous2.wzgmail.com
     port: 443
     type: vmess
-    uuid: de04add9-5c68-8bab-950c-08cd5320df18
+    uuid: de80b48c-4924-3d2b-acf1-0914faf07361
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ahsorathiyaa.fly.dev
+    servername: ""
     network: ws
     ws-opts:
-      path: /vmess
+      path: /hls/us8.m3u8
       headers:
-        Host: ahsorathiyaa.fly.dev
+        Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1142"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_961"
+    server: 108.162.196.100
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Pool_\U0001F1FA\U0001F1F8US_985"
+    server: 23.247.137.71
+    port: 3331
+    type: vmess
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_987"
+    server: 172.64.134.40
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_994"
+    server: aaaa.wxx.gay
+    port: 443
+    type: vmess
+    uuid: 7da7ba86-225f-11ee-8aaf-000017022008
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /look
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_997"
+    server: 173.245.58.237
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1003"
+    server: 172.67.193.203
+    port: 2053
+    type: vmess
+    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ylks.vtcss.top
+    network: ws
+    ws-opts:
+      path: /qwer
+      headers:
+        Host: ylks.vtcss.top
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1059"
+    server: 47.254.17.235
+    port: 443
+    type: vmess
+    uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1097"
+    server: us44.encrypted.my.id
+    port: 443
+    type: vmess
+    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us44.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /MqINN7CF6UeFSASP4LNTFNn
+      headers:
+        Host: us44.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1100"
+    server: 47.88.89.251
+    port: 443
+    type: vmess
+    uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /MqINN7CF6UeFSASP4LNTFNn
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US_1101"
+    server: 104.160.19.138
+    port: 4430
+    type: vmess
+    uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /a185d5dc-c726-466c-98f2-ba494e63695f
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1109"
     server: us50.encrypted.my.id
     port: 443
     type: vmess
@@ -447,24 +559,8 @@ proxies:
       headers:
         Host: us50.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1153"
-    server: cloudconebbb.gorgorchicken.one
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconebbb
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1154"
-    server: 47.89.231.138
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1129"
+    server: us48.encrypted.my.id
     port: 443
     type: vmess
     uuid: 82f58397-480e-4975-b3ec-fea904dc5912
@@ -472,30 +568,30 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: us48.encrypted.my.id
     network: ws
     ws-opts:
       path: /O0emfe0pBfYovpz5526rhq
       headers:
-        Host: ""
+        Host: us48.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1259"
-    server: us47.encrypted.my.id
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1285"
+    server: us49.encrypted.my.id
     port: 443
     type: vmess
-    uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
+    uuid: 86f8f25d-9d26-41a6-a75b-e0ef992cc74a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us47.encrypted.my.id
+    servername: ""
     network: ws
     ws-opts:
-      path: /pSAXxD8Ib7FZloqUMG
+      path: /rxrsOUmNbuTJCk4izFEHWrb9qm
       headers:
-        Host: us47.encrypted.my.id
+        Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1260"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1288"
     server: ra.679888.xyz
     port: 8443
     type: vmess
@@ -511,7 +607,7 @@ proxies:
       headers:
         Host: ra.679888.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1263"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1296"
     server: us45.encrypted.my.id
     port: 443
     type: vmess
@@ -527,7 +623,7 @@ proxies:
       headers:
         Host: us45.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1264"
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1303"
     server: us51.encrypted.my.id
     port: 443
     type: vmess
@@ -543,35 +639,67 @@ proxies:
       headers:
         Host: us51.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US_1300"
-    server: 141.193.213.31
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1322"
+    server: us55.encrypted.my.id
     port: 443
     type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    uuid: 0dce8b7e-4189-427b-95b7-93fc55d25115
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: us55.encrypted.my.id
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /PxcYlDIHtv3GtsBfhm1AaayIV
       headers:
-        Host: Lille.kotick.site
+        Host: us55.encrypted.my.id
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1342"
-    server: 190.93.244.104
-    port: 2053
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1324"
+    server: us47.encrypted.my.id
+    port: 443
     type: vmess
-    uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
+    uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ylks.vtcss.top
+    servername: us47.encrypted.my.id
     network: ws
     ws-opts:
-      path: /qwer
+      path: /pSAXxD8Ib7FZloqUMG
       headers:
-        Host: ylks.vtcss.top
+        Host: us47.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_1326"
+    server: us52.encrypted.my.id
+    port: 443
+    type: vmess
+    uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us52.encrypted.my.id
+    network: ws
+    ws-opts:
+      path: /OFglbcWQ8P3dJUA7yf
+      headers:
+        Host: us52.encrypted.my.id
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 Relay_\U0001F1FA\U0001F1F8US-\U0001F1EB\U0001F1EEFI_1354"
+    server: tv4.gcpf.eu.org
+    port: 443
+    type: vmess
+    uuid: 5f3b039e-22a0-4250-b2bd-64ef4ff68b35
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tv4.gcpf.eu.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tv4.gcpf.eu.org
     udp: true
