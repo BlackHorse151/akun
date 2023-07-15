@@ -47,7 +47,7 @@ jobs:
       run: |
        # php convert.php
         chmod +x ./lite-linux-amd64
-        ./lite-linux-amd64 --config ./config.json --test https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt
+        ./lite-linux-amd64 --config ./config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt
 
         
     - name: Commit changes
