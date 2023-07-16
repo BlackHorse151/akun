@@ -27,7 +27,7 @@ foreach ($url as $link) {
     for ($i = 0; $i < $totalBaris; $i++) {
         $bagian = $baris[$i];
         echo "\r                                               \r";
-        if (strpos($a, 'ss://') === false) {
+        if (strpos($a, 'ss://') === false or strpos($a, 'ssr://') ===false) {
         //if (preg_match("/vmess:\/\//i", $bagian)) {
             //echo $i . " => " . $bagian . "\n";
             echo " [{$i}/{$totalBaris}] {$git} \r";
