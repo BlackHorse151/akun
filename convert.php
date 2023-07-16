@@ -21,18 +21,18 @@ function convertToFormat($data) {
         if ($proxy['type'] === 'vless') {
             if(isset($proxy['network'])) {
             if ($proxy['network'] === 'ws') {
-                $format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?path=' . urlencode($proxy['ws-opts']['path']) . '&security=tls&encryption=none&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $proxy["name"];
+                $format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path']. '&security=tls&encryption=none&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $proxy["name"];
             } elseif ($proxy['network'] === 'grpc') {
-                $format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&encryption=none&type=grpc&serviceName=' . urlencode($proxy['grpc-opts']['grpc-service-name']) . '&sni=' . $proxy['servername'] . '#' . $proxy["name"];
+                $format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&encryption=none&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['servername'] . '#' . $proxy["name"];
             }
             }
             $formats[] = $format;
         } elseif ($proxy['type'] === 'trojan') {
             if(isset($proxy['network'])) {
             if ($proxy['network'] === 'ws') {
-                $format = 'trojan://' . $proxy['password'] . '@' . $server . ':' . $proxy['port'] . '?path=' . urlencode($proxy['ws-opts']['path']) . '&security=tls&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $proxy["name"];
+                $format = 'trojan://' . $proxy['password'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path'] . '&security=tls&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $proxy["name"];
             } elseif ($proxy['network'] === 'grpc') {
-                $format = 'trojan://' . $proxy['password'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&type=grpc&serviceName=' . urlencode($proxy['grpc-opts']['grpc-service-name']) . '&sni=' . $proxy['sni'] . '#' . $proxy["name"];
+                $format = 'trojan://' . $proxy['password'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['sni'] . '#' . $proxy["name"];
             }
             }
             $formats[] = $format;
@@ -45,7 +45,7 @@ function convertToFormat($data) {
                     'host' => $servername,
                     'id' => $proxy['uuid'],
                     'net' => $proxy['network'],
-                    'path' => urlencode($proxy['ws-opts']['path']),
+                    'path' => $proxy['ws-opts']['path'],
                     'port' => $proxy['port'],
                     'ps' => $proxy['name'],
                     'scy' => $proxy['cipher'],
@@ -60,7 +60,7 @@ function convertToFormat($data) {
                     'aid' => $proxy['alterId'],
                     'id' => $proxy['uuid'],
                     'net' => $proxy['network'],
-                    'path' => urlencode($proxy['grpc-opts']['grpc-service-name']),
+                    'path' => $proxy['grpc-opts']['grpc-service-name'],
                     'port' => $proxy['port'],
                     'ps' => $proxy['name'],
                     'scy' => $proxy['cipher'],
