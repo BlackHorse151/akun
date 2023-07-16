@@ -7,11 +7,16 @@ function convertToFormat($data) {
     foreach ($proxies as $proxy) {
         $format = "";
         $server = "104.16.66.85";
-        if($proxy['servername'] == "") {
+        if(isset($proxy['servername']) == "" or isset($proxy['sni']) == "") {
             $servername = $proxy['server'];
             $server = "104.16.66.85";
         } else {
-            $servername = $proxy['servername'];
+            if(isset($proxy['servername'])) {
+                $servername = $proxy['servername'];
+            }
+            if(isset($proxy['sni'])) {
+                $servername = $proxy['sni'];
+            }
         }
         if ($proxy['type'] === 'vless') {
             if(isset($proxy['network'])) {
