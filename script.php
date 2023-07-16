@@ -145,7 +145,9 @@ foreach($url_clash_format as $link) {
             $url = file_get_contents($urlHasil.$for.$query);
             $hasil = explode("proxies:", $url)[1];
             $hasil = explode("proxy-groups:", $hasil)[0];
-            file_put_contents("a.yaml", $hasil, FILE_APPEND);
+            if(strpos($hasil, '~') === false){
+               file_put_contents("a.yaml", $hasil, FILE_APPEND);
+            }
         }
     }
 }
