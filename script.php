@@ -1,5 +1,4 @@
 <?php
-include "convert.php";
 //https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
 //https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt
 //https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
@@ -52,6 +51,83 @@ foreach ($url as $link) {
             break;
         }
     }
+}
+require_once 'vendor/autoload.php'; // 
+use Symfony\Component\Yaml\Yaml;
+function convertToFormat($data) {
+    $proxies = Yaml::parse($data)['proxies'];
+    $formats = [];
+    foreach ($proxies as $proxy) {
+        $format = "";
+        $server = "104.16.66.85";
+        if(isset($proxy['servername']) == "" or isset($proxy['sni']) == "") {
+            $servername = $proxy['server'];
+            $server = "104.16.66.85";
+        } else {
+            if(isset($proxy['servername'])) {
+                $servername = $proxy['servername'];
+            }
+            if(isset($proxy['sni'])) {
+                $servername = $proxy['sni'];
+            }
+        }
+        if ($proxy['type'] === 'vless') {
+            if(isset($proxy['network'])) {
+            if ($proxy['network'] === 'ws') {
+                $format = 'vless://' . $proxy['uuid'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path']. '&security=tls&encryption=none&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $proxy["name"];
+            } elseif ($proxy['network'] === 'grpc') {
+                $format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&encryption=none&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['servername'] . '#' . $proxy["name"];
+            }
+            }
+            $formats[] = $format;
+        } elseif ($proxy['type'] === 'trojan') {
+            if(isset($proxy['network'])) {
+            if ($proxy['network'] === 'ws') {
+                $format = 'trojan://' . $proxy['password'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path'] . '&security=tls&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $proxy["name"];
+            } elseif ($proxy['network'] === 'grpc') {
+                $format = 'trojan://' . $proxy['password'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['sni'] . '#' . $proxy["name"];
+            }
+            }
+            $formats[] = $format;
+        } elseif ($proxy['type'] === 'vmess') {
+            if(isset($proxy['network'])) {
+            if($proxy['network'] == "ws") {
+                $format = 'vmess://' . base64_encode(json_encode([
+                    'add' => $server,
+                    'aid' => $proxy['alterId'],
+                    'host' => $servername,
+                    'id' => $proxy['uuid'],
+                    'net' => $proxy['network'],
+                    'path' => $proxy['ws-opts']['path'],
+                    'port' => $proxy['port'],
+                    'ps' => $proxy['name'],
+                    'scy' => $proxy['cipher'],
+                    'sni' => $servername,
+                    'tls' => $proxy['tls'] ? "tls" : "",
+                    'type' => $proxy['type'],
+                    'v' => "2",
+                ]));
+            } elseif ($proxy['network'] == "grpc") {
+                $format = 'vmess://' . base64_encode(json_encode([
+                    'add' => $proxy['server'],
+                    'aid' => $proxy['alterId'],
+                    'id' => $proxy['uuid'],
+                    'net' => $proxy['network'],
+                    'path' => $proxy['grpc-opts']['grpc-service-name'],
+                    'port' => $proxy['port'],
+                    'ps' => $proxy['name'],
+                    'scy' => $proxy['cipher'],
+                    'sni' => $proxy['servername'],
+                    'tls' => $proxy['tls'] ? "tls" : "",
+                    'type' => $proxy['type'],
+                    'v' => "2",
+                ]));
+            }
+            }
+            $formats[] = $format;
+        }
+    }
+    return $formats;
 }
 $url_clash_format = [
     "https://raw.githubusercontent.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml",
