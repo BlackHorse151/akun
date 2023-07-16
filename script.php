@@ -1,4 +1,5 @@
 <?php
+require "convert.php";
 //https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
 //https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt
 //https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
@@ -7,6 +8,7 @@ $url = [
 //    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
     "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
+    "https://raw.githubusercontent.com/gfwcross/v2pool/main/merge/all.txt",
 /*    "https://muma16fx.netlify.app/",
     "https://youlianboshi.netlify.app/",
     "https://qiaomenzhuanfx.netlify.app/",*/
@@ -48,6 +50,24 @@ foreach ($url as $link) {
         if ($i == $totalBaris or $i >= $totalBaris) {
             echo "\n";
             break;
+        }
+    }
+}
+$url_clash_format = [
+    "https://raw.githubusercontent.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml",
+]
+$query="&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";          
+foreach($url_clash_format as $link) {
+    $isi = file_get_contents($link);
+    $format = convertToFormat($isi);
+    $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+    foreach($format as $for) {
+        $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+        if($for != "") {
+            $url = file_get_contents($urlHasil.$for.$query);
+            $hasil = explode("proxies:", $url)[1];
+            $hasil = explode("proxy-groups:", $hasil)[0];
+            file_put_contents("a.yaml", $hasil, FILE_APPEND);
         }
     }
 }
