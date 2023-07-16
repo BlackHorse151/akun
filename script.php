@@ -55,7 +55,7 @@ foreach ($url as $link) {
 }
 $url_clash_format = [
     "https://raw.githubusercontent.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml",
-]
+];
 $query="&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";          
 foreach($url_clash_format as $link) {
     $isi = file_get_contents($link);
