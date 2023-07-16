@@ -16,7 +16,7 @@ $url = [
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
 foreach ($url as $link) {
-    if ( base64_encode(base64_decode(file_get_contents($link), true)) === $link){
+    if ( base64_encode(base64_decode(file_get_contents($link), true)) === file_get_contents($link)){
         $isi = base64_decode(file_get_contents($link));
     } else {
         $isi = file_get_contents($link);
