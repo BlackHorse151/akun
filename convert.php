@@ -7,14 +7,14 @@ function convertToFormat($data) {
     foreach ($proxies as $proxy) {
         $format = "";
         $server = "104.16.66.85";
-        if($proxy['servername'] == "" or $proxy['sni'] == "") {
+        if($proxy['servername'] == "" or isset($proxy['sni']) == "") {
             $servername = $proxy['server'];
             $server = "104.16.66.85";
         } else {
-            if($proxy['servername'] != "") {
+            if(isset($proxy['servername']) != "") {
                 $servername = $proxy['servername'];
             }
-            if($proxy['sni'] != "") {
+            if(isset($proxy['sni']) != "") {
                 $servername = $proxy['sni'];
             }
         }
