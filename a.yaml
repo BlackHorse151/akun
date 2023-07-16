@@ -16172,7 +16172,23 @@ proxies:
       headers:
         Host: v2.emovpn.xyz
     udp: true
- ~
+
+  - name: 🇮🇪 _RO_罗马尼亚->🇮🇪_IE_爱尔兰_1@26_8@64
+    server: 104.16.66.85
+    port: 2096
+    type: vmess
+    uuid: 4a92ff9c-7940-4dba-e5de-22df9c20c798
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mtnx.ircf.space
+    network: ws
+    ws-opts:
+      path: /nodejs
+      headers:
+        Host: mtnx.ircf.space
+    udp: true
 
   - name: 🇺🇸 _US_美国_6_1@27_8@65
     server: 104.16.66.85
@@ -16269,12 +16285,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: gemws.mainssh.xyz
+    servername: 45.85.119.121
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: gemws.mainssh.xyz
+        Host: 45.85.119.121
     udp: true
 
   - name: 🇺🇸 _US_美国_1_2@2_8@85
@@ -16628,12 +16644,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hk12.verichains.co
+    servername: 43.154.233.89
     network: ws
     ws-opts:
       path: /hk12/getData
       headers:
-        Host: hk12.verichains.co
+        Host: 43.154.233.89
     udp: true
 
   - name: 🇺🇸 _US_美国_12_4@22_8@155
@@ -16995,23 +17011,7 @@ proxies:
       headers:
         Host: 188.165.170.83
     udp: true
-
-  - name: 🇫🇮 _FI_芬兰->🇮🇷_IR_伊朗_6@14_8@198
-    server: 104.16.66.85
-    port: 8081
-    type: vmess
-    uuid: dc4cf0b7-386f-4fc6-ec46-998b77ccd916
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: digikala.com
-    network: ws
-    ws-opts:
-      path: /@hashmakvpn 🇩🇪
-      headers:
-        Host: digikala.com
-    udp: true
+ ~
  ~
 
   - name: 🇺🇸 _US_美国_7_6@18_8@201
@@ -17177,12 +17177,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hk8.linkeden.co
+    servername: 43.154.190.26
     network: ws
     ws-opts:
       path: /hk8/getData
       headers:
-        Host: hk8.linkeden.co
+        Host: 43.154.190.26
     udp: true
 
   - name: 🇰🇷 _KR_韩国_4_7@23_8@226
@@ -17417,12 +17417,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hk6.verichains.co
+    servername: 43.155.102.33
     network: ws
     ws-opts:
       path: /hk6/getData
       headers:
-        Host: hk6.verichains.co
+        Host: 43.155.102.33
     udp: true
 
   - name: 🇭🇰 _HK_香港_2_9@14_8@277
@@ -17434,12 +17434,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hkx.linkeden.co
+    servername: 43.154.90.64
     network: ws
     ws-opts:
       path: /hkx/getData
       headers:
-        Host: hkx.linkeden.co
+        Host: 43.154.90.64
     udp: true
 
   - name: 🇺🇸 _US_美国_6_9@22_8@281
@@ -17468,12 +17468,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: dl.kgvn.garenanow.com
+    servername: 103.101.162.131
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: dl.kgvn.garenanow.com
+        Host: 103.101.162.131
     udp: true
  ~
 
@@ -17486,12 +17486,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: www.baidu.com
+    servername: hk80-2.af49c4e4c2ef.sanfen001.pics
     network: ws
     ws-opts:
       path: /zh-cn/
       headers:
-        Host: www.baidu.com
+        Host: hk80-2.af49c4e4c2ef.sanfen001.pics
     udp: true
 
   - name: 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国_1_10@0_8@289
@@ -17591,12 +17591,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hk3.linkeden.co
+    servername: 43.159.196.4
     network: ws
     ws-opts:
       path: /hk3/getData
       headers:
-        Host: hk3.linkeden.co
+        Host: 43.159.196.4
     udp: true
 
   - name: 🇩🇪 _US_美国->🇩🇪_DE_德国_10@34_8@308
@@ -17966,12 +17966,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: google.com
+    servername: 95.216.181.19
     network: ws
     ws-opts:
       path: /@hashmakvpn 🇩🇪
       headers:
-        Host: google.com
+        Host: 95.216.181.19
     udp: true
 
   - name: 🇺🇸 _US_美国_6_13@15_8@364
@@ -18241,12 +18241,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hk4.verichains.co
+    servername: 43.154.90.134
     network: ws
     ws-opts:
       path: /hk4/getData
       headers:
-        Host: hk4.verichains.co
+        Host: 43.154.90.134
     udp: true
 
   - name: 🇺🇸 _US_美国_8_15@26_8@408
@@ -18394,12 +18394,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aws.amazon.com
+    servername: jp3.af49c4e4c2ef.sanfen001.pics
     network: ws
     ws-opts:
       path: /cn
       headers:
-        Host: aws.amazon.com
+        Host: jp3.af49c4e4c2ef.sanfen001.pics
     udp: true
 
   - name: 🇯🇵 _JP_日本_3_16@16_8@429
@@ -18411,12 +18411,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: www.baidu.com
+    servername: jp80.af49c4e4c2ef.sanfen001.pics
     network: ws
     ws-opts:
       path: /zh-cn
       headers:
-        Host: www.baidu.com
+        Host: jp80.af49c4e4c2ef.sanfen001.pics
     udp: true
 
   - name: 🇺🇸 _US_美国_13_16@28_8@430
@@ -18504,23 +18504,7 @@ proxies:
       headers:
         Host: 24.199.119.135
     udp: true
-
-  - name: 🇫🇷 _RO_罗马尼亚->🇫🇷_FR_法国_17@10_8@440
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.v2ray.online
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.v2ray.online
-    udp: true
+ ~
 
   - name: 🇺🇸 _US_美国_7_17@35_8@450
     server: 104.16.66.85
@@ -19406,12 +19390,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: clash6.ssr-free.xyz
+    servername: 203.30.191.18
     network: ws
     ws-opts:
       path: /dongtaiwang.com
       headers:
-        Host: clash6.ssr-free.xyz
+        Host: 203.30.191.18
     udp: true
 
   - name: 🇺🇸 _US_美国_4_22@35_8@568
@@ -19543,12 +19527,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tms.dingtalk.com
+    servername: sra2.6bbt.tk
     network: ws
     ws-opts:
       path: /6bbt.tk
       headers:
-        Host: tms.dingtalk.com
+        Host: sra2.6bbt.tk
     udp: true
 
   - name: 🇸🇦 _SA_沙特阿拉伯_23@1_8@577
@@ -19560,12 +19544,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: 6bbt.tk
+    servername: st1.6bbt.tk
     network: ws
     ws-opts:
       path: /6bbt.tk
       headers:
-        Host: 6bbt.tk
+        Host: st1.6bbt.tk
     udp: true
 
   - name: 🇺🇸 _US_美国_1_23@2_8@578
@@ -19628,12 +19612,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: 6bbt.tk
+    servername: yd6.6bbt.tk
     network: ws
     ws-opts:
       path: /6bbt.tk
       headers:
-        Host: 6bbt.tk
+        Host: yd6.6bbt.tk
     udp: true
 
   - name: 🇭🇰 _HK_香港_4_23@21_8@590
@@ -19732,12 +19716,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: 6bbt.tk
+    servername: fga3.6bbt.tk
     network: ws
     ws-opts:
       path: /6bbt.tk
       headers:
-        Host: 6bbt.tk
+        Host: fga3.6bbt.tk
     udp: true
 
   - name: 🇯🇵 _JP_日本_1_24@18_8@612
@@ -19817,12 +19801,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: bf419d5f59f96a.windowsupdate.com
+    servername: jp01-vm0.entry.srthdw.art
     network: ws
     ws-opts:
       path: /hls/cctv5phd.m3u8
       headers:
-        Host: bf419d5f59f96a.windowsupdate.com
+        Host: jp01-vm0.entry.srthdw.art
     udp: true
 
   - name: 🇯🇵 _JP_日本_6_24@30_8@621
@@ -19902,12 +19886,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: YouTube-aweikeji
+    servername: jp04-vm0.entry.srthdw.art
     network: ws
     ws-opts:
       path: /hls/cctv5phd.m3u8
       headers:
-        Host: YouTube-aweikeji
+        Host: jp04-vm0.entry.srthdw.art
     udp: true
 
   - name: 🇯🇵 _JP_日本_10_24@38_8@628
