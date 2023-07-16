@@ -92,6 +92,11 @@ function convertToFormat($data) {
         } elseif ($proxy['type'] === 'vmess') {
             if(isset($proxy['network'])) {
             if($proxy['network'] == "ws") {
+                if(isset($proxy['ws-opts']['path'])) {
+                    $path = $proxy['ws-opts']['path'];
+                } else {
+                    $path = $proxy['ws-path'];
+                }
                 $format = 'vmess://' . base64_encode(json_encode([
                     'add' => $server,
                     'aid' => $proxy['alterId'],
