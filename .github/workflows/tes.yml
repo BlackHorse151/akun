@@ -24,9 +24,9 @@ jobs:
       - name: Run PHP Script
         run: php script.php
 
-      #- name: Process YAML files
-        #run: |
-          #yq e '[.proxies.[] | select((.alterId == 0) and (.tls== true) and (.network == "ws"))]' a.yaml | yq e '{"proxies": .}' > b.yaml
+      - name: Process YAML files
+        run: |
+          yq e '[.proxies.[] | select((.network == "ws"))]' a.yaml | yq e '{"proxies": .}' > b.yaml
 
       - name: Convert And Speedtest
         run : php convert.php
