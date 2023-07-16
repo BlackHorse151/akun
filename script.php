@@ -1,5 +1,5 @@
 <?php
-require "convert.php";
+include "convert.php";
 //https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
 //https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt
 //https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
