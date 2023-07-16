@@ -3,7 +3,7 @@ name: Run PHP Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *' # Schedule the workflow to run every two hours
+    - cron: '0 */12 * * *' # Schedule the workflow to run every two hours
 
 jobs:
   run-php-script:
