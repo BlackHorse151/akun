@@ -12,10 +12,10 @@ function convertToFormat($data) {
             $server = "104.16.66.85";
         } else {
             if(isset($proxy['servername'])) {
-                $servername = $proxy['servername'];
+                $servername = $proxy['server'];
             }
             if(isset($proxy['sni'])) {
-                $servername = $proxy['sni'];
+                $servername = $proxy['server'];
             }
         }
         if ($proxy['type'] === 'vless') {
