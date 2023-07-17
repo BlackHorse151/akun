@@ -87,7 +87,7 @@ $url = [
 file_put_contents("sing-box.txt", "");
 foreach ($url as $link) {
     if ( base64_encode(base64_decode(file_get_contents($link), true)) === file_get_contents($link)){
-        $isi = file_get_contents($link));
+        $isi = file_get_contents($link);
     } else {
         $isi = base64_encode(file_get_contents($link));
     }
@@ -96,7 +96,7 @@ foreach ($url as $link) {
     shell_exec("./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/dump.txt");
     $hasil = json_decode(file_get_contents("output.json"));
     file_put_contents("sing-box.txt", "");
-    foreach($speedtest->nodes as $akun) {
+    foreach($hasil->nodes as $akun) {
         if($akun->isok == true) {
             file_put_contents("sing-box.txt", $akun->link."\n", FILE_APPEND);
         }
