@@ -107,7 +107,7 @@ $akun = explode("\n", file_get_contents("sing-box.txt"));
 $total = count($akun);
 file_put_contents("a.yaml", "proxies:");
 foreach($akun as $i) {
-    if (strpos($i, 'ss://') === false or strpos($i, 'ssr://') ===false) {
+    if (strpos($i, 'ss://') === false and strpos($i, 'ssr://') ===false) {
     //if (preg_match("/(vless|vmess|trojan):\/\//i", $i)) {
         echo $i."\n";
         $url = "https://sub.bonds.id/sub2?target=clash&url=";
