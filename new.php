@@ -114,7 +114,9 @@ foreach($akun as $i) {
         $hasil = file_get_contents($url);
         $hasil = explode("proxies:", $hasil)[1];
         $hasil = explode("proxy-groups:", $hasil)[0];
-        file_put_contents("a.yaml", $hasil, FILE_APPEND);
+        if(strpos($hasil, '~') === false){
+               file_put_contents("a.yaml", $hasil, FILE_APPEND);
+        }
     }
 }
     /*
