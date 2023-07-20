@@ -1,5 +1,5 @@
 proxies:
-  - name: "@free4allVPN|🚩|31.93"
+  - name: "@free4allVPN | 🇺🇸 | 11.56"
     server: cloudconebbb.gorgorchicken.one
     port: 8443
     type: vmess
@@ -16,7 +16,7 @@ proxies:
         Host: cloudconebbb.gorgorchicken.one
     udp: true
 
-  - name: "@free4allVPN|🇺🇸|86.45"
+  - name: "@free4allVPN | 🇺🇸 | 75.95"
     server: vus5.0bad.com
     port: 443
     type: vmess
@@ -33,8 +33,8 @@ proxies:
         Host: vus5.0bad.com
     udp: true
 
-  - name: "@oneclickvpnkeys|🇺🇸|47.8"
-    server: 89.116.38.201
+  - name: "@v2ray_outlineir | 🇺🇸 | 7.7"
+    server: 89.116.38.179
     port: 3456
     type: vmess
     uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
@@ -50,25 +50,20 @@ proxies:
         - /
     udp: true
 
-  - name: "@prrofile_purple|🇺🇸|48.08"
-    server: 89.116.38.191
-    port: 3456
+  - name: "@oneclickvpnkeys | 🇺🇸 | 69.99"
+    server: 192.74.232.227
+    port: 52312
     type: vmess
-    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-    alterId: 0
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
     servername: ""
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
     udp: true
 
-  - name: 🇺🇸 @customv2ray|🇺🇸|115.93
-    server: 45.199.138.172
+  - name: "@oneclickvpnkeys | 🇺🇸 | 80.57"
+    server: 45.199.138.173
     port: 42001
     type: vmess
     uuid: 20b30916-e203-412e-8ec0-900f3acd5128
@@ -79,23 +74,11 @@ proxies:
     servername: ""
     udp: true
 
-  - name: 🇺🇸 @customv2ray|🇭🇰|119.66
-    server: 156.245.8.66
-    port: 47855
+  - name: "@prrofile_purple | 🇩🇪 | 90"
+    server: 195.201.251.83
+    port: 8443
     type: vmess
-    uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    udp: true
-
-  - name: "@ShadowProxy66|🇺🇸|44.14"
-    server: 89.116.38.197
-    port: 3456
-    type: vmess
-    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+    uuid: baa11ae3-67c1-4207-8c14-79df58983411
     alterId: 0
     cipher: auto
     tls: false
@@ -108,7 +91,41 @@ proxies:
         - /
     udp: true
 
-  - name: "@ShadowProxy66|🇺🇸|46.69"
+  - name: "@hashmakvpn | 🇩🇪 | 89.97"
+    server: 195.201.251.83
+    port: 8443
+    type: vmess
+    uuid: baa11ae3-67c1-4207-8c14-79df58983411
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    udp: true
+
+  - name: "@vless_vmess | 🇺🇸 | 43.87"
+    server: cdn.ikuan.dev
+    port: 2052
+    type: vmess
+    uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: freeforgfw.ikuan.dev
+    network: ws
+    ws-opts:
+      path: /FreeForGFW
+      headers:
+        Host: freeforgfw.ikuan.dev
+    udp: true
+
+  - name: "@vmess_vless_v2rayng | 🇺🇸 | 7.71"
     server: 89.116.38.208
     port: 3456
     type: vmess
@@ -125,100 +142,9 @@ proxies:
         - /
     udp: true
 
-  - name: "@v2ray1_ng|🇮🇷|1399.38"
-    server: 51.158.238.117
-    port: 443
-    type: vmess
-    uuid: 4e3ee39d-cb8a-473e-ba86-3ec41372f9d6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: www.soft98.ir
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - www.soft98.ir
-    udp: true
-
-  - name: "@v2ray1_ng|🇧🇾|978.18"
-    server: 62.233.57.38
-    port: 443
-    type: vmess
-    uuid: c66d1c03-ef5e-4994-a7a4-d41855867f13
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: internet.life.com.by
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - internet.life.com.by
-    udp: true
-
-  - name: "@v2ray1_ng|🚩|51.82"
-    server: 95.179.255.171
-    port: 443
-    type: vmess
-    uuid: 35C256AA-357E-4965-BCB9-20427E52A319
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.bobbykotick.rip
-    udp: true
-
-  - name: "@vless_vmess|🇺🇸|38.03"
-    server: 45.131.248.140
-    port: 50068
-    type: vmess
-    uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 45.131.248.140
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 45.131.248.140
-    udp: true
-
-  - name: "@vmess_vless_v2rayng|🇺🇸|41.52"
-    server: 89.116.38.208
-    port: 3456
-    type: vmess
-    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-    udp: true
-
-  - name: "@SafeNet_Server|🇯🇵|133.36"
-    server: 45.88.43.143
-    port: 51801
+  - name: "@proxystore11 | 🇺🇸 | 70.1"
+    server: 142.4.126.67
+    port: 52212
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
@@ -228,7 +154,7 @@ proxies:
     servername: ""
     udp: true
 
-  - name: "@yaney_01|🇺🇸|40.56"
+  - name: "@yaney_01 | 🇺🇸 | 75.79"
     server: 142.4.126.43
     port: 44392
     type: vmess
@@ -240,7 +166,7 @@ proxies:
     servername: ""
     udp: true
 
-  - name: "@yaney_01|🇺🇸|42.06"
+  - name: "@yaney_01 | 🇺🇸 | 66.75"
     server: 140.99.77.12
     port: 54774
     type: vmess
@@ -250,4 +176,75 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: ""
+    udp: true
+
+  - name: "@v2rayng_config_amin | 🇺🇸 | 11.82"
+    server: mtnc.ircf.space
+    port: 443
+    type: vmess
+    uuid: ECCFF4D3-28D3-4D0B-B168-57281DA50A26
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: irancalldanafar.iu20225619709.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.bobbykotick.rip
+      headers:
+        Host: amindanafar.iu20225619709.workers.dev
+    udp: true
+
+  - name: "@PrivateVPNs"
+    server: 13.40.56.239
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+
+  - name: "@PrivateVPNs"
+    server: 34.254.92.96
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+
+  - name: "@PrivateVPNs"
+    server: 54.78.89.80
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+
+  - name: "@DirectVPN"
+    server: 18.117.75.98
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+
+  - name: "@oneclickvpnkeys"
+    server: 18.133.241.18
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+
+  - name: "@V2RayTz"
+    server: 54.161.182.170
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
     udp: true
