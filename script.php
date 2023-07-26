@@ -5,13 +5,13 @@
 $url = [
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
     //"https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
-    "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
+    //"https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
     "https://raw.githubusercontent.com/gfwcross/v2pool/main/merge/all.txt",
-    "https://muma16fx.netlify.app/",
-    "https://youlianboshi.netlify.app/",
-    "https://qiaomenzhuanfx.netlify.app/",
-    "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
+    //"https://muma16fx.netlify.app/",
+    //"https://youlianboshi.netlify.app/",
+    //"https://qiaomenzhuanfx.netlify.app/",
+    //"https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
