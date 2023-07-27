@@ -5,6 +5,7 @@
 $url = [
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
     //"https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
+    "https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
     //"https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
     "https://raw.githubusercontent.com/gfwcross/v2pool/main/merge/all.txt",
