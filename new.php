@@ -80,10 +80,12 @@ function convertToFormat($data) {
 }
 
 $url = [
-    "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
+ /*   "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
     "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
     "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix",
+    */
+    "https://raw.githubusercontent.com/supprise0408/V2RayAggregator/master/sub/sub_merge.txt",
 ];
 file_put_contents("sing-box.txt", "");
 foreach ($url as $link) {
