@@ -22,6 +22,8 @@ file_put_contents("a.yaml", "proxies:");
 foreach ($url as $link) {
     if ( base64_encode(base64_decode(file_get_contents($link), true)) === file_get_contents($link)){
         $isi = base64_decode(file_get_contents($link));
+    } elseif (preg_match("/```/", file_get_contents($link))) {
+        $isi = explode("```", file_get_contents($link))[1];
     } else {
         $isi = file_get_contents($link);
     }
