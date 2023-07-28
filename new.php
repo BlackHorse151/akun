@@ -86,7 +86,8 @@ $url = [
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
     "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix",
     */
-    "https://raw.githubusercontent.com/supprise0408/V2RayAggregator/master/sub/sub_merge.txt",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+    //"https://raw.githubusercontent.com/supprise0408/V2RayAggregator/master/sub/sub_merge.txt",
 ];
 file_put_contents("sing-box.txt", "");
 foreach ($url as $link) {
@@ -110,8 +111,8 @@ $akun = explode("\n", file_get_contents("sing-box.txt"));
 $total = count($akun);
 file_put_contents("a.yaml", "proxies:");
 foreach($akun as $i) {
-    if (strpos($i, 'vmess://') !== false or strpos($i, 'vless://') !==false or strpos($i, 'trojan://') !==false) {
-    //if (preg_match("/(vless|vmess|trojan):\/\//i", $i)) {
+    //if (strpos($i, 'vmess://') !== false or strpos($i, 'vless://') !==false or strpos($i, 'trojan://') !==false) {
+    if (preg_match("/(vless|vmess|trojan):\/\//i", $i)) {
         echo $i."\n";
         $url = "https://sub.bonds.id/sub2?target=clash&url=";
         $url .= urlencode($i);
@@ -119,9 +120,9 @@ foreach($akun as $i) {
         $hasil = file_get_contents($url);
         $hasil = explode("proxies:", $hasil)[1];
         $hasil = explode("proxy-groups:", $hasil)[0];
-        if(strpos($hasil, '~') === false){
+        //if(strpos($hasil, '~') === false){
                file_put_contents("a.yaml", $hasil, FILE_APPEND);
-        }
+        //}
     }
 }
     /*
