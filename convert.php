@@ -10,7 +10,8 @@ function convertToFormat($data) {
         if(isset($proxy['servername']) == "" or isset($proxy['sni']) == "") {
             $servername = $proxy['server'];
             $server = "104.16.66.85";
-        } else {
+        } 
+        if($proxy["Host"] != "") {
             /*if(isset($proxy['servername'])) {
                 $servername = $proxy['server'];
             }
