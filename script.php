@@ -14,10 +14,11 @@ $url = [
     "https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/003.txt",
     "https://raw.githubusercontent.com/mianfeifq/share/main/README.md",
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
-    //"https://muma16fx.netlify.app/",
-    //"https://youlianboshi.netlify.app/",
-    //"https://qiaomenzhuanfx.netlify.app/",
-    //"https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
+    "https://muma16fx.netlify.app/",
+    "https://youlianboshi.netlify.app/",
+    "https://qiaomenzhuanfx.netlify.app/",
+    "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
+    "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
