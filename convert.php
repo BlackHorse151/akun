@@ -43,6 +43,9 @@ function convertToFormat($data) {
             if(isset($proxy['network'])) {
             if($proxy['network'] == "ws") {
                 if(isset($proxy['ws-opts'])) {
+                if($proxy['port'] == 80) {
+                    $port = 443;
+                }
                 $format = 'vmess://' . base64_encode(json_encode([
                     'add' => $server,
                     'aid' => $proxy['alterId'],
@@ -50,7 +53,7 @@ function convertToFormat($data) {
                     'id' => $proxy['uuid'],
                     'net' => $proxy['network'],
                     'path' => $proxy['ws-opts']['path'],
-                    'port' => $proxy['port'],
+                    'port' => $port,
                     'ps' => $proxy['name'],
                     'scy' => $proxy['cipher'],
                     'sni' => $servername,
