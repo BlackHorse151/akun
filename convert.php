@@ -17,6 +17,7 @@ function convertToFormat($data) {
             if(isset($proxy['sni'])) {
                 $servername = $proxy['server'];
             }*/
+            $servername = $proxy['Host'];
             $server = "104.16.66.85";
         }
         if ($proxy['type'] === 'vless') {
