@@ -11,14 +11,14 @@ function convertToFormat($data) {
             $servername = $proxy['server'];
             $server = "104.16.66.85";
         } 
-        if($proxy["Host"] != "") {
+        if($proxy["ws-opts"]["headers"]["Host"] != "") {
             /*if(isset($proxy['servername'])) {
                 $servername = $proxy['server'];
             }
             if(isset($proxy['sni'])) {
                 $servername = $proxy['server'];
             }*/
-            $servername = $proxy['Host'];
+            $servername = $proxy["ws-opts"]["headers"]["Host"];
             $server = "104.16.66.85";
         }
         if ($proxy['type'] === 'vless') {
