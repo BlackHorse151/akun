@@ -17,14 +17,14 @@ $url = [
     "https://raw.githubusercontent.com/mianfeifq/share/main/README.md",
     "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1",
     "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
-    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+ /*   "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
     "https://muma16fx.netlify.app/",
     "https://youlianboshi.netlify.app/",
     "https://qiaomenzhuanfx.netlify.app/",
     "https://clashnode.com/wp-content/uploads/2023/07/20230708.txt",
     "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-    "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt",
+    "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt",*/
     "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
