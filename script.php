@@ -71,10 +71,10 @@ $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
                 file_put_contents("a.yaml", $hasil, FILE_APPEND);
               //  $in += 40;
                 $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
-            $i +=1;
+            
             //}
         }
-        
+        $i +=1;
     }
 }
 require_once 'vendor/autoload.php'; // 
