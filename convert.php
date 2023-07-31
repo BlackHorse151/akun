@@ -43,6 +43,7 @@ function convertToFormat($data) {
         } elseif ($proxy['type'] === 'vmess') {
             if(isset($proxy['network'])) {
             if($proxy['network'] == "ws") {
+                if(isset($proxy['ws-opts'])) {
                 $format = 'vmess://' . base64_encode(json_encode([
                     'add' => $server,
                     'aid' => $proxy['alterId'],
@@ -50,7 +51,7 @@ function convertToFormat($data) {
                     'id' => $proxy['uuid'],
                     'net' => $proxy['network'],
                     'path' => $proxy['ws-opts']['path'],
-                    'port' => $$proxy['port'],
+                    'port' => $proxy['port'],
                     'ps' => $proxy['name'],
                     'scy' => $proxy['cipher'],
                     'sni' => $servername,
@@ -58,7 +59,7 @@ function convertToFormat($data) {
                     'type' => $proxy['type'],
                     'v' => "2",
                 ]));
-                
+                }
             } elseif ($proxy['network'] == "grpc") {
                 $format = 'vmess://' . base64_encode(json_encode([
                     'add' => $proxy['server'],
