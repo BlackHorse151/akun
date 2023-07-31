@@ -28,7 +28,7 @@ $url = [
  //   'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt',
 //    'https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt',
 //    'https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1',
-    "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
+//    "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
