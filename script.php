@@ -48,10 +48,12 @@ foreach ($url as $link) {
     $git = explode("://", $link)[1];
     //file_put_contents("a.yaml", "proxies:");
     // Menginisialisasi variabel untuk menyimpan hasil URL
-    $in = 0;
-    $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
-    for ($i = 0; $i < $totalBaris; $i++) {
-        $bagian = $baris[$i];
+    //$in = 0;
+    $i = 0;
+    foreach($baris as $bar) {
+$urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+    //for ($i = 0; $i < $totalBaris; $i++) {
+        $bagian = $bar;
         echo "\r                                               \r";
         //if (strpos($bagian, 'ss://') === false or strpos($bagian, 'ssr://') ===false) {
         if (preg_match("/(vmess):\/\//i", $bagian)) {
@@ -60,21 +62,19 @@ foreach ($url as $link) {
             $bagianTeks = $bagian . "|";
             $bagianUrl = urlencode($bagianTeks);
             $urlHasil .= $bagianUrl;
-            if ($i >= $in + 40 or $i >= $totalBaris) {
+           // if ($i >= $in + 40 or $i >= $totalBaris) {
                 $urlHasil .=
                     "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
                 $url = file_get_contents($urlHasil);
                 $hasil = explode("proxies:", $url)[1];
                 $hasil = explode("proxy-groups:", $hasil)[0];
                 file_put_contents("a.yaml", $hasil, FILE_APPEND);
-                $in += 40;
+              //  $in += 40;
                 $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
-            }
+            $i +=1;
+            //}
         }
-        if ($i == $totalBaris or $i >= $totalBaris) {
-            echo "\n";
-            break;
-        }
+        
     }
 }
 require_once 'vendor/autoload.php'; // 
