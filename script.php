@@ -10,10 +10,10 @@ $url = [
   //  "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
   //  "https://raw.githubusercontent.com/gfwcross/v2pool/main/merge/all.txt",
     //"https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/001.txt",
-    "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
+//    "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
     //"https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/002.txt",
     //"https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/003.txt",
-    /*"https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all3",
+    "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all3",
     "https://raw.githubusercontent.com/mianfeifq/share/main/README.md",
     "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1",
     "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
@@ -24,7 +24,7 @@ $url = [
     "https://qiaomenzhuanfx.netlify.app/",
     "https://clashnode.com/wp-content/uploads/2023/07/20230708.txt",
     "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-    "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt",*/
+    "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt",
     "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
