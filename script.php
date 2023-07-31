@@ -25,9 +25,9 @@ $url = [
     "https://clashnode.com/wp-content/uploads/2023/07/20230708.txt",
     "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
     "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt",*/
-    'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt',
-    'https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt',
-    'https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1',
+ //   'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt',
+//    'https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt',
+//    'https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1',
     "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
