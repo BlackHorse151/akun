@@ -1,4 +1,4 @@
-<?php
+ <?php
 //https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
 //https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt
 //https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
@@ -68,7 +68,9 @@ $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
                 $url = file_get_contents($urlHasil);
                 $hasil = explode("proxies:", $url)[1];
                 $hasil = explode("proxy-groups:", $hasil)[0];
-                file_put_contents("a.yaml", $hasil, FILE_APPEND);
+                if(strpos($hasil, '~') === false){
+                    file_put_contents("a.yaml", $hasil, FILE_APPEND);
+                }
               //  $in += 40;
                 $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
             
