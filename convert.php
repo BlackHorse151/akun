@@ -54,7 +54,7 @@ function convertToFormat($data) {
                     'id' => $proxy['uuid'],
                     'net' => $proxy['network'],
                     'path' => $proxy['ws-opts']['path'],
-                    'port' => $port,
+                    'port' => $$proxy['port'],
                     'ps' => $proxy['name'],
                     'scy' => $proxy['cipher'],
                     'sni' => $servername,
