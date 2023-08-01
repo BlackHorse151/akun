@@ -1,15 +1,9 @@
 name: speedtest
 
-# 触发条件
-
 on:
 
   workflow_dispatch:
-
   
-
-  
-
 jobs:
 
   deploy:
@@ -17,46 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
     - name: Checkout code
-
       uses: actions/checkout@v2
     - name: Set up PHP
-
       uses: shivammathur/setup-php@v2
-
       with:
-
-          php-version: '8.0' # Specify the PHP version
-
+          php-version: '8.2.8' # Specify the PHP version
     - name: Install Composer dependencies
-
       run: composer install
-
-
     - name: Set Timezone
-
       run: sudo timedatectl set-timezone 'Asia/Jakarta'
-
     - name: Run Lite Speedtest
-
       run: |
-
         php convert.php
-        #chmod +x ./lite-linux-amd64
+        #chmod +x ./lite-linux-amd64        
         #./lite-linux-amd64 --config ./config.json --test https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
-
         
     - name: Commit changes
-
       run: |                 
-
         git config --local user.email "actions@github.com"
-
         git config --local user.name "GitHub Actions"
         git pull
-
         git add .
-
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') Filter Nodes"
         git push
