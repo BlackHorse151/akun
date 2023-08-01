@@ -8,7 +8,7 @@ function convertToFormat($data) {
 	foreach ($proxies as $proxy) {
 		$uid = $proxy["uuid"];
 		if (str_contains($id, $uid)) {
-		    echo "Node udah ada | $uid\n";
+		    echo "Node udah ada | ".$proxy["server"]."\n";
 		} else {
 			$id .= $proxy["uuid"] . "\n";
 			$format = "";
