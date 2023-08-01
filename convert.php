@@ -6,7 +6,8 @@ function convertToFormat($data) {
 	$formats = [];
 	$id = "";
 	foreach ($proxies as $proxy) {
-		if (strpos($id, $proxy["uuid"]) !== true) {
+		$uid = $proxy["uuid"];
+		if (!preg_match("/{$uid}/",$id)) {
 		    $id .= $proxy["uuid"]."\n";
 		$format = "";
 		$server = "104.16.66.85";
