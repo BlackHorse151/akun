@@ -83,4 +83,4 @@ foreach ($speedtest->nodes as $akun) {
 	$hasil = explode("proxy-groups:", $hasil) [0];
 	file_put_contents("hasil_convert(untest).yaml", $hasil, FILE_APPEND);
 }
-?
+?>
