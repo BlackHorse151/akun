@@ -10,7 +10,7 @@ $url = [
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
     "https://raw.githubusercontent.com/gfwcross/v2pool/main/merge/all.txt",
     //"https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/001.txt",
-//    "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
     //"https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/002.txt",
     //"https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/003.txt",
     "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all3",
