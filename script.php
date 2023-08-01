@@ -8,6 +8,7 @@ $url = [
     "https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
     "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt",
+    "https://raw.githubusercontent.com/ZywChannel/free/main/sub",
     "https://raw.githubusercontent.com/gfwcross/v2pool/main/merge/all.txt",
     "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest.txt",
