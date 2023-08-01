@@ -4,7 +4,10 @@ use Symfony\Component\Yaml\Yaml;
 function convertToFormat($data) {
 	$proxies = Yaml::parse($data) ['proxies'];
 	$formats = [];
+	$id = "";
 	foreach ($proxies as $proxy) {
+		if (strpos($id, $proxy["uuid"]) === false {
+		    $id .= $proxy["uuid"]."\n";
 		$format = "";
 		$server = "104.16.66.85";
 		if (isset($proxy["ws-opts"]["headers"]["Host"]) == "" or isset($proxy['sni']) == "") {
@@ -46,6 +49,7 @@ function convertToFormat($data) {
 			}
 			$formats[] = $format;
 		}
+	}
 	}
 	return $formats;
 }
