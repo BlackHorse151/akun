@@ -71,7 +71,7 @@ foreach ($url as $link) {
 				$bagian = $bar;
 				echo "\r                                               \r";
 				//if (strpos($bagian, 'ss://') === false or strpos($bagian, 'ssr://') ===false) {
-				if (preg_match("/(vmess):\/\//i", $bagian)) {
+				if (preg_match("/(vmess|vless|trojan):\/\//i", $bagian)) {
 						echo " [{$i}/{$totalBaris}] {$git} \r";
 						$bagianTeks = $bagian . "|";
 						$bagianUrl = urlencode($bagianTeks);
