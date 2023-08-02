@@ -6,20 +6,33 @@ function convertToFormat($data) {
 	$formats = [];
 	$id = "";
 	foreach ($proxies as $proxy) {
-		$uid = $proxy["uuid"];
+		if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
+			$uid = $proxy["uuid"];
+		}
+		if($proxy["type"] == "trojan") {
+			$uid = $proxy["password"];
+		}
 		if (str_contains($id, $uid)) {
 		    echo "Node udah ada | ".$proxy["server"]."\n";
 		} else {
-			$id .= $proxy["uuid"] . "\n";
+			$id .= $uid . "\n";
 			$format = "";
 			$server = "104.16.66.85";
 			if ($proxy["ws-opts"]["headers"]["Host"] != "") {
 				$servername = $proxy["ws-opts"]["headers"]["Host"];
 				$server = "104.16.66.85";
 			}
+			if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
 			if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
 				$servername = $proxy['server'];
 				$server = "104.16.66.85";
+			}
+			}
+			if($proxy["type"] == "trojan") {
+				if ($proxy["sni"] == "") {
+					$servername = $proxy['server'];
+					$server = "104.16.66.85";
+				}
 			}
 			if ($proxy['type'] === 'vless') {
 				if (isset($proxy['network'])) {
