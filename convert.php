@@ -13,11 +13,12 @@ function convertToFormat($data) {
 			$id .= $proxy["uuid"] . "\n";
 			$format = "";
 			$server = "104.16.66.85";
-			if ($proxy["servername"] == null) { //or isset($proxy['sni']) == "") {
-				$servername = $proxy['server'];
-				$server = "104.16.66.85";
-			} elseif ($proxy["ws-opts"]["headers"]["Host"] != "") {
+			if ($proxy["ws-opts"]["headers"]["Host"] != "") {
 				$servername = $proxy["ws-opts"]["headers"]["Host"];
+				$server = "104.16.66.85";
+			}
+			if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
+				$servername = $proxy['server'];
 				$server = "104.16.66.85";
 			}
 			if ($proxy['type'] === 'vless') {
