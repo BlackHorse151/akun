@@ -4,6 +4,7 @@ $tanggal = $date->format('Y/m/Ymd').".txt";
 $tanggal2 = "data".$date->format('Ymj').".txt";
 $url = [
     "https://clashnode.com/wp-content/uploads/".$tanggal,
+    "https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary",
     "https://nodefree.org/dy/".$tanggal,
     "https://raw.githubusercontent.com/mianfeifq/share/main/".$tanggal2,
     "https://v2rayshare.com/wp-content/uploads/".$tanggal,
