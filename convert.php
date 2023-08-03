@@ -12,10 +12,11 @@ function convertToFormat($data) {
 		if($proxy["type"] == "trojan") {
 			$uid = $proxy["password"];
 		}
-		if (str_contains($id, $uid)) {
+		if (str_contains($id, $uid) and str_contains($id,$proxy["server"])) {
 		    echo "Node udah ada | ".$proxy["server"]."\n";
 		} else {
 			$id .= $uid . "\n";
+			$id .= $proxy["server"]."\n";
 			$format = "";
 			$server = "104.16.66.85";
 			if ($proxy["ws-opts"]["headers"]["Host"] != "") {
