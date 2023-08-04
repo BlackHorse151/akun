@@ -80,7 +80,7 @@ foreach ($formats as $format) {
 	}
 }
 file_put_contents("sing-box-base64.txt", base64_encode($hasil));
-//shell_exec("wget -O lite-linux-amd64 https://github.com/ardi5209/LiteSpeedTest/raw/master/lite");
+shell_exec("gzip -d lite-linux-amd64.gz");
 shell_exec("chmod +x ./lite-linux-amd64");
 shell_exec("./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt");
 $speedtest = json_decode(file_get_contents("output.json"));
