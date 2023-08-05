@@ -23,11 +23,9 @@ jobs:
       run: sudo timedatectl set-timezone 'Asia/Jakarta'
     - name: Run Lite Speedtest
       run: |
-        wget -O lite-linux-amd64.gz https://github.com/xxf098/LiteSpeedTest/releases/download/v0.14.1/lite-linux-amd64-v0.14.1.gz
-        gzip -d lite-linux-amd64.gz
         php convert.php
-        #chmod +x ./lite-linux-amd64        
-        #./lite-linux-amd64 --config ./config.json --test https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
+        # chmod +x ./lite-linux-amd64        
+        # ./lite-linux-amd64 --config ./config.json --test https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64
         
     - name: Commit changes
       run: |                 
