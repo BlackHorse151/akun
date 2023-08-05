@@ -23,11 +23,7 @@ jobs:
       run: sudo timedatectl set-timezone 'Asia/Jakarta'
     - name: Run Lite Speedtest
       run: |
-        # php convert.php
-        chmod +x ./lite-linux-amd64
-        ./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt
-
-
+        php convert.php
     - name: Commit changes
       run: |                 
         git config --local user.email "actions@github.com"
