@@ -15,8 +15,8 @@ function convertToFormat($data) {
 		if (str_contains($id, $uid) and str_contains($id,$proxy["server"])) {
 		    echo "Node udah ada | ".$proxy["server"]."\n";
 		} else {
-			$id .= $uid . "\n";
-			$id .= $proxy["server"]."\n";
+			$id .= $uid . " ";
+			$id .= $proxy["server"]." ";
 			$format = "";
 			$server = "104.16.66.85";
 			if ($proxy["ws-opts"]["headers"]["Host"] != "") {
