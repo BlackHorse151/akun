@@ -13,7 +13,7 @@ function convertToFormat($data) {
 			$uid = $proxy["password"]." ".$proxy["server"];
 		}
                 //if(preg_match("/{$uid}/",$id)) {
-		if (str_contains($id, $uid) { //and str_contains($id,$proxy["server"])) {
+		if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
 		    echo "Node udah ada | ".$proxy["server"]."\n";
 		} else {
 			$id .= $uid . " ";
