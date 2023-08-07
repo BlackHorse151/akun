@@ -14,7 +14,7 @@ function convertToFormat($data) {
 		}
                 //if(preg_match("/{$uid}/",$id)) {
 		if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
-		    echo "Node udah ada | ".$proxy["server"]."\n";
+		    echo "Node udah ada | ".$uid."\n";
 		} else {
 			$id .= $uid . " ";
 			$format = "";
