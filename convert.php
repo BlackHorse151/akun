@@ -7,10 +7,10 @@ function convertToFormat($data) {
 	$id = "";
 	foreach ($proxies as $proxy) {
 		if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
-			$uid = $proxy["uuid"]." ".$proxy["server"];
+			$uid = $proxy["server"];
 		}
 		if($proxy["type"] == "trojan") {
-			$uid = $proxy["password"]." ".$proxy["server"];
+			$uid = $proxy["server"];
 		}
                 //if(preg_match("/{$uid}/",$id)) {
 		if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
