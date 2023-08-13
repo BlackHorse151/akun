@@ -4,6 +4,7 @@ $tanggal = $date->format('Y/m/Ymd').".txt";
 $tanggal2 = "data".$date->format('Ymj').".txt";
 $url = [
     "https://clashnode.com/wp-content/uploads/".$tanggal,
+	"https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
     "https://raw.githubusercontent.com/AlienVPN402/AlienVPN402-subscribe-servers-sing-box/main/index.html",
     "https://xn--l6qx3l9s1a.com/api/v1/client/subscribe?token=1566573b5f851f1af97456de15d81b3f",
 "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=eab6bbe7bd46787abaa2d97ccdf5d375",
