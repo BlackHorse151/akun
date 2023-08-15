@@ -1,4 +1,4 @@
-<?php
+ <?php
 require_once 'vendor/autoload.php'; //
 use Symfony\Component\Yaml\Yaml;
 function convertToFormat($data) {
@@ -6,14 +6,14 @@ function convertToFormat($data) {
 	$formats = [];
 	$id = "";
 	foreach ($proxies as $proxy) {
-		if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
+		/*if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
 			$uid = $proxy["server"];
 		}
-		if($proxy["type"] == "trojan") {
+		if($proxy["type"] == "trojan") {*/
 			$uid = $proxy["server"];
-		}
-                //if(preg_match("/{$uid}/",$id)) {
-		if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
+		//}
+                if(preg_match("/{$uid}/",$id)) {
+		//if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
 		    echo "Node udah ada | ".$uid."\n";
 		} else {
 			$id .= $uid . " ";
