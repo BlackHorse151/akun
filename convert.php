@@ -61,7 +61,7 @@ function convertToFormat($data) {
 							$format = 'vmess://' . base64_encode(json_encode(['add' => $server, 'aid' => $proxy['alterId'], 'host' => $servername, 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['ws-opts']['path'], 'port' => $proxy['port'], 'ps' => $proxy['server'], 'scy' => $proxy['cipher'], 'sni' => $servername, 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
 						}
 					} elseif ($proxy['network'] == "grpc") {
-						$format = 'vmess://' . base64_encode(json_encode(['add' => $proxy['server'], 'aid' => $proxy['alterId'], 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['grpc-opts']['grpc-service-name'], 'port' => $proxy['port'], 'ps' => $proxy['name'], 'scy' => $proxy['cipher'], 'sni' => $proxy['servername'], 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
+						$format = 'vmess://' . base64_encode(json_encode(['add' => $proxy['server'], 'aid' => $proxy['alterId'], 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['grpc-opts']['grpc-service-name'], 'port' => $proxy['port'], 'ps' => $proxy['server'], 'scy' => $proxy['cipher'], 'sni' => $proxy['servername'], 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
 					}
 				}
 				$formats[] = $format;
