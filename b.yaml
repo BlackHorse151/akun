@@ -1,51 +1,51 @@
 proxies:
-  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
-    server: 23.227.38.81
+  - name: "\U0001F1F1\U0001F1FA _US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
+    server: zfc.windowsupdate1.com
     port: 443
     type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: mci.bamarambash.monster
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
-      headers:
-        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    udp: true
-  - name: "\U0001F1F0\U0001F1F7 _KR_韩国"
-    server: tls.0000000018a.node-for-bigairport.win
-    port: 443
-    type: vmess
-    uuid: d2082fef-f70c-44eb-bd89-3baa6b41be0d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: tls.0000000018a.node-for-bigairport.win
+    servername: us-1.acyun.tk
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: tls.0000000018a.node-for-bigairport.win
+        Host: us-1.acyun.tk
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 _US_美国"
+    server: 216.24.57.1
+    port: 443
+    type: vmess
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dd2.1808.cf
+    network: ws
+    ws-opts:
+      path: a7ee85f4
+      headers:
+        Host: dd2.1808.cf
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: 23.227.38.109
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
     udp: true
   - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
     server: 23.227.39.81
@@ -63,21 +63,117 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
+  - name: "\U0001F1F3\U0001F1F1 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
+    server: cdnjs.com
     port: 443
     type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    servername: Amsterdam.kotick.site
     network: ws
     ws-opts:
-      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      path: /speedtest
       headers:
-        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+        Host: Amsterdam.kotick.site
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
+    server: 23.227.38.80
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 _US_美国"
+    server: 74.217.182.122
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1692005985685
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: dongtaiwang2.com
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
+    server: 23.227.38.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: 23.227.38.111
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
+    server: dongtaiwang3.com
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
     udp: true
   - name: "\U0001F1E9\U0001F1EA baipiao1.curly-train.pages.dev-HTTPS"
     server: baipiao1.curly-train.pages.dev
@@ -1829,295 +1925,7 @@ proxies:
       headers:
         Host: www.54092415.xyz
     udp: true
-  - name: "\U0001F1EB\U0001F1F7 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: mci.bamarambash.monster
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
-      headers:
-        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    udp: true
-  - name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
-    server: 185.59.218.177
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
-      headers:
-        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: cdn.twitter.now.cc
-    port: 443
-    type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us2.twittei.me
-    network: ws
-    ws-opts:
-      path: /ikun
-      headers:
-        Host: us2.twittei.me
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: ahsorathiyaa.fly.dev
-    port: 443
-    type: vmess
-    uuid: de04add9-5c68-8bab-950c-08cd5320df18
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ahsorathiyaa.fly.dev
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ahsorathiyaa.fly.dev
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
-    server: 23.227.38.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 _HK_香港"
-    server: 156.245.8.205
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /path/1691985329194
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-    server: 23.227.39.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
-    server: 185.59.218.177
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
-      headers:
-        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-    server: 23.227.39.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: mci.bamarambash.monster
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
-      headers:
-        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: ahsorathiyaa.fly.dev
-    port: 443
-    type: vmess
-    uuid: de04add9-5c68-8bab-950c-08cd5320df18
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ahsorathiyaa.fly.dev
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ahsorathiyaa.fly.dev
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 _HK_香港"
-    server: 156.245.8.205
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /path/1691985329194
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: cdn.twitter.now.cc
-    port: 443
-    type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us2.twittei.me
-    network: ws
-    ws-opts:
-      path: /ikun
-      headers:
-        Host: us2.twittei.me
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
-    server: 23.227.38.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "@free4allVPN|\U0001F1EC\U0001F1E7|177.24"
+  - name: "@free4allVPN|\U0001F1EC\U0001F1E7|117.07"
     server: vuk1.0bad.com
     port: 443
     type: vmess
@@ -2133,7 +1941,7 @@ proxies:
       headers:
         Host: vuk1.0bad.com
     udp: true
-  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|269.16"
+  - name: "@free4allVPN|\U0001F1F8\U0001F1EC|258.13"
     server: vsg1.0bad.com
     port: 443
     type: vmess
@@ -2149,7 +1957,7 @@ proxies:
       headers:
         Host: vsg1.0bad.com
     udp: true
-  - name: "@Napsternetvirani|\U0001F6A9|10.53"
+  - name: "@Napsternetvirani|\U0001F1FA\U0001F1F8|9.3"
     server: 104.16.32.142
     port: 443
     type: vmess
@@ -2165,23 +1973,23 @@ proxies:
       headers:
         Host: rock.blanku.me
     udp: true
-  - name: "@v2ray1_ng|\U0001F1EB\U0001F1F7|158.89"
-    server: 95.179.244.111
+  - name: "@Proxy_PJ|\U0001F1FA\U0001F1F8|5.88"
+    server: 104.27.203.169
     port: 443
     type: vmess
-    uuid: 4b45b4a0-3cd4-11ee-b532-205c6d5f5d78
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: eu-2.0rd.net
+    servername: sandp.blanku.me
     network: ws
     ws-opts:
-      path: /@hopev2ray
+      path: /wss51068
       headers:
-        Host: eu-2.0rd.net
+        Host: sand.blanku.me
     udp: true
-  - name: "@vless_vmess|\U0001F6A9|9.85"
+  - name: "@vless_vmess|\U0001F1FA\U0001F1F8|6.05"
     server: 188.114.96.7
     port: 443
     type: vmess
@@ -2197,7 +2005,7 @@ proxies:
       headers:
         Host: ecc.vtcss.top
     udp: true
-  - name: "@vless_vmess|\U0001F1FA\U0001F1F8|10.12"
+  - name: "@vless_vmess|\U0001F6A9|6.12"
     server: 104.20.47.106
     port: 443
     type: vmess
@@ -2213,7 +2021,7 @@ proxies:
       headers:
         Host: wispy-bread-83b4.bangolan121980.workers.dev
     udp: true
-  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|9.37"
+  - name: "@vpn_tehran|\U0001F1FA\U0001F1F8|6.16"
     server: mbt.ircf.space
     port: 443
     type: vmess
@@ -2229,7 +2037,7 @@ proxies:
       headers:
         Host: hiddis2.freelines.net
     udp: true
-  - name: "@yaney_01|\U0001F1FA\U0001F1F8|11.31"
+  - name: "@yaney_01|\U0001F1FA\U0001F1F8|7.5"
     server: wi.saintink.eu.org
     port: 443
     type: vmess
@@ -2306,22 +2114,97 @@ proxies:
         Host: cfv2.win1234512345.eu.org
     udp: true
   - name: "@v2rayNG_Matsuri"
-    server: fiberlike.aurorainiceland.com
+    server: 13join.outline-vpn.cloud
     port: 443
     type: vless
-    uuid: 04eac2c9-047a-4ce0-a437-da801f467a49
+    uuid: 120393d8-a64a-4586-af6a-6439e2a8b6ed
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: fiberlike.aurorainiceland.com
+    servername: cfpg-1es.pages.dev
     network: ws
     ws-opts:
-      path: /nimws
+      path: /?ed=2048
       headers:
-        Host: fiberlike.aurorainiceland.com
+        Host: cfpg-1es.pages.dev
+    udp: true
+  - name: "@ShadowProxy66"
+    server: 154.92.9.129
+    port: 443
+    type: vless
+    uuid: 120393d8-a64a-4586-af6a-6439e2a8b6ed
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cfpg-1es.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: cfpg-1es.pages.dev
+    udp: true
+  - name: "@ShadowProxy66"
+    server: 103.184.45.207
+    port: 443
+    type: vless
+    uuid: 120393d8-a64a-4586-af6a-6439e2a8b6ed
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cfpg-1es.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: cfpg-1es.pages.dev
+    udp: true
+  - name: "@ShadowProxy66"
+    server: 154.92.9.154
+    port: 443
+    type: vless
+    uuid: 120393d8-a64a-4586-af6a-6439e2a8b6ed
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cfpg-1es.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: cfpg-1es.pages.dev
     udp: true
   - name: "@VlessConfig"
-    server: 3.73.251.74
+    server: 3.11.116.239
+    port: 22222
+    type: vless
+    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: telegram-channel-vlessconfig.sohala.uk
+    network: ws
+    ws-opts:
+      path: /telegram-channel-vlessconfig-ws
+      headers:
+        Host: telegram-channel-vlessconfig.sohala.uk
+    udp: true
+  - name: "@VlessConfig"
+    server: 18.203.219.245
+    port: 22222
+    type: vless
+    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: telegram-channel-vlessconfig.sohala.uk
+    network: ws
+    ws-opts:
+      path: /telegram-channel-vlessconfig-ws
+      headers:
+        Host: telegram-channel-vlessconfig.sohala.uk
+    udp: true
+  - name: "@VlessConfig"
+    server: 34.249.169.69
     port: 22222
     type: vless
     uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
@@ -2365,21 +2248,6 @@ proxies:
       headers:
         Host: cfpg-1es.pages.dev
     udp: true
-  - name: "@ConfigsHUB"
-    server: 172.67.125.62
-    port: 443
-    type: vless
-    uuid: 3c2504f0-8014-4a68-b49a-a098d8808e61
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: c1mt.cdncisco7.co
-    network: ws
-    ws-opts:
-      path: /0C6CLnNicrJKNnzj51ltOjG4G3
-      headers:
-        Host: c1mt.cdncisco7.co
-    udp: true
   - name: "@freeconfigv2"
     server: 075.outline-vpn.cloud
     port: 443
@@ -2410,26 +2278,11 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "@proxystore11"
-    server: 154.92.9.13
-    port: 443
-    type: vless
-    uuid: edf12778-fbeb-48d9-85e4-6530370b47cc
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: bv01.wang66.homes
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: bv01.wang66.homes
-    udp: true
   - name: "@free1_vpn"
     server: 104.31.16.65
     port: 2053
     type: vless
-    uuid: 6fc89e52-ebfd-4d2a-b433-04e46b4529e9
+    uuid: 3422a938-d184-4670-a146-f0b0bddac708
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -2439,6 +2292,37 @@ proxies:
       path: /
       headers:
         Host: tel.ArV2ray.link
+    udp: true
+  - name: "@free1_vpn"
+    server: 45.67.215.70
+    port: 2083
+    type: vless
+    uuid: 51e94c46-1d16-4776-98b3-2b78c4613e55
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tm.ArV2ray.link
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tm.ArV2ray.link
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare节点"
+    server: bluehost.com
+    port: 443
+    type: vmess
+    uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdntr2.digisport.shop
+    network: ws
+    ws-opts:
+      path: /19544
+      headers:
+        Host: cdntr2.digisport.shop
     udp: true
   - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare节点"
     server: cdn.twitter.now.cc
@@ -2455,22 +2339,6 @@ proxies:
       path: /ikun
       headers:
         Host: us2.twittei.me
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare公司CDN节点(shopify)"
-    server: 23.227.38.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
     udp: true
   - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
     server: cdn-yx.syjd.xyz
@@ -2504,7 +2372,7 @@ proxies:
       headers:
         Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
+  - name: YD|@Zyw_Channel
     server: bluehost.com
     port: 443
     type: vmess
@@ -2536,7 +2404,7 @@ proxies:
       headers:
         Host: www.65510817.xyz
     udp: true
-  - name: YD|@Zyw_Channel
+  - name: YD|www.zyw.asia ZYW免费节点
     server: 198.2.223.4
     port: 443
     type: vmess
@@ -2552,7 +2420,7 @@ proxies:
       headers:
         Host: www.45202449.xyz
     udp: true
-  - name: YD|tg频道:@Zyw_Channel
+  - name: YD|www.zyw.asia ZYW免费节点
     server: 137.175.18.81
     port: 443
     type: vmess
@@ -2568,7 +2436,7 @@ proxies:
       headers:
         Host: www.66273264.xyz
     udp: true
-  - name: YD|tg频道:@Zyw_Channel
+  - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
     server: 104.31.16.35
     port: 443
     type: vmess
@@ -2584,7 +2452,7 @@ proxies:
       headers:
         Host: Dusseldorf.kotick.site
     udp: true
-  - name: YD|@Zyw_Channel
+  - name: YD|www.zyw.asia ZYW免费节点
     server: wi.saintink.eu.org
     port: 443
     type: vmess
@@ -2600,7 +2468,7 @@ proxies:
       headers:
         Host: sub2.saintink.eu.org
     udp: true
-  - name: YD|www.zyw.asia ZYW免费节点
+  - name: YD|@Zyw_Channel
     server: Lille.kotick.site
     port: 443
     type: vmess
@@ -2616,7 +2484,7 @@ proxies:
       headers:
         Host: Lille.kotick.site
     udp: true
-  - name: YD|@Zyw_Channel
+  - name: YD|tg频道:@Zyw_Channel
     server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
     port: 443
     type: vmess
@@ -2664,7 +2532,7 @@ proxies:
       headers:
         Host: dd2.1808.cf
     udp: true
-  - name: YD|tg频道:@Zyw_Channel
+  - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
     server: Lille.kotick.site
     port: 443
     type: vmess
@@ -2680,7 +2548,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
+  - name: YD|www.zyw.asia ZYW免费节点
     server: 216.24.57.1
     port: 443
     type: vmess
@@ -2696,7 +2564,7 @@ proxies:
       headers:
         Host: dd2.1808.cf
     udp: true
-  - name: YD|@Zyw_Channel
+  - name: YD|www.zyw.asia ZYW免费节点
     server: mci.saintink.eu.org
     port: 443
     type: vmess
@@ -2728,7 +2596,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: YD|tg频道:@Zyw_Channel
+  - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
     server: 23.227.38.82
     port: 443
     type: vmess
@@ -2744,7 +2612,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 YD|TG频道内随机时间更新订阅地址"
+  - name: YD|tg频道:@Zyw_Channel
     server: dongtaiwang3.com
     port: 443
     type: vmess
@@ -2760,7 +2628,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: YD|www.zyw.asia ZYW免费节点
+  - name: YD|@Zyw_Channel
     server: cdn.twitter.now.cc
     port: 443
     type: vmess
@@ -2776,7 +2644,7 @@ proxies:
       headers:
         Host: us2.twittei.me
     udp: true
-  - name: YD|@Zyw_Channel
+  - name: YD|www.zyw.asia ZYW免费节点
     server: 108.186.4.24
     port: 443
     type: vmess
@@ -2808,7 +2676,7 @@ proxies:
       headers:
         Host: www.53997395.xyz
     udp: true
-  - name: RPD|tg频道:@Zyw_Channel
+  - name: RPD|www.zyw.asia ZYW免费节点
     server: hk01.isddns.tk
     port: 443
     type: vmess
@@ -2872,7 +2740,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PLM|TG频道内随机时间更新订阅地址"
+  - name: PLM|tg频道:@Zyw_Channel
     server: cloudflare.piaole.me
     port: 443
     type: vmess
@@ -2920,7 +2788,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 8DKJ|TG频道内随机时间更新订阅地址"
+  - name: 8DKJ|@Zyw_Channel
     server: zfc.windowsupdate1.com
     port: 443
     type: vmess
@@ -2936,7 +2804,7 @@ proxies:
       headers:
         Host: us-1.acyun.tk
     udp: true
-  - name: 8DKJ|tg频道:@Zyw_Channel
+  - name: 8DKJ|www.zyw.asia ZYW免费节点
     server: ::ffff:6815:4f6e
     port: 443
     type: vmess
@@ -2968,7 +2836,7 @@ proxies:
       headers:
         Host: us3.sanfencdn1.com
     udp: true
-  - name: 8DKJ|tg频道:@Zyw_Channel
+  - name: 8DKJ|@Zyw_Channel
     server: 23.227.39.81
     port: 443
     type: vmess
@@ -3000,7 +2868,7 @@ proxies:
       headers:
         Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 8DKJ|TG频道内随机时间更新订阅地址"
+  - name: 8DKJ|@Zyw_Channel
     server: 199.188.108.229
     port: 443
     type: vmess
@@ -3016,7 +2884,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: 8DKJ|tg频道:@Zyw_Channel
+  - name: 8DKJ|@Zyw_Channel
     server: cloudconeaaa.gorgorchicken.one
     port: 8443
     type: vmess
@@ -3048,7 +2916,7 @@ proxies:
       headers:
         Host: Dusseldorf.kotick.site
     udp: true
-  - name: 8DKJ|@Zyw_Channel
+  - name: 8DKJ|tg频道:@Zyw_Channel
     server: 142.0.138.117
     port: 443
     type: vmess
@@ -3064,7 +2932,7 @@ proxies:
       headers:
         Host: www.40735439.xyz
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 8DKJ|TG频道内随机时间更新订阅地址"
+  - name: 8DKJ|@Zyw_Channel
     server: 86jpjp.fr99kt.top
     port: 38190
     type: vmess
@@ -3080,7 +2948,7 @@ proxies:
       headers:
         Host: 86jpjp.fr99kt.top
     udp: true
-  - name: 8DKJ|@Zyw_Channel
+  - name: 8DKJ|tg频道:@Zyw_Channel
     server: 142.4.115.173
     port: 443
     type: vmess
@@ -3096,7 +2964,7 @@ proxies:
       headers:
         Host: www.53997395.xyz
     udp: true
-  - name: 8DKJ|www.zyw.asia ZYW免费节点
+  - name: "\U0001F3F3️‍\U0001F308 8DKJ|TG频道内随机时间更新订阅地址"
     server: 137.175.35.154
     port: 443
     type: vmess
@@ -3128,7 +2996,7 @@ proxies:
       headers:
         Host: www.62976171.xyz
     udp: true
-  - name: 8DKJ|@Zyw_Channel
+  - name: 8DKJ|www.zyw.asia ZYW免费节点
     server: dongtaiwang3.com
     port: 443
     type: vmess
@@ -3144,7 +3012,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: 8DKJ|@Zyw_Channel
+  - name: 8DKJ|www.zyw.asia ZYW免费节点
     server: 38.53.92.180
     port: 443
     type: vmess
@@ -3160,7 +3028,7 @@ proxies:
       headers:
         Host: www.77646750.xyz
     udp: true
-  - name: 8DKJ|@Zyw_Channel
+  - name: 8DKJ|tg频道:@Zyw_Channel
     server: dongtaiwang2.com
     port: 443
     type: vmess
@@ -3192,7 +3060,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: 8DKJ|tg频道:@Zyw_Channel
+  - name: "\U0001F3F3️‍\U0001F308 8DKJ|TG频道内随机时间更新订阅地址"
     server: Lille.kotick.site
     port: 443
     type: vmess
@@ -3208,7 +3076,7 @@ proxies:
       headers:
         Host: Lille.kotick.site
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 8DKJ|TG频道内随机时间更新订阅地址"
+  - name: 8DKJ|@Zyw_Channel
     server: 23.227.38.81
     port: 443
     type: vmess
@@ -3224,7 +3092,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: 8DKJ|@Zyw_Channel
+  - name: 8DKJ|www.zyw.asia ZYW免费节点
     server: 104.17.137.141
     port: 443
     type: vmess
@@ -3239,6 +3107,102 @@ proxies:
       path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
       headers:
         Host: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 CF|TG频道内随机时间更新订阅地址"
+    server: 23.227.38.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: CF|@Zyw_Channel
+    server: mci.bamarambash.monster
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
+      headers:
+        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    udp: true
+  - name: CF|@Zyw_Channel
+    server: tls.0000000018a.node-for-bigairport.win
+    port: 443
+    type: vmess
+    uuid: d2082fef-f70c-44eb-bd89-3baa6b41be0d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tls.0000000018a.node-for-bigairport.win
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tls.0000000018a.node-for-bigairport.win
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 CF|TG频道内随机时间更新订阅地址"
+    server: 23.227.39.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: CF|@Zyw_Channel
+    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      headers:
+        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
+    server: 8.219.150.28
+    port: 443
+    type: vmess
+    uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
     udp: true
   - name: PP|@Zyw_Channel
     server: tls.0000000012a.node-for-bigairport.win
@@ -3272,7 +3236,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: PP|www.zyw.asia ZYW免费节点
+  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
     server: vuk2.0bad.com
     port: 443
     type: vmess
@@ -3289,38 +3253,6 @@ proxies:
         Host: ""
     udp: true
   - name: PP|www.zyw.asia ZYW免费节点
-    server: 156.245.8.206
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.13340198.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692270323396
-      headers:
-        Host: www.13340198.xyz
-    udp: true
-  - name: PP|tg频道:@Zyw_Channel
-    server: 156.245.8.218
-    port: 443
-    type: vmess
-    uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.32159877.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692203343673
-      headers:
-        Host: www.32159877.xyz
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
     server: tls.0000000014a.node-for-bigairport.win
     port: 443
     type: vmess
@@ -3336,7 +3268,7 @@ proxies:
       headers:
         Host: tls.0000000014a.node-for-bigairport.win
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
+  - name: PP|www.zyw.asia ZYW免费节点
     server: mir.mir222.eu.org
     port: 443
     type: vmess
@@ -3351,6 +3283,230 @@ proxies:
       path: /
       headers:
         Host: mir.mir222.eu.org
+    udp: true
+  - name: PP|@Zyw_Channel
+    server: 118.107.46.173
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/080712342310
+      headers:
+        Host: ""
+    udp: true
+  - name: PP|@Zyw_Channel
+    server: 23.108.100.103
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.40587333.xyz
+    network: ws
+    ws-opts:
+      path: /footers
+      headers:
+        Host: www.40587333.xyz
+    udp: true
+  - name: PP|tg频道:@Zyw_Channel
+    server: 51vfly1.win
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
+    server: tls.0000000017a.node-for-bigairport.win
+    port: 443
+    type: vmess
+    uuid: d2082fef-f70c-44eb-bd89-3baa6b41be0d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tls.0000000017a.node-for-bigairport.win
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tls.0000000017a.node-for-bigairport.win
+    udp: true
+  - name: PP|www.zyw.asia ZYW免费节点
+    server: 142.4.110.36
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.19458162.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692270323396
+      headers:
+        Host: www.19458162.xyz
+    udp: true
+  - name: PP|@Zyw_Channel
+    server: 171.22.116.56
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.83993175.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692094854083
+      headers:
+        Host: www.83993175.xyz
+    udp: true
+  - name: PP|@Zyw_Channel
+    server: 38.63.0.89
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1691057598680
+      headers:
+        Host: ""
+    udp: true
+  - name: PP|@Zyw_Channel
+    server: 38.63.0.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.19458162.xyz
+    network: ws
+    ws-opts:
+      path: /path/1689935243027
+      headers:
+        Host: www.19458162.xyz
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
+    server: 107.167.20.183
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/243535322906
+      headers:
+        Host: ""
+    udp: true
+  - name: PP|tg频道:@Zyw_Channel
+    server: 23.108.100.101
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.40587333.xyz
+    network: ws
+    ws-opts:
+      path: /footers
+      headers:
+        Host: www.40587333.xyz
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
+    server: vfly3.win
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
+    server: vus5.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: ""
+    udp: true
+  - name: PP|tg频道:@Zyw_Channel
+    server: 64.32.10.216
+    port: 443
+    type: vmess
+    uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.33436785.xyz
+    network: ws
+    ws-opts:
+      path: /path/1691318318420
+      headers:
+        Host: www.33436785.xyz
+    udp: true
+  - name: PP|www.zyw.asia ZYW免费节点
+    server: 74.217.182.122
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1692005985685
+      headers:
+        Host: ""
     udp: true
   - name: PP|@Zyw_Channel
     server: 170.178.179.189
@@ -3369,70 +3525,6 @@ proxies:
         Host: ""
     udp: true
   - name: PP|www.zyw.asia ZYW免费节点
-    server: 38.63.0.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.19458162.xyz
-    network: ws
-    ws-opts:
-      path: /path/1689935243027
-      headers:
-        Host: www.19458162.xyz
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: 171.22.116.56
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.83993175.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692094854083
-      headers:
-        Host: www.83993175.xyz
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: 38.63.0.89
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /path/1691057598680
-      headers:
-        Host: ""
-    udp: true
-  - name: PP|@Zyw_Channel
-    server: 107.167.20.183
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /path/243535322906
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
     server: 171.22.116.54
     port: 443
     type: vmess
@@ -3448,24 +3540,8 @@ proxies:
       headers:
         Host: www.83993175.xyz
     udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: 74.217.182.122
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /path/1692005985685
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: vin1.0bad.com
+  - name: PP|www.zyw.asia ZYW免费节点
+    server: wi.saintink.eu.org
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -3473,108 +3549,44 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vin1.0bad.com
+    servername: sub2.saintink.eu.org
     network: ws
     ws-opts:
-      path: /chat
+      path: /vuk2.0bad.com/chat
       headers:
-        Host: vin1.0bad.com
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: vus5.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: 23.108.100.101
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.40587333.xyz
-    network: ws
-    ws-opts:
-      path: /footers
-      headers:
-        Host: www.40587333.xyz
+        Host: sub2.saintink.eu.org
     udp: true
   - name: PP|www.zyw.asia ZYW免费节点
-    server: vfly3.win
+    server: vau1.0bad.com
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: vau1.0bad.com
     network: ws
     ws-opts:
-      path: /myblog
+      path: /chat
       headers:
-        Host: ""
-    udp: true
-  - name: PP|@Zyw_Channel
-    server: 64.32.10.216
-    port: 443
-    type: vmess
-    uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.33436785.xyz
-    network: ws
-    ws-opts:
-      path: /path/1691318318420
-      headers:
-        Host: www.33436785.xyz
-    udp: true
-  - name: PP|tg频道:@Zyw_Channel
-    server: 23.108.100.103
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.40587333.xyz
-    network: ws
-    ws-opts:
-      path: /footers
-      headers:
-        Host: www.40587333.xyz
+        Host: vau1.0bad.com
     udp: true
   - name: "\U0001F3F3️‍\U0001F308 PP|TG频道内随机时间更新订阅地址"
-    server: 51vfly1.win
+    server: cfcdn2.sanfencdn.net
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: us3.sanfencdn1.com
     network: ws
     ws-opts:
-      path: /myblog
+      path: /zh-cn
       headers:
-        Host: ""
+        Host: us3.sanfencdn1.com
     udp: true
   - name: "\U0001F1FA\U0001F1F8 美国(欢迎订阅Youtube破解资源君) 4"
     server: hk1.4kxray.xyz
@@ -13631,70 +13643,6 @@ proxies:
       headers:
         Host: www.65510817.xyz
     udp: true
-  - name: "\U0001F1F8\U0001F1EC 新加坡(油管破解资源君)"
-    server: vsg1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vsg1.0bad.com
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: vsg1.0bad.com
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 加拿大 16"
-    server: 23.227.38.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US美国(youtube阿伟科技)"
-    server: cdnjs.com
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA HK_speednode_0007"
-    server: 156.245.8.218
-    port: 443
-    type: vmess
-    uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.32159877.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.32159877.xyz
-    udp: true
   - name: 频道50@wxgqlfx
     server: 23.227.38.80
     port: 443
@@ -13711,216 +13659,8 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1EB\U0001F1F7 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 加拿大| Telegram @kxswa 2"
-    server: dongtaiwang2.com
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国_科网_11"
-    server: 74.217.182.122
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.62976171.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692005985685
-      headers:
-        Host: www.62976171.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国 6"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1F1\U0001F1FA _US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
-    server: zfc.windowsupdate1.com
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA HK_speednode_0008"
-    server: 156.245.8.206
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.13340198.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.13340198.xyz
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 加拿大 14"
-    server: 23.227.39.81
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA FR_speednode_0003"
-    server: 156.249.18.21
-    port: 443
-    type: vmess
-    uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.20163322.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.20163322.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 257"
-    server: vfly3.win
-    port: 443
-    type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vfly3.win
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: vfly3.win
-    udp: true
-  - name: 频道51@wxgqlfx
-    server: 23.227.39.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: 频道06@wxgqlfx
-    server: 23.227.38.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA HK_speednode_0009"
-    server: 156.245.8.234
-    port: 443
-    type: vmess
-    uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.92873889.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.92873889.xyz
-    udp: true
   - name: "\U0001F1FA\U0001F1F8 US美国(youtube阿伟科技)"
-    server: 104.18.16.131
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国_玉豆_16"
-    server: 137.175.35.154
+    server: 137.175.3.36
     port: 443
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -13928,47 +13668,31 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.76381584.xyz
+    servername: www.37419052.xyz
     network: ws
     ws-opts:
-      path: /path/1691801785369
+      path: /path/1692270323396
       headers:
-        Host: www.76381584.xyz
+        Host: www.37419052.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国_peasoft-12,15"
-    server: cdn-yx.syjd.xyz
+  - name: 关注电报https://t.me/aifenxiang2020
+    server: 23.227.39.111
     port: 443
     type: vmess
-    uuid: 25258af0-ca08-43a8-a638-6c039c33da21
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cdn-us.syjd.xyz
+    servername: 2.freek1.xyz
     network: ws
     ws-opts:
-      path: /cdn
+      path: /dongtaiwang.com
       headers:
-        Host: cdn-us.syjd.xyz
+        Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 _HK_香港"
-    server: 156.245.8.205
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1EC\U0001F1E7 _GB_英国_9@32"
-    server: vuk1.0bad.com
+  - name: "\U0001F1FA\U0001F1F8 _US_美国_1"
+    server: vde2.0bad.com
     port: 443
     type: vmess
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -13982,22 +13706,6 @@ proxies:
       path: /
       headers:
         Host: ""
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 28"
-    server: cloudconeaaa.gorgorchicken.one
-    port: 8443
-    type: vmess
-    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconeaaa.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cloudconeaaa.gorgorchicken.one
     udp: true
   - name: 频道10@wxgqlfx
     server: 23.227.38.109
@@ -14015,24 +13723,8 @@ proxies:
       headers:
         Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 _US_美国_yui科技_20"
-    server: 171.22.116.56
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.83993175.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692094854083
-      headers:
-        Host: www.83993175.xyz
-    udp: true
-  - name: 不定期抽奖https://t.me/mftizi
-    server: dongtaiwang3.com
+  - name: 频道17@wxgqlfx
+    server: 23.227.39.80
     port: 443
     type: vmess
     uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -14047,21 +13739,293 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: 频道44@wxgqlfx
-    server: 172.67.135.195
+  - name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
+    server: 185.59.218.177
     port: 443
     type: vmess
-    uuid: F5A0B71E-85AA-48FF-99D1-9F3B8459DA49
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Dusseldorf.bobbykotick.rip
+    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /
       headers:
-        Host: Dusseldorf.bobbykotick.rip
+        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: 频道06@wxgqlfx
+    server: 23.227.38.111
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1F8\U0001F1EC 新加坡(油管破解资源君)"
+    server: vsg1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vsg1.0bad.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vsg1.0bad.com
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 _CA_加拿大 2"
+    server: 23.227.39.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US美国(youtube阿伟科技)"
+    server: 142.4.110.36
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.19458162.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692270323396
+      headers:
+        Host: www.19458162.xyz
+    udp: true
+  - name: 频道51@wxgqlfx
+    server: 23.227.39.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 _HK_香港"
+    server: 156.245.8.205
+    port: 443
+    type: vmess
+    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: 白嫖-118
+    server: vde1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vde1.0bad.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vde1.0bad.com
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US美国(youtube阿伟科技)"
+    server: 104.31.16.35
+    port: 443
+    type: vmess
+    uuid: 9F858CE1-7E02-4863-AA24-D90F8D3437D7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: speedtest
+      headers:
+        Host: Amsterdam.kotick.site
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 加拿大 17"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国 290"
+    server: 74.217.182.122
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: Relay_ | 9.59Mb
+    server: vus5.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vus5.0bad.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vus5.0bad.com
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 _US_美国_8"
+    server: 137.175.15.199
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: 频道49@wxgqlfx
+    server: 23.227.38.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7 GB英国(youtube阿伟科技)"
+    server: wi.saintink.eu.org
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub2.saintink.eu.org
+    network: ws
+    ws-opts:
+      path: /vuk2.0bad.com/chat
+      headers:
+        Host: sub2.saintink.eu.org
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
+    server: Amsterdam.kotick.site
+    port: 443
+    type: vmess
+    uuid: 9F858CE1-7E02-4863-AA24-D90F8D3437D7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: speedtest
+      headers:
+        Host: Amsterdam.kotick.site
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国 274"
+    server: vfly3.win
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vfly3.win
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vfly3.win
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7 _GB_英国_9@32"
+    server: vuk1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 美国 368"
     server: 172.67.150.82
@@ -14079,21 +14043,21 @@ proxies:
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US美国(youtube阿伟科技)"
-    server: 38.54.167.230
+  - name: "\U0001F1FA\U0001F1F8 美国 75"
+    server: zfc.windowsupdate1.com
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.53997395.xyz
+    servername: us-1.acyun.tk
     network: ws
     ws-opts:
-      path: /path/1692184906954
+      path: /
       headers:
-        Host: www.53997395.xyz
+        Host: us-1.acyun.tk
     udp: true
   - name: "\U0001F1ED\U0001F1F0 Hong Kong 01 TG:@nodpai"
     server: wasanbi.ga
@@ -14127,119 +14091,7 @@ proxies:
       headers:
         Host: v2ray3.udpgw.com
     udp: true
-  - name: "\U0001F1E8\U0001F1E6 0,20|\U0001F1E8\U0001F1E6 _CA_加拿大"
-    server: 23.227.38.81
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: 12|频道44@wxgqlfx
-    server: 172.67.135.195
-    port: 443
-    type: vmess
-    uuid: F5A0B71E-85AA-48FF-99D1-9F3B8459DA49
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.bobbykotick.rip
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 1,2,3,4|_US_美国 15"
-    server: ahsorathiyaa.fly.dev
-    port: 443
-    type: vmess
-    uuid: de04add9-5c68-8bab-950c-08cd5320df18
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ahsorathiyaa.fly.dev
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ahsorathiyaa.fly.dev
-    udp: true
-  - name: 12|频道50@wxgqlfx
-    server: 23.227.38.80
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA 12|HK_speednode_0008"
-    server: 156.245.8.206
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.13340198.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692270323396
-      headers:
-        Host: www.13340198.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8_US_美国_玉豆_16"
-    server: 137.175.35.154
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.76381584.xyz
-    network: ws
-    ws-opts:
-      path: /path/1691801785369
-      headers:
-        Host: www.76381584.xyz
-    udp: true
-  - name: 12|频道10@wxgqlfx
-    server: 23.227.38.109
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 6,9,10|\U0001F1FA\U0001F1F8_US_美国 #1"
+  - name: "\U0001F1FA\U0001F1F8 6,9|\U0001F1FA\U0001F1F8_US_美国 #4"
     server: bluehost.com
     port: 443
     type: vmess
@@ -14255,264 +14107,40 @@ proxies:
       headers:
         Host: cdntr2.digisport.shop
     udp: true
-  - name: "\U0001F1E8\U0001F1E6 1,2,3,4,9,9,10,20|_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-    server: 23.227.39.111
+  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8_US_美国_1"
+    server: vde2.0bad.com
     port: 443
     type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 20|\U0001F1FA\U0001F1F8_US_美国_9_由快嘴科技提供：kkzui.com6"
-    server: www.gov.tw
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 1,2,3,4,12,14,15,20|_CA_加拿大"
-    server: 23.227.38.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1F7\U0001F1FA 1,2,3,4,6|_RU_俄罗斯联邦"
-    server: 185.59.218.177
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
-      headers:
-        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7 1,2,3,4,6,9,12|_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: 12|频道51@wxgqlfx
-    server: 23.227.39.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 9,12,14,15,20|美国CloudFlare公司CDN节点(shopify) 8"
-    server: dongtaiwang3.com
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5 11|-0-0-v2ray-jp1.quickerlink.xyz..."
-    server: jp1.quickerlink.xyz
-    port: 443
-    type: vmess
-    uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
-    alterId: 4
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: ""
     network: ws
     ws-opts:
-      path: /
+      path: /chat
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 9,9,10|美国 加州"
-    server: 216.24.57.1
+  - name: "\U0001F1FA\U0001F1F8 1,2,3,4,9,12,20|_US_美国 6"
+    server: 104.31.16.35
     port: 443
     type: vmess
-    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dd2.1808.cf
-    network: ws
-    ws-opts:
-      path: a7ee85f4
-      headers:
-        Host: dd2.1808.cf
-    udp: true
-  - name: "\U0001F1E8\U0001F1FE 20|\U0001F1E8\U0001F1FE_CY_塞浦路斯_36"
-    server: 203.23.104.190
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.bobbykotick.rip
+    servername: Dusseldorf.kotick.site
     network: ws
     ws-opts:
       path: /speedtest
       headers:
-        Host: Lille.bobbykotick.rip
+        Host: Dusseldorf.kotick.site
     udp: true
-  - name: "\U0001F1E8\U0001F1E6 0,12,20|\U0001F1E8\U0001F1E6 _CA_加拿大 #1"
-    server: 23.227.39.81
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 美国 257"
-    server: vfly3.win
-    port: 443
-    type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vfly3.win
-    network: ws
-    ws-opts:
-      path: /myblog
-      headers:
-        Host: vfly3.win
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 20|\U0001F1FA\U0001F1F8_US_美国_6_由快嘴科技提供：kkzui.com0"
-    server: Kansas.kotick.site
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC 7|\U0001F1F8\U0001F1EC Singapore(ChatGPT) 02 TG:@n..."
-    server: zendesk1.grab.com
-    port: 443
-    type: vmess
-    uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray3.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray3.udpgw.com
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1 20|\U0001F1FA\U0001F1F8_US_美国->\U0001F1F3\U0001F1F1_NL_荷兰_由快嘴科技提供：kkz..."
-    server: Amsterdam.kotick.site
-    port: 443
-    type: vmess
-    uuid: 9F858CE1-7E02-4863-AA24-D90F8D3437D7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Amsterdam.kotick.site
-    network: ws
-    ws-opts:
-      path: speedtest
-      headers:
-        Host: Amsterdam.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 0,1,2,3,4|\U0001F1FA\U0001F1F8 _US_美国 #4"
-    server: mci.bamarambash.monster
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
-      headers:
-        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 9,12,20|美国 CloudFlare公司CDN节点(shopify)"
-    server: dongtaiwang2.com
+  - name: "\U0001F1E8\U0001F1E6 0,12|\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: 23.227.38.109
     port: 443
     type: vmess
     uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
@@ -14527,37 +14155,21 @@ proxies:
       headers:
         Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 _KR_韩国"
-    server: tls.0000000018a.node-for-bigairport.win
+  - name: 12|Relay_ | 9.59Mb
+    server: vus5.0bad.com
     port: 443
     type: vmess
-    uuid: d2082fef-f70c-44eb-bd89-3baa6b41be0d
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: tls.0000000018a.node-for-bigairport.win
+    servername: vus5.0bad.com
     network: ws
     ws-opts:
-      path: /
+      path: /chat
       headers:
-        Host: tls.0000000018a.node-for-bigairport.win
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 1,2,3,4,6,9,10|_US_美国 14"
-    server: cdn.twitter.now.cc
-    port: 443
-    type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us2.twittei.me
-    network: ws
-    ws-opts:
-      path: /ikun
-      headers:
-        Host: us2.twittei.me
+        Host: vus5.0bad.com
     udp: true
   - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 美国 368"
     server: 172.67.150.82
@@ -14575,213 +14187,133 @@ proxies:
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8US美国(youtube阿伟科技) #15"
-    server: 38.54.167.230
+  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 美国 274"
+    server: vfly3.win
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.53997395.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692184906954
-      headers:
-        Host: www.53997395.xyz
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 1,2,3,4,12|_HK_香港"
-    server: 156.245.8.205
-    port: 443
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /path/1691985329194
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 7|\U0001F1ED\U0001F1F0 Hong Kong 01 TG:@nodpai"
-    server: wasanbi.ga
-    port: 443
-    type: vmess
-    uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: wasanbi.ga
+    servername: vfly3.win
     network: ws
     ws-opts:
-      path: /94448b9f-7d5d-4f7a-9c68-d4978878d401
+      path: /myblog
       headers:
-        Host: wasanbi.ga
+        Host: vfly3.win
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8US美国(youtube阿伟科技) #10"
-    server: 104.18.16.131
+  - name: "12|\U0001F1E9\U0001F1EA白嫖-118"
+    server: vde1.0bad.com
     port: 443
     type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Kansas.kotick.site
+    servername: vde1.0bad.com
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /chat
       headers:
-        Host: Kansas.kotick.site
+        Host: vde1.0bad.com
     udp: true
-  - name: "\U0001F1ED\U0001F1F0 11|--0-v2ray-hkd1.quickerlink.xyz..."
-    server: hkd1.quickerlink.xyz
+  - name: "\U0001F1F3\U0001F1F1 12|\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰 #2"
+    server: Amsterdam.kotick.site
     port: 443
     type: vmess
-    uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
-    alterId: 4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA 12|FR_speednode_0003"
-    server: 156.249.18.21
-    port: 443
-    type: vmess
-    uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.20163322.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692203343673
-      headers:
-        Host: www.20163322.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 20|\U0001F1FA\U0001F1F8_US_美国_2_6"
-    server: 192.74.231.184
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.70814184.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692074542183
-      headers:
-        Host: www.70814184.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 美国 28"
-    server: cloudconeaaa.gorgorchicken.one
-    port: 8443
-    type: vmess
-    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    uuid: 9F858CE1-7E02-4863-AA24-D90F8D3437D7
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cloudconeaaa.gorgorchicken.one
+    servername: Amsterdam.kotick.site
     network: ws
     ws-opts:
-      path: /cloudconeaaa
+      path: speedtest
       headers:
-        Host: cloudconeaaa.gorgorchicken.one
+        Host: Amsterdam.kotick.site
     udp: true
-  - name: "\U0001F1EB\U0001F1F7 6|\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: Lille.kotick.site
+  - name: "\U0001F1E8\U0001F1E6 0,12|\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 #2"
+    server: 23.227.38.111
     port: 443
     type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: 2.freek1.xyz
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /dongtaiwang.com
       headers:
-        Host: Lille.kotick.site
+        Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 12,20|\U0001F1FA\U0001F1F8US美国(youtube阿伟科技) #3"
-    server: cdnjs.com
+  - name: "\U0001F1E8\U0001F1E6 0,12|\U0001F1E8\U0001F1E6 _CA_加拿大 #1"
+    server: 23.227.38.80
     port: 443
     type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Kansas.kotick.site
+    servername: d.freeh1.xyz
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /dongtaiwang.com
       headers:
-        Host: Kansas.kotick.site
+        Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1E9\U0001F1EA 12|HK_speednode_0007"
-    server: 156.245.8.218
+  - name: "\U0001F1F8\U0001F1EC 7|\U0001F1F8\U0001F1EC Singapore(ChatGPT) 02 TG:@n..."
+    server: zendesk1.grab.com
     port: 443
     type: vmess
-    uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.32159877.xyz
-    network: ws
-    ws-opts:
-      path: /path/1692203343673
-      headers:
-        Host: www.32159877.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 1,2,3,4,9,10,12|_US_美国 6"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
+    uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
+    servername: v2ray3.udpgw.com
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /worryfree
       headers:
-        Host: Dusseldorf.kotick.site
+        Host: v2ray3.udpgw.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 12,20|\U0001F1FA\U0001F1F8_US_美国_科网_11"
-    server: 74.217.182.122
+  - name: "\U0001F1F7\U0001F1FA 1,2,3,4,6,12|_RU_俄罗斯联邦"
+    server: 185.59.218.177
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.62976171.xyz
+    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     network: ws
     ws-opts:
-      path: /path/1692005985685
+      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
       headers:
-        Host: www.62976171.xyz
+        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 1,2,3,4,6,20|_US_美国 4"
+    server: mci.bamarambash.monster
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
+      headers:
+        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
     udp: true
   - name: "\U0001F1EC\U0001F1E7 12|\U0001F1EC\U0001F1E7_GB_英国_9@32"
     server: vuk1.0bad.com
@@ -14799,7 +14331,215 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1F1\U0001F1FA 6,9,10,12|\U0001F1FA\U0001F1F8_US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
+  - name: "\U0001F1EB\U0001F1F7 1,2,3,4|_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+    server: 172.67.156.138
+    port: 443
+    type: vmess
+    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Lille.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Lille.kotick.site
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 0,12,20|\U0001F1FA\U0001F1F8 _US_美国 #11"
+    server: 74.217.182.122
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1692005985685
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1F0\U0001F1F7 6|\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1FA\U0001F1F8_US_美国"
+    server: cf.1808.cf
+    port: 30003
+    type: vmess
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dd2.1808.cf
+    network: ws
+    ws-opts:
+      path: a7ee85f4
+      headers:
+        Host: dd2.1808.cf
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 9|美国CloudFlare公司CDN节点 9"
+    server: cdn-yx.syjd.xyz
+    port: 443
+    type: vmess
+    uuid: 25258af0-ca08-43a8-a638-6c039c33da21
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdn-us.syjd.xyz
+    network: ws
+    ws-opts:
+      path: /cdn
+      headers:
+        Host: cdn-us.syjd.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 1,2,3,4,9,10,12,14,15,20|_CA_加拿大"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1 0|\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
+    server: cdnjs.com
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.kotick.site
+    udp: true
+  - name: 12|频道17@wxgqlfx
+    server: 23.227.39.80
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8US美国(youtube阿伟科技) #7"
+    server: 142.4.110.36
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.19458162.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692270323396
+      headers:
+        Host: www.19458162.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 0,20|\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 #1"
+    server: dongtaiwang2.com
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 0,12,20|\U0001F1E8\U0001F1E6 _CA_加拿大"
+    server: 23.227.39.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 0,9,10|\U0001F1FA\U0001F1F8 _US_美国"
+    server: 216.24.57.1
+    port: 443
+    type: vmess
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dd2.1808.cf
+    network: ws
+    ws-opts:
+      path: a7ee85f4
+      headers:
+        Host: dd2.1808.cf
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 0,12|\U0001F1E8\U0001F1E6 _CA_加拿大 #2"
+    server: 23.227.38.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 1,2,3,4,12|_HK_香港"
+    server: 156.245.8.205
+    port: 443
+    type: vmess
+    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1691985329194
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1F1\U0001F1FA 0,9,12,20|\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
     server: zfc.windowsupdate1.com
     port: 443
     type: vmess
@@ -14815,21 +14555,37 @@ proxies:
       headers:
         Host: us-1.acyun.tk
     udp: true
-  - name: 12|频道06@wxgqlfx
-    server: 23.227.38.111
+  - name: "\U0001F1EC\U0001F1E7 12|\U0001F1EC\U0001F1E7GB英国(youtube阿伟科技)"
+    server: wi.saintink.eu.org
     port: 443
     type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 2.freek1.xyz
+    servername: sub2.saintink.eu.org
     network: ws
     ws-opts:
-      path: /dongtaiwang.com
+      path: /vuk2.0bad.com/chat
       headers:
-        Host: 2.freek1.xyz
+        Host: sub2.saintink.eu.org
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 7|\U0001F1ED\U0001F1F0 Hong Kong 01 TG:@nodpai"
+    server: wasanbi.ga
+    port: 443
+    type: vmess
+    uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: wasanbi.ga
+    network: ws
+    ws-opts:
+      path: /94448b9f-7d5d-4f7a-9c68-d4978878d401
+      headers:
+        Host: wasanbi.ga
     udp: true
   - name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC 新加坡(油管破解资源君)"
     server: vsg1.0bad.com
@@ -14847,40 +14603,72 @@ proxies:
       headers:
         Host: vsg1.0bad.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8_US_美国_yui科技_20"
-    server: 171.22.116.56
+  - name: "\U0001F1FA\U0001F1F8 1,2,3,4,9,9,10,20|_US_美国 14"
+    server: cdn.twitter.now.cc
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.83993175.xyz
+    servername: us2.twittei.me
     network: ws
     ws-opts:
-      path: /path/1692094854083
+      path: /ikun
       headers:
-        Host: www.83993175.xyz
+        Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 20|\U0001F1FA\U0001F1F8_US_美国_7_由快嘴科技提供：kkzui.com3"
-    server: 95.174.71.96
-    port: 3331
+  - name: "\U0001F1E8\U0001F1E6 0,14,15,20|\U0001F1E8\U0001F1E6 _CA_加拿大 #3"
+    server: dongtaiwang3.com
+    port: 443
     type: vmess
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
     alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: 12|频道51@wxgqlfx
+    server: 23.227.39.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0 11|--0-v2ray-hkd1.quickerlink.xyz..."
+    server: hkd1.quickerlink.xyz
+    port: 443
+    type: vmess
+    uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
+    alterId: 4
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: ""
     network: ws
     ws-opts:
-      path: /d/082f26a.fm.apple.com:31859
+      path: /
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 20|\U0001F1FA\U0001F1F8_US_美国_4_8"
-    server: 142.4.104.163
+  - name: "\U0001F1FA\U0001F1F8 6,12,20|\U0001F1FA\U0001F1F8_US_美国 #2"
+    server: 137.175.15.199
     port: 443
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -14888,31 +14676,79 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.72304286.xyz
+    servername: ""
     network: ws
     ws-opts:
-      path: /path/1692005985685
+      path: /path/1684063265777
       headers:
-        Host: www.72304286.xyz
+        Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 9,10,12|美国CloudFlare公司CDN节点 10"
-    server: cdn-yx.syjd.xyz
+  - name: "\U0001F1E8\U0001F1E6 1,2,3,4,9,10,12|_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: 23.227.39.111
     port: 443
     type: vmess
-    uuid: 25258af0-ca08-43a8-a638-6c039c33da21
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cdn-us.syjd.xyz
+    servername: 2.freek1.xyz
     network: ws
     ws-opts:
-      path: /cdn
+      path: /dongtaiwang.com
       headers:
-        Host: cdn-us.syjd.xyz
+        Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 20|\U0001F1FA\U0001F1F8_US_美国_由快嘴科技提供：kkzui.com0_17"
-    server: 198.200.56.92
+  - name: "\U0001F1FA\U0001F1F8 1,2,3,4,6,20|_US_美国 15"
+    server: ahsorathiyaa.fly.dev
+    port: 443
+    type: vmess
+    uuid: de04add9-5c68-8bab-950c-08cd5320df18
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ahsorathiyaa.fly.dev
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ahsorathiyaa.fly.dev
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5 11|-0-0-v2ray-jp1.quickerlink.xyz..."
+    server: jp1.quickerlink.xyz
+    port: 443
+    type: vmess
+    uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
+    alterId: 4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 6|\U0001F1FA\U0001F1F8_US_美国 #3"
+    server: 64.32.10.216
+    port: 443
+    type: vmess
+    uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1691318318420
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1 6|\U0001F1F3\U0001F1F1_NL_荷兰"
+    server: 154.85.1.128
     port: 443
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -14920,28 +14756,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.65510817.xyz
+    servername: ""
     network: ws
     ws-opts:
-      path: /path/1692094854083
+      path: /path/1684580752213
       headers:
-        Host: www.65510817.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 0,6|\U0001F1FA\U0001F1F8 _US_美国 #8"
-    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
-      headers:
-        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+        Host: ""
     udp: true
   - name: 11|---v2ray-aaaa.wxx.gay:443
     server: aaaa.wxx.gay
@@ -14959,117 +14779,101 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1E9\U0001F1EA 12|HK_speednode_0009"
-    server: 156.245.8.234
+  - name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8US美国(youtube阿伟科技) #2"
+    server: 137.175.3.36
     port: 443
     type: vmess
-    uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.92873889.xyz
+    servername: www.37419052.xyz
     network: ws
     ws-opts:
       path: /path/1692270323396
       headers:
-        Host: www.92873889.xyz
+        Host: www.37419052.xyz
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
+    server: 154.85.1.128
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /path/1684580752213
+      headers:
+        Host: ""
+    udp: true
+  - name: "\U0001F1F0\U0001F1F7 _KR_韩国->\U0001F1FA\U0001F1F8_US_美国"
+    server: cf.1808.cf
+    port: 30003
+    type: vmess
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dd2.1808.cf
+    network: ws
+    ws-opts:
+      path: a7ee85f4
+      headers:
+        Host: dd2.1808.cf
     udp: true
   - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: cdn.twitter.now.cc
+    server: 137.175.15.199
     port: 443
     type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us2.twittei.me
+    servername: ""
     network: ws
     ws-opts:
-      path: /ikun
+      path: /path/1684063265777
       headers:
-        Host: us2.twittei.me
+        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
+    server: 64.32.10.216
     port: 443
     type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
+    uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3
+    alterId: 64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    servername: ""
     network: ws
     ws-opts:
-      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      path: /path/1691318318420
       headers:
-        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
-    udp: true
-  - name: "\U0001F1F1\U0001F1FA _US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
-    server: zfc.windowsupdate1.com
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
+        Host: ""
     udp: true
   - name: "\U0001F1FA\U0001F1F8 _US_美国"
-    server: bluehost.com
+    server: ahsorathiyaa.fly.dev
     port: 443
     type: vmess
-    uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684
+    uuid: de04add9-5c68-8bab-950c-08cd5320df18
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cdntr2.digisport.shop
+    servername: ahsorathiyaa.fly.dev
     network: ws
     ws-opts:
-      path: /19544
+      path: /vmess
       headers:
-        Host: cdntr2.digisport.shop
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: Lille.kotick.site
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
+        Host: ahsorathiyaa.fly.dev
     udp: true
   - name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
     server: 185.59.218.177
@@ -15086,6 +14890,38 @@ proxies:
       path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
       headers:
         Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 _US_美国"
+    server: mci.bamarambash.monster
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
+      headers:
+        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 _US_美国"
+    server: bluehost.com
+    port: 443
+    type: vmess
+    uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdntr2.digisport.shop
+    network: ws
+    ws-opts:
+      path: /19544
+      headers:
+        Host: cdntr2.digisport.shop
     udp: true
   - name: "\U0001F1EB\U0001F1F7 法国"
     server: fr.sangyu.tw
@@ -15263,135 +15099,7 @@ proxies:
       headers:
         Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国(油管:破解资源君)"
-    server: blogs.microsoft.com
-    port: 443
-    type: vmess
-    uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: biznet3.nextvpn.cc
-    network: ws
-    ws-opts:
-      path: /vpnneo
-      headers:
-        Host: biznet3.nextvpn.cc
-    udp: true
-  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君)"
-    server: usa-buffalo.lvuft.com
-    port: 443
-    type: vmess
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: 4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: usa-buffalo.lvuft.com
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: usa-buffalo.lvuft.com
-    udp: true
-  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君)"
-    server: 192.186.129.66
-    port: 443
-    type: vmess
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: 4
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: usa-buffalo.lvuft.com
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: usa-buffalo.lvuft.com
-    udp: true
-  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君)"
-    server: lg4.free4444.xyz
-    port: 443
-    type: vmess
-    uuid: fd0c0fca-599a-4ca7-931c-beec46d4f71b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: lg4.free4444.xyz
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg4.free4444.xyz
-    udp: true
-  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君)"
-    server: lg4.free4444.xyz
-    port: 443
-    type: vmess
-    uuid: fd0c0fca-599a-4ca7-931c-beec46d4f71b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: lg4.free4444.xyz
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg4.free4444.xyz
-    udp: true
-  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君)"
-    server: guibi.ml
-    port: 443
-    type: vmess
-    uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: guibi.ml
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: guibi.ml
-    udp: true
-  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君)"
-    server: guibi.ml
-    port: 443
-    type: vmess
-    uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: guibi.ml
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: guibi.ml
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC 新加坡(油管:破解资源君)"
-    server: vsg1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vsg1.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vsg1.0bad.com
-    udp: true
-  - name: 亚洲(油管:破解资源君)
+  - name: 亚洲(油管:破解资源君2.0)
     server: 42.186.175.8
     port: 443
     type: vmess
@@ -15407,24 +15115,88 @@ proxies:
       headers:
         Host: sgarm.ptuu.ml
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点 8"
-    server: cdn-yx.syjd.xyz
+  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君2.0)"
+    server: 192.186.129.66
     port: 443
     type: vmess
-    uuid: 25258af0-ca08-43a8-a638-6c039c33da21
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: usa-buffalo.lvuft.com
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: usa-buffalo.lvuft.com
+    udp: true
+  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君2.0)"
+    server: usa-buffalo.lvuft.com
+    port: 443
+    type: vmess
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: usa-buffalo.lvuft.com
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: usa-buffalo.lvuft.com
+    udp: true
+  - name: "\U0001F1EA\U0001F1FA 欧洲(油管:破解资源君2.0)"
+    server: usa-buffalo.lvuft.com
+    port: 443
+    type: vmess
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: usa-buffalo.lvuft.com
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: usa-buffalo.lvuft.com
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国(油管:破解资源君2.0)"
+    server: blogs.microsoft.com
+    port: 443
+    type: vmess
+    uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cdn-us.syjd.xyz
+    servername: biznet3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: biznet3.nextvpn.cc
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国(油管:破解资源君2.0)"
+    server: guibi.ml
+    port: 443
+    type: vmess
+    uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: guibi.ml
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: cdn-us.syjd.xyz
+        Host: guibi.ml
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 9"
-    server: dongtaiwang3.com
+  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3"
+    server: 23.227.38.82
     port: 443
     type: vmess
     uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -15435,75 +15207,27 @@ proxies:
     servername: d.freeh1.xyz
     network: ws
     ws-opts:
-      path: /dongtaiwang.com
+      path: /
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare节点 10"
-    server: 172.67.156.138
+  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare节点 16"
+    server: cdn.twitter.now.cc
     port: 443
     type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: us2.twittei.me
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /ikun
       headers:
-        Host: Lille.kotick.site
+        Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12"
-    server: 23.227.39.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点 15"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare节点 17"
-    server: zfc.windowsupdate1.com
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点 23"
+  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点 17"
     server: bluehost.com
     port: 443
     type: vmess
@@ -15519,23 +15243,7 @@ proxies:
       headers:
         Host: cdntr2.digisport.shop
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare公司CDN节点 25"
-    server: mci.bamarambash.monster
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国加州 26"
+  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国加州 20"
     server: 216.24.57.1
     port: 443
     type: vmess
@@ -15550,22 +15258,6 @@ proxies:
       path: a7ee85f4
       headers:
         Host: dd2.1808.cf
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 github.com/freefq - 美国CloudFlare节点 28"
-    server: cdn.twitter.now.cc
-    port: 443
-    type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us2.twittei.me
-    network: ws
-    ws-opts:
-      path: /ikun
-      headers:
-        Host: us2.twittei.me
     udp: true
   - name: ""
     server: aaaa.wxx.gay
@@ -15599,199 +15291,7 @@ proxies:
       headers:
         Host: hkd1.quickerlink.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 V2CROSS.COM"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
   - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare节点"
-    server: bluehost.com
-    port: 443
-    type: vmess
-    uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cdntr2.digisport.shop
-    network: ws
-    ws-opts:
-      path: /19544
-      headers:
-        Host: cdntr2.digisport.shop
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare公司CDN节点(shopify)"
-    server: dongtaiwang2.com
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare公司CDN节点(shopify)"
-    server: 23.227.39.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 加州"
-    server: 216.24.57.1
-    port: 443
-    type: vmess
-    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dd2.1808.cf
-    network: ws
-    ws-opts:
-      path: a7ee85f4
-      headers:
-        Host: dd2.1808.cf
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点(shopify) 8"
-    server: dongtaiwang3.com
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点 10"
-    server: cdn-yx.syjd.xyz
-    port: 443
-    type: vmess
-    uuid: 25258af0-ca08-43a8-a638-6c039c33da21
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cdn-us.syjd.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cdn-us.syjd.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare节点 12"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点(shopify) 13"
-    server: 23.227.39.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点 16"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare节点 19"
-    server: zfc.windowsupdate1.com
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国加州 20"
-    server: 216.24.57.1
-    port: 443
-    type: vmess
-    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dd2.1808.cf
-    network: ws
-    ws-opts:
-      path: a7ee85f4
-      headers:
-        Host: dd2.1808.cf
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare节点 21"
     server: cdn.twitter.now.cc
     port: 443
     type: vmess
@@ -15807,7 +15307,103 @@ proxies:
       headers:
         Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点 25"
+  - name: "\U0001F1FA\U0001F1F8 美国 CloudFlare公司CDN节点(shopify)"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点 9"
+    server: cdn-yx.syjd.xyz
+    port: 443
+    type: vmess
+    uuid: 25258af0-ca08-43a8-a638-6c039c33da21
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdn-us.syjd.xyz
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cdn-us.syjd.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare节点 11"
+    server: zfc.windowsupdate1.com
+    port: 443
+    type: vmess
+    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us-1.acyun.tk
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us-1.acyun.tk
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点 19"
+    server: 104.31.16.35
+    port: 443
+    type: vmess
+    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Dusseldorf.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Dusseldorf.kotick.site
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点(shopify) 26"
+    server: 23.227.39.111
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare节点 27"
+    server: cdn.twitter.now.cc
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: us2.twittei.me
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国CloudFlare公司CDN节点 29"
     server: bluehost.com
     port: 443
     type: vmess
@@ -15822,6 +15418,22 @@ proxies:
       path: /19544
       headers:
         Host: cdntr2.digisport.shop
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 美国加州 30"
+    server: 216.24.57.1
+    port: 443
+    type: vmess
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dd2.1808.cf
+    network: ws
+    ws-opts:
+      path: a7ee85f4
+      headers:
+        Host: dd2.1808.cf
     udp: true
   - name: "\U0001F1FA\U0001F1F8 _US_美国"
     server: cdn.twitter.now.cc
@@ -18012,38 +17624,6 @@ proxies:
       headers:
         Host: iud4.kaghazacharrangi.sbs
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8 美国 28"
-    server: cloudconeaaa.gorgorchicken.one
-    port: 8443
-    type: vmess
-    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconeaaa.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconeaaa
-      headers:
-        Host: cloudconeaaa.gorgorchicken.one
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8_US_美国_玉豆_16"
-    server: 137.175.35.154
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.76381584.xyz
-    network: ws
-    ws-opts:
-      path: /path/1691801785369
-      headers:
-        Host: www.76381584.xyz
-    udp: true
   - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8 美国 368"
     server: 172.67.150.82
     port: 443
@@ -18060,24 +17640,24 @@ proxies:
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12,20|\U0001F1FA\U0001F1F8_US_美国_科网_11"
-    server: 74.217.182.122
+  - name: "[peasoft/NoMoreWalls]12|Relay_ | 9.59Mb"
+    server: vus5.0bad.com
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.62976171.xyz
+    servername: vus5.0bad.com
     network: ws
     ws-opts:
-      path: /path/1692005985685
+      path: /chat
       headers:
-        Host: www.62976171.xyz
+        Host: vus5.0bad.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8_US_美国_yui科技_20"
-    server: 171.22.116.56
+  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8US美国 #2"
+    server: 137.175.3.36
     port: 443
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -18085,12 +17665,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.83993175.xyz
+    servername: www.37419052.xyz
     network: ws
     ws-opts:
-      path: /path/1692094854083
+      path: /path/1692270323396
       headers:
-        Host: www.83993175.xyz
+        Host: www.37419052.xyz
     udp: true
   - name: "\U0001F1EC\U0001F1E7 [peasoft/NoMoreWalls]12|\U0001F1EC\U0001F1E7_GB_英国_9@32"
     server: vuk1.0bad.com
@@ -18108,7 +17688,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1F1\U0001F1FA [ermaozi/get_subscribe]\U0001F1FA\U0001F1F8_US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
+  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare节点 11"
     server: zfc.windowsupdate1.com
     port: 443
     type: vmess
@@ -18124,88 +17704,40 @@ proxies:
       headers:
         Host: us-1.acyun.tk
     udp: true
-  - name: "\U0001F1E9\U0001F1EA [NodeFree]_US_美国"
-    server: zfc.windowsupdate1.com
+  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8US美国 #7"
+    server: 142.4.110.36
     port: 443
     type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA [peasoft/NoMoreWalls]12|HK_speednode_0007"
-    server: 156.245.8.218
-    port: 443
-    type: vmess
-    uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.32159877.xyz
+    servername: www.19458162.xyz
     network: ws
     ws-opts:
-      path: /path/1692203343673
+      path: /path/1692270323396
       headers:
-        Host: www.32159877.xyz
+        Host: www.19458162.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [freefq]美国CloudFlare节点 11"
-    server: zfc.windowsupdate1.com
+  - name: "[peasoft/NoMoreWalls]12|\U0001F1E9\U0001F1EA白嫖-118"
+    server: vde1.0bad.com
     port: 443
     type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us-1.acyun.tk
+    servername: vde1.0bad.com
     network: ws
     ws-opts:
-      path: /
+      path: /chat
       headers:
-        Host: us-1.acyun.tk
+        Host: vde1.0bad.com
     udp: true
-  - name: "\U0001F1F1\U0001F1FA [peasoft/NoMoreWalls]6,9,10,12|\U0001F1FA\U0001F1F8_US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
-    server: zfc.windowsupdate1.com
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare节点 19"
-    server: zfc.windowsupdate1.com
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA [NodeFree]_US_美国"
-    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
+  - name: "\U0001F1F7\U0001F1FA [peasoft/NoMoreWalls]1,2,3,4,6,12|_RU_俄罗斯联邦"
+    server: 185.59.218.177
     port: 443
     type: vmess
     uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
@@ -18213,12 +17745,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     network: ws
     ws-opts:
-      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
       headers:
-        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     udp: true
   - name: "\U0001F1F7\U0001F1FA [ermaozi/get_subscribe]\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
     server: 185.59.218.177
@@ -18236,103 +17768,55 @@ proxies:
       headers:
         Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]20|\U0001F1FA\U0001F1F8_US_美国_6_由快嘴科技提供：kkzui.com0"
-    server: Kansas.kotick.site
+  - name: "\U0001F1F3\U0001F1F1 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰 #2"
+    server: Amsterdam.kotick.site
     port: 443
     type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    uuid: 9F858CE1-7E02-4863-AA24-D90F8D3437D7
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Kansas.kotick.site
+    servername: Amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: speedtest
+      headers:
+        Host: Amsterdam.kotick.site
+    udp: true
+  - name: "\U0001F1F8\U0001F1EC [pojiezhiyuanjun/freev2]新加坡"
+    server: vsg1.0bad.com
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vsg1.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vsg1.0bad.com
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1 [peasoft/NoMoreWalls]0|\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
+    server: cdnjs.com
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.kotick.site
     network: ws
     ws-opts:
       path: /speedtest
       headers:
-        Host: Kansas.kotick.site
+        Host: Amsterdam.kotick.site
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]20|\U0001F1FA\U0001F1F8_US_美国_9_由快嘴科技提供：kkzui.com6"
-    server: www.gov.tw
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]9,12,20|美国 CloudFlare公司CDN节点(shopify)"
-    server: dongtaiwang2.com
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8US美国 #10"
-    server: 104.18.16.131
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Kansas.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Kansas.kotick.site
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7 [peasoft/NoMoreWalls]6|\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: Lille.kotick.site
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国 CloudFlare公司CDN节点(shopify)"
-    server: dongtaiwang2.com
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8 美国 257"
+  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]12|\U0001F1FA\U0001F1F8 美国 274"
     server: vfly3.win
     port: 443
     type: vmess
@@ -18348,55 +17832,71 @@ proxies:
       headers:
         Host: vfly3.win
     udp: true
-  - name: "\U0001F1EB\U0001F1F7 [peasoft/NoMoreWalls]1,2,3,4,6,9,12|_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
+  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare节点 27"
+    server: cdn.twitter.now.cc
     port: 443
     type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: us2.twittei.me
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /ikun
       headers:
-        Host: Lille.kotick.site
+        Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1EB\U0001F1F7 [ermaozi/get_subscribe]\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: Lille.kotick.site
+  - name: "\U0001F1FA\U0001F1F8 [Rawdroid/Free-servers]美国 CloudFlare节点"
+    server: cdn.twitter.now.cc
     port: 443
     type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: us2.twittei.me
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /ikun
       headers:
-        Host: Lille.kotick.site
+        Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1EB\U0001F1F7 [ermaozi/get_subscribe]\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-    server: 172.67.156.138
+  - name: "\U0001F1FA\U0001F1F8 [ermaozi/get_subscribe]\U0001F1FA\U0001F1F8_US_美国"
+    server: cdn.twitter.now.cc
     port: 443
     type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.kotick.site
+    servername: us2.twittei.me
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /ikun
       headers:
-        Host: Lille.kotick.site
+        Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]9,12,14,15,20|美国CloudFlare公司CDN节点(shopify) 8"
+  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国 CloudFlare公司CDN节点(shopify)"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,14,15,20|\U0001F1E8\U0001F1E6 _CA_加拿大 #3"
     server: dongtaiwang3.com
     port: 443
     type: vmess
@@ -18412,7 +17912,55 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,12,20|\U0001F1E8\U0001F1E6 _CA_加拿大 #1"
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]1,2,3,4,9,10,12,14,15,20|_CA_加拿大"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国 CloudFlare节点"
+    server: cdn.twitter.now.cc
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: us2.twittei.me
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [freefq]美国CloudFlare公司CDN节点(shopify) 12"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [ClashNode]\U0001F1E8\U0001F1E6 _CA_加拿大"
     server: 23.227.39.81
     port: 443
     type: vmess
@@ -18428,8 +17976,8 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [Rawdroid/Free-servers]美国 CloudFlare公司CDN节点(shopify)"
-    server: 23.227.38.82
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,12,20|\U0001F1E8\U0001F1E6 _CA_加拿大"
+    server: 23.227.39.81
     port: 443
     type: vmess
     uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -18444,23 +17992,7 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1E8\U0001F1E6 [NodeFree]_CA_加拿大"
-    server: 23.227.38.82
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [freefq]美国CloudFlare公司CDN节点(shopify) 26"
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]1,2,3,4,9,10,12|_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
     server: 23.227.39.111
     port: 443
     type: vmess
@@ -18475,86 +18007,6 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 2.freek1.xyz
-    udp: true
-  - name: "[peasoft/NoMoreWalls]12|频道06@wxgqlfx"
-    server: 23.227.38.111
-    port: 443
-    type: vmess
-    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 2.freek1.xyz
-    udp: true
-  - name: "[peasoft/NoMoreWalls]12|频道50@wxgqlfx"
-    server: 23.227.38.80
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA [NodeFree]_US_美国"
-    server: ming2.kiwireich.com
-    port: 443
-    type: vmess
-    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ming2.kiwireich.com
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: ming2.kiwireich.com
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare节点 12"
-    server: 172.67.156.138
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 [NodeFree]_CA_加拿大"
-    server: 23.227.38.81
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
     udp: true
   - name: "[peasoft/NoMoreWalls]12|频道51@wxgqlfx"
     server: 23.227.39.82
@@ -18572,135 +18024,55 @@ proxies:
       headers:
         Host: d.freeh1.xyz
     udp: true
-  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,20|\U0001F1E8\U0001F1E6 _CA_加拿大"
-    server: 23.227.38.81
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,12|\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 #2"
+    server: 23.227.38.111
     port: 443
     type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: d.freeh1.xyz
+    servername: 2.freek1.xyz
     network: ws
     ws-opts:
       path: /dongtaiwang.com
       headers:
-        Host: d.freeh1.xyz
+        Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]1,2,3,4,9,10,12|_US_美国 6"
-    server: 104.31.16.35
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,20|\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 #1"
+    server: dongtaiwang2.com
     port: 443
     type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
+    servername: 2.freek1.xyz
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /dongtaiwang.com
       headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [freefq]美国CloudFlare公司CDN节点 19"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare公司CDN节点 16"
-    server: 104.31.16.35
-    port: 443
-    type: vmess
-    uuid: 479280EB-AD8F-4C31-85B0-5DE66C29C0B4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
-    udp: true
-  - name: "\U0001F1E8\U0001F1FE [peasoft/NoMoreWalls]20|\U0001F1E8\U0001F1FE_CY_塞浦路斯_36"
-    server: 203.23.104.190
-    port: 443
-    type: vmess
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.bobbykotick.rip
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]0,1,2,3,4|\U0001F1FA\U0001F1F8 _US_美国 #4"
-    server: mci.bamarambash.monster
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
-      headers:
-        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+        Host: 2.freek1.xyz
     udp: true
   - name: "\U0001F1E9\U0001F1EA [NodeFree]_US_美国"
-    server: 104.17.137.141
+    server: cdn.twitter.now.cc
     port: 443
     type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    servername: us2.twittei.me
     network: ws
     ws-opts:
-      path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
+      path: /ikun
       headers:
-        Host: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+        Host: us2.twittei.me
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]0,6|\U0001F1FA\U0001F1F8 _US_美国 #8"
-    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
-    port: 443
-    type: vmess
-    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
-    network: ws
-    ws-opts:
-      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
-      headers:
-        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国 CloudFlare公司CDN节点(shopify)"
+  - name: "\U0001F1FA\U0001F1F8 [freefq]美国CloudFlare公司CDN节点(shopify) 4"
     server: 23.227.39.111
     port: 443
     type: vmess
@@ -18716,8 +18088,88 @@ proxies:
       headers:
         Host: 2.freek1.xyz
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 8"
-    server: dongtaiwang3.com
+  - name: "\U0001F1E8\U0001F1E6 [NodeFree]_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: 23.227.39.111
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare公司CDN节点(shopify) 26"
+    server: 23.227.39.111
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [freefq]美国CloudFlare节点 13"
+    server: cdn.twitter.now.cc
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: us2.twittei.me
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]1,2,3,4,9,9,10,20|_US_美国 14"
+    server: cdn.twitter.now.cc
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: us2.twittei.me
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,12|\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+    server: 23.227.38.109
+    port: 443
+    type: vmess
+    uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.freek1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 2.freek1.xyz
+    udp: true
+  - name: "[peasoft/NoMoreWalls]12|频道17@wxgqlfx"
+    server: 23.227.39.80
     port: 443
     type: vmess
     uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -18731,4 +18183,180 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,12|\U0001F1E8\U0001F1E6 _CA_加拿大 #1"
+    server: 23.227.38.80
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [NodeFree]_CA_加拿大"
+    server: 23.227.38.82
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [ClashNode]\U0001F1E8\U0001F1E6 _CA_加拿大"
+    server: 23.227.38.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [freefq]美国加州 16"
+    server: 216.24.57.1
+    port: 443
+    type: vmess
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dd2.1808.cf
+    network: ws
+    ws-opts:
+      path: a7ee85f4
+      headers:
+        Host: dd2.1808.cf
+    udp: true
+  - name: "\U0001F1E8\U0001F1E6 [peasoft/NoMoreWalls]0,12|\U0001F1E8\U0001F1E6 _CA_加拿大 #2"
+    server: 23.227.38.81
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7 [peasoft/NoMoreWalls]12|\U0001F1EC\U0001F1E7GB英国"
+    server: wi.saintink.eu.org
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub2.saintink.eu.org
+    network: ws
+    ws-opts:
+      path: /vuk2.0bad.com/chat
+      headers:
+        Host: sub2.saintink.eu.org
+    udp: true
+  - name: "\U0001F1E9\U0001F1EA [NodeFree]_RU_俄罗斯联邦"
+    server: 185.59.218.177
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
+      headers:
+        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [peasoft/NoMoreWalls]1,2,3,4,6,20|_US_美国 15"
+    server: ahsorathiyaa.fly.dev
+    port: 443
+    type: vmess
+    uuid: de04add9-5c68-8bab-950c-08cd5320df18
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ahsorathiyaa.fly.dev
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ahsorathiyaa.fly.dev
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [aiboboxx/v2rayfree]美国CloudFlare公司CDN节点 29"
+    server: bluehost.com
+    port: 443
+    type: vmess
+    uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdntr2.digisport.shop
+    network: ws
+    ws-opts:
+      path: /19544
+      headers:
+        Host: cdntr2.digisport.shop
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 [ermaozi/get_subscribe]\U0001F1FA\U0001F1F8_US_美国"
+    server: arvancloud.ir-Uc.snappfood.SO.ddns001.net
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      headers:
+        Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
+    udp: true
+  - name: "\U0001F1F1\U0001F1FA [ermaozi/get_subscribe]\U0001F1FA\U0001F1F8_US_美国->\U0001F1F1\U0001F1FA_LU_卢森堡"
+    server: zfc.windowsupdate1.com
+    port: 443
+    type: vmess
+    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us-1.acyun.tk
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us-1.acyun.tk
     udp: true
