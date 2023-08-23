@@ -35,8 +35,8 @@ $url = [
     "https://fastestcloud.xyz/api/v1/client/subscribe?token=4b67c61b6e9d22b834a25938e1f0f72f",
     "https://feiniaoyun.xyz/api/v1/client/subscribe?token=a0a6e41934f6d693140d797e61c022c8",
     "https://service-o5lxqvaa-1300544878.gz.apigw.tencentcs.com/link/Vq25Sy6IYW85y5hw?sub=3",
-    "https://www.jafiyun2023.shop/link/cLmSRwtSeBIDoboO?clash=1
-https://service-o5lxqvaa-1300544878.gz.apigw.tencentcs.com/link/e9zv6R9ttovwtiPD?sub=3",
+    "https://www.jafiyun2023.shop/link/cLmSRwtSeBIDoboO?clash=1",
+"https://service-o5lxqvaa-1300544878.gz.apigw.tencentcs.com/link/e9zv6R9ttovwtiPD?sub=3",
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix_base64",
     "https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub", 
     "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt", 
