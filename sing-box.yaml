@@ -67,55 +67,21 @@ proxies:
         Host: weathered-pine-f798.amsterdam8212.workers.dev
     udp: true
 
-  - name: 172.67.51.152
+  - name: 104.18.43.71
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    uuid: D8813DCB-426C-4952-B384-8951B0444EC1
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vceu3e.twittei.me
+    servername: rough-voice-82b0.walidfree4.workers.dev
     network: ws
     ws-opts:
-      path: /ikun
+      path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: vceu3e.twittei.me
-    udp: true
-
-  - name: 172.67.8.239
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vceu3e.twittei.me
-    network: ws
-    ws-opts:
-      path: /ikun
-      headers:
-        Host: vceu3e.twittei.me
-    udp: true
-
-  - name: 172.67.132.15
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ming2.kiwireich.com
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: ming2.kiwireich.com
+        Host: rough-voice-82b0.walidfree4.workers.dev
     udp: true
 
   - name: 104.21.36.26
@@ -152,6 +118,40 @@ proxies:
         Host: franc.digires.shop
     udp: true
 
+  - name: 172.67.184.53
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: stock.hostmonit.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2.icu2rip.eu.org
+    network: ws
+    ws-opts:
+      path: /nishikata
+      headers:
+        Host: us2.icu2rip.eu.org
+    udp: true
+
   - name: cloudconeaaa.gorgorchicken.one
     server: 104.16.66.85
     port: 8443
@@ -169,55 +169,72 @@ proxies:
         Host: cloudconeaaa.gorgorchicken.one
     udp: true
 
-  - name: 🇨🇳 dongtaiwang3.com
+  - name: 🇺🇸 us.xuanyi.me
     server: 104.16.66.85
-    port: 443
+    port: 8443
     type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    uuid: 446c486f-923b-43b0-f864-b831e545ab01
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: d.freeh1.xyz
+    servername: us.xuanyi.me
     network: ws
     ws-opts:
-      path: /dongtaiwang.com
+      path: /e
       headers:
-        Host: d.freeh1.xyz
+        Host: us.xuanyi.me
     udp: true
 
-  - name: 104.21.231.123
+  - name: 104.20.156.99
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: DC91E643-90E9-4358-B742-0960085F874B
+    uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
+    servername: flat-dust-887e.bangolan116339.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: Dusseldorf.kotick.site
+        Host: flat-dust-887e.bangolan116339.workers.dev
     udp: true
 
-  - name: kianoosh.ddns.net
+  - name: 104.20.47.23
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: E97A1F83-B0C6-48E5-82E1-556292153FA7
+    uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: fn.mostafago.tk
+    servername: lucky-fire-4924.walidfree10.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: fn.mostafago.tk
+        Host: lucky-fire-4924.walidfree10.workers.dev
+    udp: true
+
+  - name: zfc.windowsupdate1.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us-1.acyun.tk
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us-1.acyun.tk
     udp: true
 
   - name: 23.227.38.81
@@ -271,21 +288,21 @@ proxies:
         Host: 51vfly1.win
     udp: true
 
-  - name: ming2.kiwireich.com
+  - name: mci.bamarambash.monster
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ming2.kiwireich.com
+    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
     network: ws
     ws-opts:
-      path: /ray
+      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
       headers:
-        Host: ming2.kiwireich.com
+        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
     udp: true
 
   - name: cloudconebbb.gorgorchicken.one
@@ -339,6 +356,23 @@ proxies:
         Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster
     udp: true
 
+  - name: 203.23.104.190
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
   - name: 199.247.23.31
     server: 104.16.66.85
     port: 443
@@ -356,21 +390,38 @@ proxies:
         Host: amstd.digires.shop
     udp: true
 
-  - name: 172.67.184.53
+  - name: 172.67.81.238
     server: 104.16.66.85
-    port: 8443
+    port: 443
     type: vmess
-    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cloudconeaaa.gorgorchicken.one
+    servername: franc.digires.shop
     network: ws
     ws-opts:
-      path: /cloudconeaaa
+      path: /11201
       headers:
-        Host: cloudconeaaa.gorgorchicken.one
+        Host: franc.digires.shop
+    udp: true
+
+  - name: 172.67.132.15
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
     udp: true
 
   - name: 172.66.2.208
@@ -390,38 +441,191 @@ proxies:
         Host: odd-brook-66e8.dumelit3758.workers.dev
     udp: true
 
-  - name: cf.fovi.tk
+  - name: 159.246.55.180
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: foxlux.fovi.tk
+    servername: franc.digires.shop
     network: ws
     ws-opts:
-      path: /eisasqa
+      path: /11201
       headers:
-        Host: foxlux.fovi.tk
+        Host: franc.digires.shop
     udp: true
 
-  - name: zfc.windowsupdate1.com
+  - name: 104.31.16.65
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us-1.acyun.tk
+    servername: amstd.digires.shop
     network: ws
     ws-opts:
-      path: /
+      path: /12796?ed=2048
       headers:
-        Host: us-1.acyun.tk
+        Host: amstd.digires.shop
+    udp: true
+
+  - name: 104.18.141.98
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+
+  - name: 104.17.69.9
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+
+  - name: 104.17.45.51
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+
+  - name: 104.16.91.78
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+
+  - name: ::ffff:5fb3:a2df
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: E1159362-D986-4315-B814-C12912B91DBA
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Lille.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Lille.bobbykotick.rip
+    udp: true
+
+  - name: 172.67.51.152
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vceu3e.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: vceu3e.twittei.me
+    udp: true
+
+  - name: 🇸🇬 singapore.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+
+  - name: 104.21.31.254
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
+    network: ws
+    ws-opts:
+      path: /vsg1.0bad.com/chat
+      headers:
+        Host: panel2.hodorauth.com
+    udp: true
+
+  - name: amstd.digires.shop
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796
+      headers:
+        Host: amstd.digires.shop
     udp: true
 
   - name: 🇷🇺 ru1.mianfenyun012.eu.org
