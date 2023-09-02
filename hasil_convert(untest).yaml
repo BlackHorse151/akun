@@ -1,90 +1,22 @@
 proxies:
-  - name: 172.67.8.239
+  - name: 216.24.57.1
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vceu3e.twittei.me
+    servername: dd2.1808.cf
     network: ws
     ws-opts:
-      path: /ikun
+      path: a7ee85f4
       headers:
-        Host: vceu3e.twittei.me
+        Host: dd2.1808.cf
     udp: true
 
-  - name: 172.64.153.211
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6e751712-9569-5187-86ea-8f585ad99105
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: schereswed.softwarenews.store
-    network: ws
-    ws-opts:
-      path: /api01
-      headers:
-        Host: schereswed.softwarenews.store
-    udp: true
-
-  - name: cfcdn2.sanfencdn.net
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 48843232-58e7-429f-90fb-3809074cc0bb
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us4.sanfencdn1.com
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: us4.sanfencdn1.com
-    udp: true
-
-  - name: 172.67.51.152
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: lo.twittei.me
-    network: ws
-    ws-opts:
-      path: /ikun
-      headers:
-        Host: lo.twittei.me
-    udp: true
-
-  - name: 172.67.200.238
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 3a02e17e-d68d-4082-893a-65a43716ab13
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dallas.starsea.vip
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: dallas.starsea.vip
-    udp: true
-
-  - name: 🇨🇳 dongtaiwang3.com
+  - name: 🇸🇬 singapore.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -116,6 +48,40 @@ proxies:
       path: /nishikata
       headers:
         Host: us2.icu2rip.eu.org
+    udp: true
+
+  - name: racknerd.gorgorchicken.one
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1df0a6ca-5812-4bce-ddb1-9cd5548f4919
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: racknerd.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /racknerd
+      headers:
+        Host: racknerd.gorgorchicken.one
+    udp: true
+
+  - name: 140.99.120.174
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 140.99.120.174
+    network: ws
+    ws-opts:
+      path: /path/1692873927587
+      headers:
+        Host: 140.99.120.174
     udp: true
 
   - name: 🇩🇪 baipiao1.curly-train.pages.dev
@@ -1806,6 +1772,22 @@ proxies:
         Host: tree.blanku.me
     udp: true
 
+  - name: 172.64.153.211
+    server: 104.16.66.85
+    port: 443
+    type: vless
+    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-wkrs-pages-vless-aoy.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: cf-wkrs-pages-vless-aoy.pages.dev
+    udp: true
+
   - name: 172.66.47.84
     server: 104.16.66.85
     port: 443
@@ -2281,23 +2263,6 @@ proxies:
         Host: purple-math-02be.bangolan09284.workers.dev
     udp: true
 
-  - name: 140.99.120.174
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 140.99.120.174
-    network: ws
-    ws-opts:
-      path: /path/1692873927587
-      headers:
-        Host: 140.99.120.174
-    udp: true
-
   - name: cloudconeaaa.gorgorchicken.one
     server: 104.16.66.85
     port: 8443
@@ -2313,23 +2278,6 @@ proxies:
       path: /cloudconeaaa
       headers:
         Host: cloudconeaaa.gorgorchicken.one
-    udp: true
-
-  - name: 188.244.122.88
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 5f6a4058-ffc8-481d-8da9-f18b6cf0cd05
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: blog.iran-pars.top
-    network: ws
-    ws-opts:
-      path: /cf5e70b17f/
-      headers:
-        Host: blog.iran-pars.top
     udp: true
 
   - name: mt11.nabsk.com
@@ -2348,116 +2296,20 @@ proxies:
         Host: mt11.nabsk.com
     udp: true
 
-  - name: 66.235.200.0
+  - name: 🇯🇵 xjp.caball.link
     server: 104.16.66.85
     port: 443
     type: vless
-    uuid: f3277d41-6404-4307-9c9b-08614accb414
+    uuid: 600c6208-a0e4-4d49-b249-55b69ead4422
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sftp.pardazesh.tech
-    network: ws
-    ws-opts:
-      path: /IBKhLjYHCvBr0r2HZ1tSkA
-      headers:
-        Host: sftp.pardazesh.tech
-    udp: true
-
-  - name: 542.outline-vpn.cloud
-    server: 104.16.66.85
-    port: 443
-    type: vless
-    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-wkrs-pages-vless-aoy.pages.dev
+    servername: xjp.caball.link
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: cf-wkrs-pages-vless-aoy.pages.dev
-    udp: true
-
-  - name: ada102.oshtd.com
-    server: 104.16.66.85
-    port: 443
-    type: vless
-    uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ada102.oshtd.com
-    network: ws
-    ws-opts:
-      path: /users?ed=2048
-      headers:
-        Host: ada102.oshtd.com
-    udp: true
-
-  - name: 🇩🇪 cf-wkrs-pages-vless-aoy.pages.dev
-    server: 104.16.66.85
-    port: 443
-    type: vless
-    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-wkrs-pages-vless-aoy.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: cf-wkrs-pages-vless-aoy.pages.dev
-    udp: true
-
-  - name: 13.38.148.37
-    server: 104.16.66.85
-    port: 22222
-    type: vless
-    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: telegram-channel-vlessconfig.sohala.uk
-    network: ws
-    ws-opts:
-      path: /telegram-channel-vlessconfig-ws
-      headers:
-        Host: telegram-channel-vlessconfig.sohala.uk
-    udp: true
-
-  - name: 18.169.93.45
-    server: 104.16.66.85
-    port: 22222
-    type: vless
-    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: telegram-channel-vlessconfig.sohala.uk
-    network: ws
-    ws-opts:
-      path: /telegram-channel-vlessconfig-ws
-      headers:
-        Host: telegram-channel-vlessconfig.sohala.uk
-    udp: true
-
-  - name: 3.10.95.171
-    server: 104.16.66.85
-    port: 22222
-    type: vless
-    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: telegram-channel-vlessconfig.sohala.uk
-    network: ws
-    ws-opts:
-      path: /telegram-channel-vlessconfig-ws
-      headers:
-        Host: telegram-channel-vlessconfig.sohala.uk
+        Host: xjp.caball.link
     udp: true
 
   - name: 12join.outline-vpn.cloud
@@ -2492,11 +2344,11 @@ proxies:
         Host: ig4.poshakjadid.click
     udp: true
 
-  - name: mtn.rxv2ray.space
+  - name: 104.31.16.144
     server: 104.16.66.85
     port: 2053
     type: vless
-    uuid: 9dcdd830-a0e4-438b-ec8f-226e232181d0
+    uuid: aab32961-47b4-4a7a-85a7-f80ce56ea2cc
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -2524,21 +2376,21 @@ proxies:
         Host: vorker.proxystorre11.workers.dev
     udp: true
 
-  - name: 🇨🇳 cdn.twitter.now.cc
+  - name: 23.227.38.81
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us2.twittei.me
+    servername: d.freeh1.xyz
     network: ws
     ws-opts:
-      path: /ikun
+      path: /dongtaiwang.com
       headers:
-        Host: us2.twittei.me
+        Host: d.freeh1.xyz
     udp: true
 
   - name: 23.227.39.109
@@ -2558,21 +2410,55 @@ proxies:
         Host: 3.freek1.xyz
     udp: true
 
-  - name: 216.24.57.1
+  - name: 🇨🇳 dongtaiwang3.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: a7ee85f4-2528-412e-994f-ce65f54754e4
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dd2.1808.cf
+    servername: d.freeh1.xyz
     network: ws
     ws-opts:
-      path: a7ee85f4
+      path: /dongtaiwang.com
       headers:
-        Host: dd2.1808.cf
+        Host: d.freeh1.xyz
+    udp: true
+
+  - name: cfcdn2.sanfencdn.net
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 48843232-58e7-429f-90fb-3809074cc0bb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us4.sanfencdn1.com
+    network: ws
+    ws-opts:
+      path: /zh-cn
+      headers:
+        Host: us4.sanfencdn1.com
+    udp: true
+
+  - name: 172.67.51.152
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: lo.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: lo.twittei.me
     udp: true
 
   - name: 🇭🇰 hk01.isddns.tk
@@ -2711,23 +2597,6 @@ proxies:
         Host: us-v.sshmax.xyz
     udp: true
 
-  - name: 104.31.16.14
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 7d5e6501-fb94-42a3-9a61-aa8a300846d1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: gb4vm.cdn-03.live
-    network: ws
-    ws-opts:
-      path: /vmesschannel:@hopev2ray
-      headers:
-        Host: gb4vm.cdn-03.live
-    udp: true
-
   - name: 23.227.38.109
     server: 104.16.66.85
     port: 443
@@ -2743,23 +2612,6 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 2.freek1.xyz
-    udp: true
-
-  - name: 23.227.38.81
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
     udp: true
 
   - name: 23.227.39.110
@@ -2830,89 +2682,38 @@ proxies:
         Host: sub2.saintink.eu.org
     udp: true
 
-  - name: 10.620720.xyz
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 10.620720.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 10.620720.xyz
-    udp: true
-
-  - name: 9.620720.xyz
+  - name: 172.67.8.239
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 9.620720.xyz
+    servername: vceu3e.twittei.me
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /ikun
       headers:
-        Host: 9.620720.xyz
+        Host: vceu3e.twittei.me
     udp: true
 
-  - name: 7.620720.xyz
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 7.620720.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 7.620720.xyz
-    udp: true
-
-  - name: 6.620720.xyz
+  - name: 172.67.200.238
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651
+    uuid: 3a02e17e-d68d-4082-893a-65a43716ab13
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 6.620720.xyz
+    servername: dallas.starsea.vip
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: 6.620720.xyz
-    udp: true
-
-  - name: 14.620720.xyz
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 14.620720.xyz
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 14.620720.xyz
+        Host: dallas.starsea.vip
     udp: true
 
   - name: 8.219.150.28
@@ -2966,23 +2767,6 @@ proxies:
         Host: vde2.0bad.com
     udp: true
 
-  - name: 🇩🇪 vde1.0bad.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vde1.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vde1.0bad.com
-    udp: true
-
   - name: 89.163.150.201
     server: 104.16.66.85
     port: 443
@@ -3034,40 +2818,6 @@ proxies:
         Host: mir.mir222.eu.org
     udp: true
 
-  - name: 107.148.202.184
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 107.148.202.184
-    network: ws
-    ws-opts:
-      path: /path/1693390440063
-      headers:
-        Host: 107.148.202.184
-    udp: true
-
-  - name: 156.225.67.126
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 156.225.67.126
-    network: ws
-    ws-opts:
-      path: /path/1693390440063
-      headers:
-        Host: 156.225.67.126
-    udp: true
-
   - name: 23.224.8.83
     server: 104.16.66.85
     port: 443
@@ -3102,21 +2852,55 @@ proxies:
         Host: 198.2.193.2
     udp: true
 
-  - name: 170.178.179.189
+  - name: 156.225.67.126
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 156.225.67.126
+    network: ws
+    ws-opts:
+      path: /path/1693390440063
+      headers:
+        Host: 156.225.67.126
+    udp: true
+
+  - name: 107.148.202.184
     server: 104.16.66.85
     port: 443
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 170.178.179.189
+    servername: 107.148.202.184
     network: ws
     ws-opts:
-      path: /path/031730091420
+      path: /path/1693390440063
       headers:
-        Host: 170.178.179.189
+        Host: 107.148.202.184
+    udp: true
+
+  - name: vfly3.win
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vfly3.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: vfly3.win
     udp: true
 
   - name: 171.22.116.57
@@ -3136,24 +2920,7 @@ proxies:
         Host: www.83993175.xyz
     udp: true
 
-  - name: 51vfly1.win
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 51vfly1.win
-    network: ws
-    ws-opts:
-      path: /myblog
-      headers:
-        Host: 51vfly1.win
-    udp: true
-
-  - name: 171.22.116.56
+  - name: 142.4.110.38
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -3162,12 +2929,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.83993175.xyz
+    servername: www.19458162.xyz
     network: ws
     ws-opts:
-      path: /path/1692094854083
+      path: /path/121016071014
       headers:
-        Host: www.83993175.xyz
+        Host: www.19458162.xyz
     udp: true
 
   - name: 🇸🇬 vsg1.0bad.com
@@ -3187,7 +2954,143 @@ proxies:
         Host: vsg1.0bad.com
     udp: true
 
-  - name: 🇺🇸 vus3.0bad.com
+  - name: 51vfly1.win
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 51vfly1.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: 51vfly1.win
+    udp: true
+
+  - name: pzl.p237875155.buzz
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: pzl.p237875155.buzz
+    network: ws
+    ws-opts:
+      path: /pzl237875155
+      headers:
+        Host: pzl.p237875155.buzz
+    udp: true
+
+  - name: 199.188.108.229
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.16616906.xyz
+    network: ws
+    ws-opts:
+      path: /path/1691318318420
+      headers:
+        Host: www.16616906.xyz
+    udp: true
+
+  - name: 171.22.116.54
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.83993175.xyz
+    network: ws
+    ws-opts:
+      path: /path/1691318318420
+      headers:
+        Host: www.83993175.xyz
+    udp: true
+
+  - name: 142.4.110.36
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.19458162.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692270323396
+      headers:
+        Host: www.19458162.xyz
+    udp: true
+
+  - name: 170.178.179.189
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 170.178.179.189
+    network: ws
+    ws-opts:
+      path: /path/031730091420
+      headers:
+        Host: 170.178.179.189
+    udp: true
+
+  - name: 171.22.116.56
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.83993175.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692094854083
+      headers:
+        Host: www.83993175.xyz
+    udp: true
+
+  - name: 142.4.110.42
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 142.4.110.42
+    network: ws
+    ws-opts:
+      path: /path/1693130902818
+      headers:
+        Host: 142.4.110.42
+    udp: true
+
+  - name: 🇺🇸 vus5.0bad.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -3196,12 +3099,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vus3.0bad.com
+    servername: vus5.0bad.com
     network: ws
     ws-opts:
       path: /chat
       headers:
-        Host: vus3.0bad.com
+        Host: vus5.0bad.com
     udp: true
 
   - name: 23.108.100.103
@@ -3219,6 +3122,40 @@ proxies:
       path: /footers
       headers:
         Host: www.40587333.xyz
+    udp: true
+
+  - name: 199.188.111.53
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 199.188.111.53
+    network: ws
+    ws-opts:
+      path: /path/1691057598680
+      headers:
+        Host: 199.188.111.53
+    udp: true
+
+  - name: 171.22.116.55
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 171.22.116.55
+    network: ws
+    ws-opts:
+      path: /path/1691489542385
+      headers:
+        Host: 171.22.116.55
     udp: true
 
   - name: 38.63.0.89
@@ -3289,106 +3226,21 @@ proxies:
         Host: www.40587333.xyz
     udp: true
 
-  - name: 🇺🇸 vus4.0bad.com
+  - name: 156.225.67.38
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vus4.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vus4.0bad.com
-    udp: true
-
-  - name: 199.188.108.229
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b
     alterId: 64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.16616906.xyz
+    servername: www.86139317.xyz
     network: ws
     ws-opts:
-      path: /path/1691318318420
+      path: /path/1692256902430
       headers:
-        Host: www.16616906.xyz
-    udp: true
-
-  - name: 199.188.111.53
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 199.188.111.53
-    network: ws
-    ws-opts:
-      path: /path/1691057598680
-      headers:
-        Host: 199.188.111.53
-    udp: true
-
-  - name: 171.22.116.55
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 171.22.116.55
-    network: ws
-    ws-opts:
-      path: /path/1691489542385
-      headers:
-        Host: 171.22.116.55
-    udp: true
-
-  - name: vfly3.win
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vfly3.win
-    network: ws
-    ws-opts:
-      path: /myblog
-      headers:
-        Host: vfly3.win
-    udp: true
-
-  - name: 171.22.116.54
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.83993175.xyz
-    network: ws
-    ws-opts:
-      path: /path/1691318318420
-      headers:
-        Host: www.83993175.xyz
+        Host: www.86139317.xyz
     udp: true
 
   - name: 🇭🇰 hk1.4kxray.xyz
@@ -4020,6 +3872,23 @@ proxies:
         Host: vin1.0bad.com
     udp: true
 
+  - name: 🇺🇸 vus4.0bad.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vus4.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vus4.0bad.com
+    udp: true
+
   - name: 🇺🇸 us1.lolvps.xyz
     server: 104.16.66.85
     port: 60060
@@ -4240,7 +4109,7 @@ proxies:
         Host: free.fnet00.workers.dev
     udp: true
 
-  - name: 🇺🇸 vus5.0bad.com
+  - name: 🇺🇸 vus3.0bad.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -4249,12 +4118,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vus5.0bad.com
+    servername: vus3.0bad.com
     network: ws
     ws-opts:
       path: /chat
       headers:
-        Host: vus5.0bad.com
+        Host: vus3.0bad.com
     udp: true
 
   - name: 🇬🇧 vuk1.0bad.com
@@ -4272,6 +4141,23 @@ proxies:
       path: /chat
       headers:
         Host: vuk1.0bad.com
+    udp: true
+
+  - name: 🇩🇪 vde1.0bad.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vde1.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vde1.0bad.com
     udp: true
 
   - name: 🇺🇸 us31.ulifeai.com
@@ -5174,6 +5060,22 @@ proxies:
       path: /kplxvws
       headers:
         Host: us.dalazhi.eu.org
+    udp: true
+
+  - name: 🇩🇪 cf-wkrs-pages-vless-aoy.pages.dev
+    server: 104.16.66.85
+    port: 443
+    type: vless
+    uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-wkrs-pages-vless-aoy.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: cf-wkrs-pages-vless-aoy.pages.dev
     udp: true
 
   - name: btbu996.icu
@@ -8976,123 +8878,21 @@ proxies:
         Host: www.44945510.xyz
     udp: true
 
-  - name: 107.167.16.202
+  - name: amstd.digires.shop
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 8c679b81-84fc-43ce-9553-ddca575a6949
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.87135530.xyz
-    network: ws
-    ws-opts:
-      path: /path/080822272914
-      headers:
-        Host: www.87135530.xyz
-    udp: true
-
-  - name: 156.245.8.240
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.41758112.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.41758112.xyz
-    udp: true
-
-  - name: 46.182.107.22
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.86139317.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.86139317.xyz
-    udp: true
-
-  - name: 156.245.8.234
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.92873889.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.92873889.xyz
-    udp: true
-
-  - name: pl2-vmess.greenssh.xyz
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: pl2-vmess.greenssh.xyz
+    servername: amstd.digires.shop
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: pl2-vmess.greenssh.xyz
-    udp: true
-
-  - name: 156.249.18.48
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.69414502.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.69414502.xyz
-    udp: true
-
-  - name: 64.32.24.222
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: cff9d860-7330-4ee1-b072-7142ddf1571d
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.82615355.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.82615355.xyz
+        Host: amstd.digires.shop
     udp: true
 
   - name: 156.245.8.218
@@ -9112,24 +8912,126 @@ proxies:
         Host: www.32159877.xyz
     udp: true
 
-  - name: 74.217.182.105
+  - name: Lille.kotick.site
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 74.217.182.105
+    servername: Lille.kotick.site
     network: ws
     ws-opts:
-      path: /path/170806203535
+      path: /
       headers:
-        Host: 74.217.182.105
+        Host: Lille.kotick.site
     udp: true
 
-  - name: 142.4.115.154
+  - name: 🇨🇳 cdn.twitter.now.cc
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: lo.twittei.me
+    network: ws
+    ws-opts:
+      path: /ikun
+      headers:
+        Host: lo.twittei.me
+    udp: true
+
+  - name: 171.22.116.61
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 171.22.116.61
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 171.22.116.61
+    udp: true
+
+  - name: 🇺🇸 us.freebaipiao.tk
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 03221b25-1a6a-4501-e519-1745b25f6c1f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us.freebaipiao.tk
+    network: ws
+    ws-opts:
+      path: /freebaipiao
+      headers:
+        Host: us.freebaipiao.tk
+    udp: true
+
+  - name: 107.167.16.202
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8c679b81-84fc-43ce-9553-ddca575a6949
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.87135530.xyz
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: www.87135530.xyz
+    udp: true
+
+  - name: 74.217.182.122
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 74.217.182.122
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 74.217.182.122
+    udp: true
+
+  - name: pl2-vmess.greenssh.xyz
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: pl2-vmess.greenssh.xyz
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: pl2-vmess.greenssh.xyz
+    udp: true
+
+  - name: 192.74.234.220
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -9138,12 +9040,216 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 142.4.115.154
+    servername: 192.74.234.220
     network: ws
     ws-opts:
-      path: /path/1693390440063
+      path: /path/1693480232784
       headers:
-        Host: 142.4.115.154
+        Host: 192.74.234.220
+    udp: true
+
+  - name: 192.74.231.67
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 192.74.231.67
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 192.74.231.67
+    udp: true
+
+  - name: 45.86.8.49
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 45.86.8.49
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 45.86.8.49
+    udp: true
+
+  - name: 140.99.129.55
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 140.99.129.55
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 140.99.129.55
+    udp: true
+
+  - name: 45.86.8.9
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 45.86.8.9
+    network: ws
+    ws-opts:
+      path: /path/1693219483885
+      headers:
+        Host: 45.86.8.9
+    udp: true
+
+  - name: 198.2.197.75
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 198.2.197.75
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 198.2.197.75
+    udp: true
+
+  - name: 45.92.161.142
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 45.92.161.142
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 45.92.161.142
+    udp: true
+
+  - name: 142.4.103.147
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 142.4.103.147
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 142.4.103.147
+    udp: true
+
+  - name: 198.200.56.105
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 198.200.56.105
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 198.200.56.105
+    udp: true
+
+  - name: 45.131.229.58
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 45.131.229.58
+    network: ws
+    ws-opts:
+      path: /path/1693480232784
+      headers:
+        Host: 45.131.229.58
+    udp: true
+
+  - name: dashboard.autoly.ir
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dashboard.autoly.ir
+    network: ws
+    ws-opts:
+      path: /vsg1.0bad.com/chat
+      headers:
+        Host: dashboard.autoly.ir
+    udp: true
+
+  - name: 51.195.35.150
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 51.195.35.150
+    network: ws
+    ws-opts:
+      path: /path/1690973478986
+      headers:
+        Host: 51.195.35.150
+    udp: true
+
+  - name: 172.67.181.226
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 172.67.181.226
+    network: ws
+    ws-opts:
+      path: /vsg1.0bad.com/chat
+      headers:
+        Host: 172.67.181.226
     udp: true
 
   - name: 142.4.114.102
@@ -9158,12 +9264,80 @@ proxies:
     servername: 142.4.114.102
     network: ws
     ws-opts:
-      path: /path/1693304091037
+      path: /path/1693480232784
       headers:
         Host: 142.4.114.102
     udp: true
 
-  - name: a3.wuxianliulianng.xyz
+  - name: zfc.windowsupdate1.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zfc.windowsupdate1.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zfc.windowsupdate1.com
+    udp: true
+
+  - name: 23.227.38.82
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 23.227.38.82
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 23.227.38.82
+    udp: true
+
+  - name: 66.81.247.49
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 66.81.247.49
+    network: ws
+    ws-opts:
+      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      headers:
+        Host: 66.81.247.49
+    udp: true
+
+  - name: arvancloud.ir-uc.snappfood.so.ddns001.net
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: arvancloud.ir-uc.snappfood.so.ddns001.net
+    network: ws
+    ws-opts:
+      path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9
+      headers:
+        Host: arvancloud.ir-uc.snappfood.so.ddns001.net
+    udp: true
+
+  - name: a1.wuxianliulianng.xyz
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -9172,12 +9346,46 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: a3.wuxianliulianng.xyz
+    servername: a1.wuxianliulianng.xyz
+    network: ws
+    ws-opts:
+      path: /mp4
+      headers:
+        Host: a1.wuxianliulianng.xyz
+    udp: true
+
+  - name: a9.wuxianliulianng.xyz
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: a9.wuxianliulianng.xyz
+    network: ws
+    ws-opts:
+      path: /mp4
+      headers:
+        Host: a9.wuxianliulianng.xyz
+    udp: true
+
+  - name: a5.wuxianliulianng.xyz
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: a5.wuxianliulianng.xyz
     network: ws
     ws-opts:
       path: /sometimesnaive
       headers:
-        Host: a3.wuxianliulianng.xyz
+        Host: a5.wuxianliulianng.xyz
     udp: true
 
   - name: a11.wuxianliulianng.xyz
@@ -9197,21 +9405,21 @@ proxies:
         Host: a11.wuxianliulianng.xyz
     udp: true
 
-  - name: zfc.windowsupdate1.com
+  - name: 46.182.107.22
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
+    uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b
+    alterId: 64
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us-1.acyun.tk
+    servername: www.86139317.xyz
     network: ws
     ws-opts:
-      path: /
+      path: /path/1693200198087
       headers:
-        Host: us-1.acyun.tk
+        Host: www.86139317.xyz
     udp: true
 
   - name: 🇨🇳 fr.sangyu.tw
@@ -9248,21 +9456,72 @@ proxies:
         Host: mike.fuckwan73.ml
     udp: true
 
-  - name: jklahblog.com
+  - name: 🇨🇳 gyyjj-1038-v2-0.sjc-d-cn2.jd.cjhh.lol
     server: 104.16.66.85
-    port: 443
+    port: 888
     type: vmess
-    uuid: 96edbdf0-c8b8-49f2-839e-940698bbf83d
+    uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: jklahblog.com
+    servername: node.inforun.work
     network: ws
     ws-opts:
-      path: /af81144dc252b94/
+      path: /je5x3pBN1vez3NQudNkB
       headers:
-        Host: jklahblog.com
+        Host: node.inforun.work
+    udp: true
+
+  - name: 🇭🇰 825hk02.fx6688.top
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+    alterId: 2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 825hk02.fx6688.top
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: 825hk02.fx6688.top
+    udp: true
+
+  - name: sony.saog.buzz
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: bd0da444-a5a0-3bcb-b288-d31488be5475
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sony.saog.buzz
+    network: ws
+    ws-opts:
+      path: /support
+      headers:
+        Host: sony.saog.buzz
+    udp: true
+
+  - name: 119.36.161.40
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.25055502.xyz
+    network: ws
+    ws-opts:
+      path: /path/323127100515
+      headers:
+        Host: www.25055502.xyz
     udp: true
 
   - name: cf.naixii.top
@@ -9282,89 +9541,72 @@ proxies:
         Host: bvm.naixii.top
     udp: true
 
-  - name: 🇺🇸 free.us2.ecydy.com
+  - name: jklahblog.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+    uuid: 96edbdf0-c8b8-49f2-839e-940698bbf83d
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: free.us2.ecydy.com
+    servername: jklahblog.com
     network: ws
     ws-opts:
-      path: /ecy
+      path: /af81144dc252b94/
       headers:
-        Host: free.us2.ecydy.com
+        Host: jklahblog.com
     udp: true
 
-  - name: gia.whatsteewrong.top
+  - name: 🇭🇰 825hk01.fx6688.top
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: ca3f995f-dc0d-4b40-8c9b-d52f474d974c
+    uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+    alterId: 2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 825hk01.fx6688.top
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: 825hk01.fx6688.top
+    udp: true
+
+  - name: 🇩🇪 lc-hk01-direct01.lc-hk01.lc-node.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: gia.whatsteewrong.top
+    servername: lc-hk01-direct01.lc-hk01.lc-node.com
     network: ws
     ws-opts:
-      path: /d9f46d886c836/
+      path: /
       headers:
-        Host: gia.whatsteewrong.top
+        Host: lc-hk01-direct01.lc-hk01.lc-node.com
     udp: true
 
-  - name: 104.23.102.53
+  - name: 🇭🇰 hkhhdan.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
-    alterId: 0
+    uuid: 7fda537a-174a-4e6e-a1f8-c2fffbb83c00
+    alterId: 2
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bissen.114514cn.me
+    servername: hkhhdan.com
     network: ws
     ws-opts:
-      path: /Telegram@BDovo_qaq
+      path: /87e0e7d0/
       headers:
-        Host: bissen.114514cn.me
-    udp: true
-
-  - name: 119.36.161.40
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.79759381.xyz
-    network: ws
-    ws-opts:
-      path: /path/323127100515
-      headers:
-        Host: www.79759381.xyz
-    udp: true
-
-  - name: 🇯🇵 vjp3.0bad.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vjp3.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vjp3.0bad.com
+        Host: hkhhdan.com
     udp: true
 
   - name: aaaa.wxx.gay
@@ -9435,23 +9677,6 @@ proxies:
         Host: 38.bbzbb.top
     udp: true
 
-  - name: amstd.digires.shop
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: amstd.digires.shop
-    network: ws
-    ws-opts:
-      path: /12796
-      headers:
-        Host: amstd.digires.shop
-    udp: true
-
   - name: 🇨🇳 dongtaiwang2.com
     server: 104.16.66.85
     port: 443
@@ -9518,23 +9743,6 @@ proxies:
       path: /path/1692530321575
       headers:
         Host: www.72470068.xyz
-    udp: true
-
-  - name: 142.4.110.38
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.19458162.xyz
-    network: ws
-    ws-opts:
-      path: /path/121016071014
-      headers:
-        Host: www.19458162.xyz
     udp: true
 
   - name: 142.4.110.28
@@ -9637,40 +9845,6 @@ proxies:
       path: /speedtest
       headers:
         Host: Lille.kotick.site
-    udp: true
-
-  - name: Lille.kotick.site
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Lille.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Lille.kotick.site
-    udp: true
-
-  - name: 23.227.38.82
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
     udp: true
 
   - name: 192.74.244.166
@@ -9891,23 +10065,6 @@ proxies:
       path: /path/1690021167515
       headers:
         Host: 142.0.132.12
-    udp: true
-
-  - name: a5.wuxianliulianng.xyz
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: 8d1cb29f-4fba-43df-9ed5-d7dc98c7656d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 3.wuxianliulianng.xyz
-    network: ws
-    ws-opts:
-      path: /sometimesnaive
-      headers:
-        Host: 3.wuxianliulianng.xyz
     udp: true
 
   - name: 23.227.39.111
