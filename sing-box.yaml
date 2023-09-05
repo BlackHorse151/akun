@@ -1,19 +1,19 @@
 proxies:
-  - name: stock.hostmonit.com
+  - name: 104.16.236.119
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us2.icu2rip.eu.org
+    servername: white-dawn-4be8.walidfree5.workers.dev
     network: ws
     ws-opts:
-      path: /nishikata
+      path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: us2.icu2rip.eu.org
+        Host: white-dawn-4be8.walidfree5.workers.dev
     udp: true
 
   - name: 104.20.187.22
@@ -33,21 +33,38 @@ proxies:
         Host: fancy-dust-cfdf.maedegij2384.workers.dev
     udp: true
 
-  - name: 172.67.135.195
+  - name: 104.22.15.221
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: AB135628-07F6-4F78-AF4D-E9CD8715143C
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Amsterdam.bobbykotick.rip
+    servername: aged-salad-8e8c.walidfree17.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest?ed=2048
+      path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: Amsterdam.bobbykotick.rip
+        Host: aged-salad-8e8c.walidfree17.workers.dev
+    udp: true
+
+  - name: 194.36.55.106
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: delicate-butterfly-93f8.zuhyp4107.workers.dev
+    network: ws
+    ws-opts:
+      path: /vus4.0bad.com/chat
+      headers:
+        Host: delicate-butterfly-93f8.zuhyp4107.workers.dev
     udp: true
 
   - name: 104.16.106.118
@@ -951,6 +968,23 @@ proxies:
         Host: q.cr0052.workers.dev
     udp: true
 
+  - name: 104.18.82.239
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
   - name: 104.24.73.219
     server: 104.16.66.85
     port: 443
@@ -968,140 +1002,21 @@ proxies:
         Host: gentle-scene-8348.bangolan8975.workers.dev
     udp: true
 
-  - name: 104.27.97.42
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconebbb
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
-    udp: true
-
-  - name: zfc.windowsupdate1.com
+  - name: 104.20.65.33
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: us-1.acyun.tk
+    servername: fragrant-sun-6653.walidfree6.workers.dev
     network: ws
     ws-opts:
-      path: /
+      path: /speedtest/Lille.kotick.site
       headers:
-        Host: us-1.acyun.tk
-    udp: true
-
-  - name: 104.31.16.196
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: us-1.acyun.tk
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.tk
-    udp: true
-
-  - name: cloudconebbb.gorgorchicken.one
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconebbb
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
-    udp: true
-
-  - name: 23.227.39.109
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 3.freek1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 3.freek1.xyz
-    udp: true
-
-  - name: 23.227.38.82
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
-    udp: true
-
-  - name: 172.67.184.53
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconebbb
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
-    udp: true
-
-  - name: cloudconeaaa.gorgorchicken.one
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconeaaa.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconeaaa
-      headers:
-        Host: cloudconeaaa.gorgorchicken.one
+        Host: fragrant-sun-6653.walidfree6.workers.dev
     udp: true
 
   - name: 🇨🇳 dongtaiwang3.com
@@ -1121,21 +1036,72 @@ proxies:
         Host: d.freeh1.xyz
     udp: true
 
-  - name: ns80.ddns.net
+  - name: 172.67.75.194
     server: 104.16.66.85
-    port: 2087
+    port: 443
     type: vmess
-    uuid: 1f85f705-bef4-42c5-a1a4-14be16c2678b
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: amovir.virus2023.xyz
+    servername: d.freeh1.xyz
     network: ws
     ws-opts:
-      path: /opypvws
+      path: /dongtaiwang.com
       headers:
-        Host: amovir.virus2023.xyz
+        Host: d.freeh1.xyz
+    udp: true
+
+  - name: cloudconebbb.gorgorchicken.one
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconebbb.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconebbb
+      headers:
+        Host: cloudconebbb.gorgorchicken.one
+    udp: true
+
+  - name: vfly3.win
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vfly3.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: vfly3.win
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
     udp: true
 
   - name: 0000:0000:0000:0000:0000:ffff:6811:495
@@ -1153,6 +1119,23 @@ proxies:
       path: /qoilvws
       headers:
         Host: amoza.amo2023.club
+    udp: true
+
+  - name: 23.227.38.81
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
     udp: true
 
   - name: cloudflare.piaole.me
@@ -1206,21 +1189,55 @@ proxies:
         Host: sub2.saintink.eu.org
     udp: true
 
-  - name: racknerd.gorgorchicken.one
+  - name: 🇸🇬 singapore.com
     server: 104.16.66.85
-    port: 8443
+    port: 443
     type: vmess
-    uuid: 1df0a6ca-5812-4bce-ddb1-9cd5548f4919
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: racknerd.gorgorchicken.one
+    servername: d.freeh1.xyz
     network: ws
     ws-opts:
-      path: /racknerd
+      path: /dongtaiwang.com
       headers:
-        Host: racknerd.gorgorchicken.one
+        Host: d.freeh1.xyz
+    udp: true
+
+  - name: 172.67.181.226
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
+    network: ws
+    ws-opts:
+      path: /vsg1.0bad.com/chat
+      headers:
+        Host: panel2.hodorauth.com
+    udp: true
+
+  - name: dashboard.autoly.ir
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: panel2.hodorauth.com
+    network: ws
+    ws-opts:
+      path: /vsg1.0bad.com/chat
+      headers:
+        Host: panel2.hodorauth.com
     udp: true
 
   - name: pzl.p237875155.buzz
@@ -1257,21 +1274,21 @@ proxies:
         Host: 51vfly1.win
     udp: true
 
-  - name: vfly3.win
+  - name: mtn.bamarambash.monster
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vfly3.win
+    servername: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     network: ws
     ws-opts:
-      path: /myblog
+      path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
       headers:
-        Host: vfly3.win
+        Host: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
     udp: true
 
   - name: ming2.kiwireich.com
@@ -1289,6 +1306,40 @@ proxies:
       path: /ray
       headers:
         Host: ming2.kiwireich.com
+    udp: true
+
+  - name: mci.bamarambash.monster
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b
+      headers:
+        Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster
+    udp: true
+
+  - name: cjmahdi.online
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: D8813DCB-426C-4952-B384-8951B0444EC1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: green-water-bb30.walidfree23.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: green-water-bb30.walidfree23.workers.dev
     udp: true
 
   - name: 217.182.76.202
@@ -1325,6 +1376,74 @@ proxies:
         Host: franc.digires.shop
     udp: true
 
+  - name: 199.247.23.31
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796?ed=2048
+      headers:
+        Host: amstd.digires.shop
+    udp: true
+
+  - name: 185.59.218.177
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
+      headers:
+        Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+
+  - name: 172.67.81.238
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: 172.67.184.53
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
   - name: 172.67.132.15
     server: 104.16.66.85
     port: 443
@@ -1340,6 +1459,74 @@ proxies:
       path: /ray
       headers:
         Host: ming2.kiwireich.com
+    udp: true
+
+  - name: 172.66.2.208
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odd-brook-66e8.dumelit3758.workers.dev
+    network: ws
+    ws-opts:
+      path: /vsg1.0bad.com/chat
+      headers:
+        Host: odd-brook-66e8.dumelit3758.workers.dev
+    udp: true
+
+  - name: 159.246.55.180
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: 104.31.16.65
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796?ed=2048
+      headers:
+        Host: amstd.digires.shop
+    udp: true
+
+  - name: 104.31.16.35
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
     udp: true
 
   - name: 104.20.164.38
@@ -1359,19 +1546,87 @@ proxies:
         Host: noisy-wave-9582.sourgalma3363.workers.dev
     udp: true
 
-  - name: ::ffff:5fb3:a2df
+  - name: 104.17.14.48
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: E1159362-D986-4315-B814-C12912B91DBA
+    uuid: 8f28bbbd-7dc3-4427-a8a7-595796d9ff7d
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Lille.bobbykotick.rip
+    servername: sg-v.sshmax.xyz
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /vmess
       headers:
-        Host: Lille.bobbykotick.rip
+        Host: sg-v.sshmax.xyz
+    udp: true
+
+  - name: 104.17.137.141
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    network: ws
+    ws-opts:
+      path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9
+      headers:
+        Host: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster
+    udp: true
+
+  - name: 23.227.39.81
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
+    udp: true
+
+  - name: 104.27.97.42
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconebbb.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconebbb
+      headers:
+        Host: cloudconebbb.gorgorchicken.one
+    udp: true
+
+  - name: 23.227.38.82
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d.freeh1.xyz
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: d.freeh1.xyz
     udp: true
