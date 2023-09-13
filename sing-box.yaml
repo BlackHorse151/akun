@@ -1,36 +1,19 @@
 proxies:
-  - name: cloudflare.piaole.me
+  - name: dashboard.autoly.ir
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 3d80e1ff-2e9f-498b-8e13-5230e67b2be9
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cloudflare.piaole.me
+    servername: panel2.hodorauth.com
     network: ws
     ws-opts:
-      path: /huawei
+      path: /vsg1.0bad.com/chat
       headers:
-        Host: cloudflare.piaole.me
-    udp: true
-
-  - name: 🇨🇳 dongtaiwang3.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: d.freeh1.xyz
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: d.freeh1.xyz
+        Host: panel2.hodorauth.com
     udp: true
 
   - name: 23.227.38.82
