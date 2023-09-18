@@ -3,7 +3,7 @@ $date = new DateTime('now', new DateTimeZone('Asia/Jakarta'));
 $tanggal = $date->format('Y/m/Ymd').".txt";
 $tanggal2 = "data".$date->format('Ymj').".txt";
 $url = [
-    /*"https://clashnode.com/wp-content/uploads/".$tanggal,
+    "https://clashnode.com/wp-content/uploads/".$tanggal,
 	"https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
     "https://raw.githubusercontent.com/AlienVPN402/AlienVPN402-subscribe-servers-sing-box/main/index.html",
     "https://xn--l6qx3l9s1a.com/api/v1/client/subscribe?token=1566573b5f851f1af97456de15d81b3f",
@@ -61,7 +61,7 @@ $url = [
     'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt', 
     'https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt', 
     'https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1', 
-    "https://raw.githubusercontent.com/HakurouKen/free-node/main/public", */
+    "https://raw.githubusercontent.com/HakurouKen/free-node/main/public", 
 	"https://paste.gg/p/anonymous/7df50f752b00498398525560262c5786/files/ec501b9762b743218cdd21fe4e123276/raw",
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
