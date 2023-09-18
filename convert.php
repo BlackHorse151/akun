@@ -12,10 +12,10 @@ function convertToFormat($data) {
 		if($proxy["type"] == "trojan") {*/
 			$uid = $proxy["server"];
 		//}
-                if(preg_match("/{$uid}/",$id)) {
+            /*    if(preg_match("/{$uid}/",$id)) {
 		//if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
 		    echo "Node udah ada | ".$uid."\n";
-		} else {
+		} else {*/
 			$id .= $uid . " ";
 			$format = "";
 			$server = "104.16.66.85";
@@ -66,7 +66,7 @@ function convertToFormat($data) {
 				}
 				$formats[] = $format;
 			}
-		}
+		//}
 	}
 	return $formats;
 }
