@@ -1,123 +1,4 @@
 proxies:
-  - name: laravel.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 🇩🇪 codepen.io
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: auth0.openai.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /odelia.autos:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 104.31.16.69
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: 104.31.16.71
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: bwntaz.port888.site
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: api.jquery.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /oliv.beauty:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
   - name: 172.67.184.53
     server: 104.16.66.85
     port: 8443
@@ -220,91 +101,6 @@ proxies:
         Host: oliv.beauty
     udp: true
 
-  - name: laravel.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 🇩🇪 codepen.io
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: auth0.openai.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /odelia.autos:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 104.31.16.69
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: 104.31.16.71
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
   - name: bwntaz.port888.site
     server: 104.16.66.85
     port: 2083
@@ -337,142 +133,6 @@ proxies:
       path: /oliv.beauty:443/linkvws
       headers:
         Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 104.31.16.69
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: 🇩🇪 codepen.io
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 104.31.16.71
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: bwntaz.port888.site
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
-  - name: api.jquery.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /oliv.beauty:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: auth0.openai.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /odelia.autos:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: laravel.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 65.70.12.47
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: odelia.autos
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: odelia.autos
     udp: true
 
   - name: 🇩🇪 edeen.makeup
@@ -509,6 +169,23 @@ proxies:
         Host: jp.denny.cf
     udp: true
 
+  - name: 104.31.16.69
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
   - name: laravel.com
     server: 104.16.66.85
     port: 443
@@ -526,75 +203,75 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: 190.93.245.8
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 99357805-2332-4548-95d7-73bf03c24599
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: jp.denny.cf
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: /
       headers:
-        Host: sub2.saintink.eu.org
+        Host: jp.denny.cf
     udp: true
 
-  - name: 172.67.181.226
+  - name: api.jquery.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /vsg1.0bad.com/chat
+      path: /oliv.beauty:443/linkvws
       headers:
-        Host: panel2.hodorauth.com
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: auth0.openai.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: /odelia.autos:443/linkvws
       headers:
-        Host: sub2.saintink.eu.org
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: dashboard.autoly.ir
+  - name: laravel.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: panel2.hodorauth.com
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /vsg1.0bad.com/chat
+      path: /waynn.makeup:443/linkvws
       headers:
-        Host: panel2.hodorauth.com
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: 51vfly1.win
+  - name: laravel.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -603,12 +280,148 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 51vfly1.win
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /myblog
+      path: /vfly3.win:443/myblog
       headers:
-        Host: 51vfly1.win
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: api.jquery.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /ophelia.mom:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: laravel.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: api.jquery.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 🇩🇪 codepen.io
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: auth0.openai.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /edeen.makeup:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 🇩🇪 codepen.io
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: api.jquery.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.31.16.69
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
     udp: true
 
   - name: vfly3.win
@@ -628,21 +441,106 @@ proxies:
         Host: vfly3.win
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: waynn.makeup
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: waynn.makeup
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: linkvws
       headers:
-        Host: sub2.saintink.eu.org
+        Host: waynn.makeup
+    udp: true
+
+  - name: octavi.cfd
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: alvvin.click
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: 🇩🇪 odelia.autos
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: 51vfly1.win
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 51vfly1.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: 51vfly1.win
+    udp: true
+
+  - name: ophelia.mom
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
     udp: true
 
   - name: ming2.kiwireich.com
@@ -798,6 +696,23 @@ proxies:
         Host: amstd.digires.shop
     udp: true
 
+  - name: 172.67.81.238
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
   - name: 172.67.184.53
     server: 104.16.66.85
     port: 8443
@@ -898,23 +813,6 @@ proxies:
       path: /11201
       headers:
         Host: franc.digires.shop
-    udp: true
-
-  - name: 104.25.227.40
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.saintink.eu.org
-    network: ws
-    ws-opts:
-      path: /vus3.0bad.com/chat
-      headers:
-        Host: sub.saintink.eu.org
     udp: true
 
   - name: 104.20.164.38
@@ -1104,6 +1002,23 @@ proxies:
         Host: odelia.autos
     udp: true
 
+  - name: cf.fovi.tk
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: foxlux.fovi.tk
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+    udp: true
+
   - name: laravel.com
     server: 104.16.66.85
     port: 443
@@ -1155,21 +1070,38 @@ proxies:
         Host: ophelia.mom
     udp: true
 
-  - name: 104.18.212.12
+  - name: oliv.beauty
     server: 104.16.66.85
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
+    alterId: 1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub.yifenjichang.top
+    servername: oliv.beauty
     network: ws
     ws-opts:
-      path: /oliv.beauty:443/linkvws
+      path: linkvws
       headers:
-        Host: sub.yifenjichang.top
+        Host: oliv.beauty
+    udp: true
+
+  - name: alvvin.click
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
     udp: true
 
   - name: mci1.amo2023.club
@@ -1189,72 +1121,21 @@ proxies:
         Host: mci1.amo2023.club
     udp: true
 
-  - name: laravel.com
+  - name: 104.31.16.69
     server: 104.16.66.85
-    port: 443
+    port: 2083
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub.yifenjichang.top
+    servername: germany-one.port888.site
     network: ws
     ws-opts:
-      path: /octavi.cfd:443/linkvws
+      path: /
       headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 🇩🇪 odelia.autos
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: odelia.autos
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: odelia.autos
-    udp: true
-
-  - name: 51fly99.win
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 51fly99.win
-    network: ws
-    ws-opts:
-      path: /myblog
-      headers:
-        Host: 51fly99.win
-    udp: true
-
-  - name: 51vfly1.win
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 51vfly1.win
-    network: ws
-    ws-opts:
-      path: /myblog
-      headers:
-        Host: 51vfly1.win
+        Host: germany-one.port888.site
     udp: true
 
   - name: 190.93.245.8
@@ -1274,24 +1155,194 @@ proxies:
         Host: jp.denny.cf
     udp: true
 
-  - name: cloudconeaaa.gorgorchicken.one
+  - name: 🇩🇪 edeen.makeup
     server: 104.16.66.85
-    port: 8443
+    port: 443
     type: vmess
-    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 🇩🇪 odelia.autos
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: cloudconeaaa.gorgorchicken.one
+    servername: odelia.autos
     network: ws
     ws-opts:
-      path: /cloudconeaaa
+      path: linkvws
       headers:
-        Host: cloudconeaaa.gorgorchicken.one
+        Host: odelia.autos
     udp: true
 
-  - name: 104.18.212.12
+  - name: octavi.cfd
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: ophelia.mom
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: 104.31.16.71
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: waynn.makeup
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: bwntaz.port888.site
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: franc.digires.shop
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: octavi.cfd
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: bwntaz.port888.site
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: ming2.kiwireich.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: laravel.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -1303,24 +1354,7 @@ proxies:
     servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /oliv.beauty:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: auth0.openai.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /odelia.autos:443/linkvws
+      path: /octavi.cfd:443/linkvws
       headers:
         Host: sub.yifenjichang.top
     udp: true
@@ -1342,21 +1376,89 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: 104.31.16.70
+  - name: vfly3.win
     server: 104.16.66.85
-    port: 2083
+    port: 443
     type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: germany-one.port888.site
+    servername: vfly3.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: vfly3.win
+    udp: true
+
+  - name: auth0.openai.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 🇩🇪 edeen.makeup
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: mci1.amo2023.club
+    server: 104.16.66.85
+    port: 2096
+    type: vmess
+    uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mci1.amo2023.club
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: germany-one.port888.site
+        Host: mci1.amo2023.club
+    udp: true
+
+  - name: cf.fovi.tk
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: foxlux.fovi.tk
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
     udp: true
 
   - name: 104.31.16.71
@@ -1393,74 +1495,6 @@ proxies:
         Host: oliv.beauty
     udp: true
 
-  - name: cloudconebbb.gorgorchicken.one
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconebbb
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
-    udp: true
-
-  - name: mci1.amo2023.club
-    server: 104.16.66.85
-    port: 2096
-    type: vmess
-    uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: mci1.amo2023.club
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: mci1.amo2023.club
-    udp: true
-
-  - name: 104.31.16.120
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: edeen.makeup
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: edeen.makeup
-    udp: true
-
-  - name: bwntaz.port888.site
-    server: 104.16.66.85
-    port: 2083
-    type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: germany-one.port888.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: germany-one.port888.site
-    udp: true
-
   - name: 104.31.16.69
     server: 104.16.66.85
     port: 2083
@@ -1478,21 +1512,38 @@ proxies:
         Host: germany-one.port888.site
     udp: true
 
-  - name: api.jquery.com
+  - name: ophelia.mom
     server: 104.16.66.85
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
+    alterId: 1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub.yifenjichang.top
+    servername: ophelia.mom
     network: ws
     ws-opts:
-      path: /oliv.beauty:443/linkvws
+      path: linkvws
       headers:
-        Host: sub.yifenjichang.top
+        Host: ophelia.mom
+    udp: true
+
+  - name: waynn.makeup
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
     udp: true
 
   - name: 190.93.245.8
@@ -1512,55 +1563,157 @@ proxies:
         Host: jp.denny.cf
     udp: true
 
-  - name: 104.31.16.69
+  - name: alvvin.click
     server: 104.16.66.85
-    port: 2083
+    port: 443
     type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
-    alterId: 0
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: germany-one.port888.site
+    servername: alvvin.click
     network: ws
     ws-opts:
-      path: /
+      path: linkvws
       headers:
-        Host: germany-one.port888.site
+        Host: alvvin.click
     udp: true
 
-  - name: 104.31.16.71
+  - name: api.jquery.com
     server: 104.16.66.85
-    port: 2083
+    port: 443
     type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: germany-one.port888.site
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /
+      path: /oliv.beauty:443/linkvws
       headers:
-        Host: germany-one.port888.site
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: 104.31.16.70
+  - name: cloudconebbb.gorgorchicken.one
     server: 104.16.66.85
-    port: 2083
+    port: 8443
     type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: germany-one.port888.site
+    servername: cloudconebbb.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconebbb
+      headers:
+        Host: cloudconebbb.gorgorchicken.one
+    udp: true
+
+  - name: 🇩🇪 odelia.autos
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: 51vfly1.win
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 51vfly1.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: 51vfly1.win
+    udp: true
+
+  - name: oliv.beauty
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: oliv.beauty
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: oliv.beauty
+    udp: true
+
+  - name: 104.31.16.120
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 190.93.245.8
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 99357805-2332-4548-95d7-73bf03c24599
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jp.denny.cf
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: germany-one.port888.site
+        Host: jp.denny.cf
     udp: true
 
   - name: laravel.com
@@ -1682,24 +1835,7 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: api.jquery.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /oliv.beauty:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: bwntaz.port888.site
+  - name: 104.31.16.71
     server: 104.16.66.85
     port: 2083
     type: vmess
@@ -1716,7 +1852,41 @@ proxies:
         Host: germany-one.port888.site
     udp: true
 
-  - name: 🇩🇪 codepen.io
+  - name: api.jquery.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: auth0.openai.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: laravel.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -1729,40 +1899,6 @@ proxies:
     network: ws
     ws-opts:
       path: /octavi.cfd:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: api.jquery.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /oliv.beauty:443/linkvws
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-
-  - name: api.jquery.com
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /oliv.beauty:443/linkvws
       headers:
         Host: sub.yifenjichang.top
     udp: true
@@ -1784,21 +1920,21 @@ proxies:
         Host: foxlux.fovi.tk
     udp: true
 
-  - name: bwntaz.port888.site
+  - name: api.jquery.com
     server: 104.16.66.85
-    port: 2083
+    port: 443
     type: vmess
-    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: germany-one.port888.site
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /
+      path: /oliv.beauty:443/linkvws
       headers:
-        Host: germany-one.port888.site
+        Host: sub.yifenjichang.top
     udp: true
 
   - name: 190.93.245.8
@@ -1884,6 +2020,23 @@ proxies:
       path: /
       headers:
         Host: germany-one.port888.site
+    udp: true
+
+  - name: cf.fovi.tk
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: foxlux.fovi.tk
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
     udp: true
 
   - name: 104.25.227.40
@@ -1954,21 +2107,21 @@ proxies:
         Host: sub2.saintink.eu.org
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: 104.17.45.51
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: Kansas.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: /speedtest
       headers:
-        Host: sub2.saintink.eu.org
+        Host: Kansas.bobbykotick.rip
     udp: true
 
   - name: franc.digires.shop
@@ -2056,72 +2209,89 @@ proxies:
         Host: sub2.saintink.eu.org
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: api.jquery.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: /oliv.beauty:443/linkvws
       headers:
-        Host: sub2.saintink.eu.org
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: 🇩🇪 edeen.makeup
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: edeen.makeup
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: linkvws
       headers:
-        Host: sub2.saintink.eu.org
+        Host: edeen.makeup
     udp: true
 
-  - name: wi.saintink.eu.org
+  - name: cloudconeaaa.gorgorchicken.one
     server: 104.16.66.85
-    port: 443
+    port: 8443
     type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub2.saintink.eu.org
+    servername: cloudconeaaa.gorgorchicken.one
     network: ws
     ws-opts:
-      path: /vuk2.0bad.com/chat
+      path: /cloudconeaaa
       headers:
-        Host: sub2.saintink.eu.org
+        Host: cloudconeaaa.gorgorchicken.one
     udp: true
 
-  - name: 51fly99.win
+  - name: cloudconebbb.gorgorchicken.one
     server: 104.16.66.85
-    port: 443
+    port: 8443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 51fly99.win
+    servername: cloudconebbb.gorgorchicken.one
     network: ws
     ws-opts:
-      path: /myblog
+      path: /cloudconebbb
       headers:
-        Host: 51fly99.win
+        Host: cloudconebbb.gorgorchicken.one
+    udp: true
+
+  - name: ophelia.mom
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
     udp: true
 
   - name: laravel.com
@@ -2158,6 +2328,23 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
+  - name: api.jquery.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
   - name: laravel.com
     server: 104.16.66.85
     port: 443
@@ -2171,6 +2358,159 @@ proxies:
     network: ws
     ws-opts:
       path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.31.16.120
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: waynn.makeup
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: 104.21.4.29
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: oliv.beauty
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: oliv.beauty
+    udp: true
+
+  - name: octavi.cfd
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: alvvin.click
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: oliv.beauty
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: oliv.beauty
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: oliv.beauty
+    udp: true
+
+  - name: 🇩🇪 codepen.io
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: laravel.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: auth0.openai.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
       headers:
         Host: sub.yifenjichang.top
     udp: true
@@ -2190,23 +2530,6 @@ proxies:
       path: /oliv.beauty:443/linkvws
       headers:
         Host: sub.yifenjichang.top
-    udp: true
-
-  - name: cloudconebbb.gorgorchicken.one
-    server: 104.16.66.85
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /cloudconebbb
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
     udp: true
 
   - name: api.jquery.com
@@ -2243,7 +2566,58 @@ proxies:
         Host: mci1.amo2023.club
     udp: true
 
-  - name: 104.18.212.12
+  - name: 104.31.16.69
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: 🇩🇪 codepen.io
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: bwntaz.port888.site
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: api.jquery.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -2260,55 +2634,55 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: 104.31.16.120
+  - name: bwntaz.port888.site
     server: 104.16.66.85
-    port: 443
+    port: 2083
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edeen.makeup
+    servername: germany-one.port888.site
     network: ws
     ws-opts:
-      path: linkvws
+      path: /
       headers:
-        Host: edeen.makeup
+        Host: germany-one.port888.site
     udp: true
 
-  - name: auth0.openai.com
+  - name: 104.31.16.71
     server: 104.16.66.85
-    port: 443
+    port: 2083
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub.yifenjichang.top
+    servername: germany-one.port888.site
     network: ws
     ws-opts:
-      path: /odelia.autos:443/linkvws
+      path: /
       headers:
-        Host: sub.yifenjichang.top
+        Host: germany-one.port888.site
     udp: true
 
-  - name: auth0.openai.com
+  - name: 104.31.16.69
     server: 104.16.66.85
-    port: 443
+    port: 2083
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub.yifenjichang.top
+    servername: germany-one.port888.site
     network: ws
     ws-opts:
-      path: /odelia.autos:443/linkvws
+      path: /
       headers:
-        Host: sub.yifenjichang.top
+        Host: germany-one.port888.site
     udp: true
 
   - name: laravel.com
@@ -2328,21 +2702,38 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: auth0.openai.com
+  - name: 104.31.16.69
     server: 104.16.66.85
-    port: 443
+    port: 2083
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sub.yifenjichang.top
+    servername: germany-one.port888.site
     network: ws
     ws-opts:
-      path: /odelia.autos:443/linkvws
+      path: /
       headers:
-        Host: sub.yifenjichang.top
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: 104.31.16.69
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
     udp: true
 
   - name: 🇩🇪 odelia.autos
@@ -2362,7 +2753,7 @@ proxies:
         Host: odelia.autos
     udp: true
 
-  - name: laravel.com
+  - name: auth0.openai.com
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -2374,26 +2765,9 @@ proxies:
     servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /octavi.cfd:443/linkvws
+      path: /odelia.autos:443/linkvws
       headers:
         Host: sub.yifenjichang.top
-    udp: true
-
-  - name: 104.21.4.29
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: oliv.beauty
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: oliv.beauty
     udp: true
 
   - name: 51vfly1.win
@@ -2413,21 +2787,38 @@ proxies:
         Host: 51vfly1.win
     udp: true
 
-  - name: cf.fovi.tk
+  - name: auth0.openai.com
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: foxlux.fovi.tk
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /eisasqa
+      path: /odelia.autos:443/linkvws
       headers:
-        Host: foxlux.fovi.tk
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.31.16.71
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
     udp: true
 
   - name: api.jquery.com
@@ -2445,4 +2836,157 @@ proxies:
       path: /oliv.beauty:443/linkvws
       headers:
         Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.31.16.71
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: 104.31.16.71
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: laravel.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: bwntaz.port888.site
+    server: 104.16.66.85
+    port: 2083
+    type: vmess
+    uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: germany-one.port888.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: germany-one.port888.site
+    udp: true
+
+  - name: vfly3.win
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vfly3.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: vfly3.win
+    udp: true
+
+  - name: 190.93.245.8
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 99357805-2332-4548-95d7-73bf03c24599
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jp.denny.cf
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp.denny.cf
+    udp: true
+
+  - name: ming2.kiwireich.com
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: 190.93.245.8
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 99357805-2332-4548-95d7-73bf03c24599
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jp.denny.cf
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp.denny.cf
+    udp: true
+
+  - name: 190.93.245.8
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 99357805-2332-4548-95d7-73bf03c24599
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jp.denny.cf
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jp.denny.cf
     udp: true
