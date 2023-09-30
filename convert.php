@@ -77,7 +77,7 @@ function convertToFormat($data) {
 	return $formats;
 }
 $hasil = "";
-$formats = convertToFormat(file_get_contents("a.yaml"));
+$formats = convertToFormat(file_get_contents("b.yaml"));
 foreach ($formats as $format) {
 	if ($format != "") {
 		$hasil .= $format . "\n";
