@@ -12,8 +12,8 @@ function convertToFormat($data) {
 		if($proxy["type"] == "trojan") {*/
 			$uid = $proxy["server"];
 			$ip_info = json_decode(shell_exec("curl http://ip-api.com/json/{$uid}"));
-			if($ip_info->country != null {
-			    $nama = "{$ip_info->country} {$ip_info->as} ".rand (1000 , 9999 );
+			if($ip_info->country != null) {
+			    $nama = "{$ip_info->country} {$ip_info->as} ".rand(1000 , 9999);
 			} else {
 			    $nama = $uid;
 			}
