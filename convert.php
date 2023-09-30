@@ -1,26 +1,38 @@
  <?php
 require_once 'vendor/autoload.php'; //
 use Symfony\Component\Yaml\Yaml;
+
+function curl($url) {
+		$ch      = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		$resp = curl_exec($ch);
+		curl_close($ch);
+		return $resp;
+}
+
 function convertToFormat($data) {
 	$proxies = Yaml::parse($data) ['proxies'];
 	$formats = [];
 	$id = "";
 	foreach ($proxies as $proxy) {
-		/*if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
+		/*if($proxy["type"] == "vmess" or $proxy["type"] -== "vless") {
 			$uid = $proxy["server"];
 		}
 		if($proxy["type"] == "trojan") {*/
 			$uid = $proxy["server"];
-			$ip_info = json_decode(exec("curl http://ip-api.com/json/{$uid}"));
-			if($ip_info != null) {
+			$ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
+			if($ip_info->status == "success") {
 			    $nama = "{$ip_info->country} {$ip_info->as} ".rand(1000 , 9999);
 			} else {
 			    $nama = $uid;
 			}
+			print_r($ip_info);
+			echo "\n".$nama."\n";
 		//}
             /*    if(preg_match("/{$uid}/",$id)) {
 		//if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
-		    echo "Node udah ada | ".$uid."\n";
+		    echo "Node udah ada | ".$uid."\n"
 		} else {*/
 			$id .= $uid . " ";
 			$format = "";
