@@ -1,109 +1,95 @@
  <?php
 require_once 'vendor/autoload.php'; //
 use Symfony\Component\Yaml\Yaml;
-
 function curl($url) {
-		$ch      = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		$resp = curl_exec($ch);
-		curl_close($ch);
-		return $resp;
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $resp = curl_exec($ch);
+    curl_close($ch);
+    return $resp;
 }
-
-function getFlags($country_code)
-{
-    $flag = mb_convert_encoding( '&#' . ( 127397 + ord( $country_code[0] ) ) . ';', 'UTF-8', 'HTML-ENTITIES');
-    $flag .= mb_convert_encoding( '&#' . ( 127397 + ord( $country_code[1] ) ) . ';', 'UTF-8', 'HTML-ENTITIES');
+function getFlags($country_code) {
+    $flag = mb_convert_encoding('&#' . (127397 + ord($country_code[0])) . ';', 'UTF-8', 'HTML-ENTITIES');
+    $flag.= mb_convert_encoding('&#' . (127397 + ord($country_code[1])) . ';', 'UTF-8', 'HTML-ENTITIES');
     return $flag;
 }
-
 function convertToFormat($data) {
-	$proxies = Yaml::parse($data) ['proxies'];
-	$formats = [];
-	$id = "";
-	foreach ($proxies as $proxy) {
-		/*if($proxy["type"] == "vmess" or $proxy["type"] -== "vless") {
-			$uid = $proxy["server"];
-		}
-		if($proxy["type"] == "trojan") {*/
-			$uid = $proxy["server"];
-			$ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
-			if($ip_info->status == "success") {
-			    $flag = getFlags($ip_info->countryCode);
-			    $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} ".rand(1000 , 9999);
-			} else {
-			    $nama = $uid;
-			}
-			print_r($ip_info);
-			echo "\n".$nama."\n";
-		//}
-            /*    if(preg_match("/{$uid}/",$id)) {
-		//if (str_contains($id, $uid)) { //and str_contains($id,$proxy["server"])) {
-		    echo "Node udah ada | ".$uid."\n"
-		} else {*/
-			$id .= $uid . " ";
-			$format = "";
-			$server = "104.16.66.85";
-			if ($proxy["ws-opts"]["headers"]["Host"] != "") {
-				$servername = $proxy["ws-opts"]["headers"]["Host"];
-				$server = "104.16.66.85";
-			}
-			if($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
-			if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
-				$servername = $proxy['server'];
-				$server = "104.16.66.85";
-			}
-			}
-			if($proxy["type"] == "trojan") {
-				if ($proxy["sni"] == "") {
-					$servername = $proxy['server'];
-					$server = "104.16.66.85";
-				}
-			}
-			if ($proxy['type'] === 'vless') {
-				if (isset($proxy['network'])) {
-					if ($proxy['network'] === 'ws') {
-
-						$format = 'vless://' . $proxy['uuid'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path'] . '&security=tls&encryption=none&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $nama;
-					} elseif ($proxy['network'] === 'grpc') {
-						$format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&encryption=none&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['servername'] . '#' . $nama;
-					}
-				}
-				$formats[] = $format;
-			} elseif ($proxy['type'] === 'trojan') {
-				if (isset($proxy['network'])) {
-					if ($proxy['network'] === 'ws') {
-						$format = 'trojan://' . $proxy['password'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path'] . '&security=tls&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $nama;
-					} elseif ($proxy['network'] === 'grpc') {
-						$format = 'trojan://' . $proxy['password'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['sni'] . '#' . $nama;
-					}
-				}
-				$formats[] = $format;
-			} elseif ($proxy['type'] === 'vmess') {
-				if (isset($proxy['network'])) {
-					if ($proxy['network'] == "ws") {
-						if (isset($proxy['ws-opts'])) {
-							$format = 'vmess://' . base64_encode(json_encode(['add' => $server, 'aid' => $proxy['alterId'], 'host' => $servername, 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['ws-opts']['path'], 'port' => $proxy['port'], 'ps' => $nama, 'scy' => $proxy['cipher'], 'sni' => $servername, 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
-						}
-					} elseif ($proxy['network'] == "grpc") {
-						$format = 'vmess://' . base64_encode(json_encode(['add' => $proxy['server'], 'aid' => $proxy['alterId'], 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['grpc-opts']['grpc-service-name'], 'port' => $proxy['port'], 'ps' => $nama, 'scy' => $proxy['cipher'], 'sni' => $proxy['servername'], 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
-					}
-				}
-				$formats[] = $format;
-			}
-		//}
-	}
-	return $formats;
+    $proxies = Yaml::parse($data) ['proxies'];
+    $formats = [];
+    $id = "";
+    foreach ($proxies as $proxy) {
+        $bug = array("104.17.72.206", "104.16.66.85");
+        foreach ($bug as $bg) {
+            $uid = $proxy["server"];
+            $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
+            if ($ip_info->status == "success") {
+                $flag = getFlags($ip_info->countryCode);
+                $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} " . rand(1000, 9999);
+            } else {
+                $nama = $uid;
+            }
+            $id.= $uid . " ";
+            $format = "";
+            $server = $bg;
+            if ($proxy["ws-opts"]["headers"]["Host"] != "") {
+                $servername = $proxy["ws-opts"]["headers"]["Host"];
+                $server = "104.16.66.85";
+            }
+            if ($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
+                if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
+                    $servername = $proxy['server'];
+                    $server = "104.16.66.85";
+                }
+            }
+            if ($proxy["type"] == "trojan") {
+                if ($proxy["sni"] == "") {
+                    $servername = $proxy['server'];
+                    $server = "104.16.66.85";
+                }
+            }
+            if ($proxy['type'] === 'vless') {
+                if (isset($proxy['network'])) {
+                    if ($proxy['network'] === 'ws') {
+                        $format = 'vless://' . $proxy['uuid'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path'] . '&security=tls&encryption=none&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $nama;
+                    } elseif ($proxy['network'] === 'grpc') {
+                        $format = 'vless://' . $proxy['uuid'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&encryption=none&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['servername'] . '#' . $nama;
+                    }
+                }
+                $formats[] = $format;
+            } elseif ($proxy['type'] === 'trojan') {
+                if (isset($proxy['network'])) {
+                    if ($proxy['network'] === 'ws') {
+                        $format = 'trojan://' . $proxy['password'] . '@' . $server . ':' . $proxy['port'] . '?path=' . $proxy['ws-opts']['path'] . '&security=tls&host=' . $servername . '&type=ws&sni=' . $servername . '#' . $nama;
+                    } elseif ($proxy['network'] === 'grpc') {
+                        $format = 'trojan://' . $proxy['password'] . '@' . $proxy['server'] . ':' . $proxy['port'] . '?mode=gun&security=tls&type=grpc&serviceName=' . $proxy['grpc-opts']['grpc-service-name'] . '&sni=' . $proxy['sni'] . '#' . $nama;
+                    }
+                }
+                $formats[] = $format;
+            } elseif ($proxy['type'] === 'vmess') {
+                if (isset($proxy['network'])) {
+                    if ($proxy['network'] == "ws") {
+                        if (isset($proxy['ws-opts'])) {
+                            $format = 'vmess://' . base64_encode(json_encode(['add' => $server, 'aid' => $proxy['alterId'], 'host' => $servername, 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['ws-opts']['path'], 'port' => $proxy['port'], 'ps' => $nama, 'scy' => $proxy['cipher'], 'sni' => $servername, 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
+                        }
+                    } elseif ($proxy['network'] == "grpc") {
+                        $format = 'vmess://' . base64_encode(json_encode(['add' => $proxy['server'], 'aid' => $proxy['alterId'], 'id' => $proxy['uuid'], 'net' => $proxy['network'], 'path' => $proxy['grpc-opts']['grpc-service-name'], 'port' => $proxy['port'], 'ps' => $nama, 'scy' => $proxy['cipher'], 'sni' => $proxy['servername'], 'tls' => $proxy['tls'] ? "tls" : "", 'type' => $proxy['type'], 'v' => "2", ]));
+                    }
+                }
+                $formats[] = $format;
+            }
+        }
+    }
+    return $formats;
 }
 $hasil = "";
 $formats = convertToFormat(file_get_contents("b.yaml"));
 foreach ($formats as $format) {
-	if ($format != "") {
-		$hasil .= $format . "\n";
-		//file_put_contents("result.txt", $format."\n", FILE_APPEND);
-		echo $format . "\n";
-	}
+    if ($format != "") {
+        $hasil.= $format . "\n";
+        //file_put_contents("result.txt", $format."\n", FILE_APPEND);
+        echo $format . "\n";
+    }
 }
 file_put_contents("sing-box-base64.txt", base64_encode($hasil));
 //shell_exec("gzip -d lite-linux-amd64.gz");
@@ -114,20 +100,20 @@ file_put_contents("sing-box.yaml", "proxies:");
 file_put_contents("hasil_convert(untest).yaml", "proxies:");
 $query = "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
 foreach ($speedtest->nodes as $akun) {
-	if ($akun->isok == true) {
-		file_put_contents("sing-box.txt", $akun->link . "\n", FILE_APPEND);
-		$urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
-		$akn = urlencode($akun->link);
-		$url = file_get_contents($urlHasil . $akn . $query);
-		$hasil = explode("proxies:", $url) [1];
-		$hasil = explode("proxy-groups:", $hasil) [0];
-		file_put_contents("sing-box.yaml", $hasil, FILE_APPEND);	
-	}
-	$urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
-	$akn = urlencode($akun->link);
-	$url = file_get_contents($urlHasil . $akn . $query);
-	$hasil = explode("proxies:", $url) [1];
-	$hasil = explode("proxy-groups:", $hasil) [0];
-	file_put_contents("hasil_convert(untest).yaml", $hasil, FILE_APPEND);
+    if ($akun->isok == true) {
+        file_put_contents("sing-box.txt", $akun->link . "\n", FILE_APPEND);
+        $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+        $akn = urlencode($akun->link);
+        $url = file_get_contents($urlHasil . $akn . $query);
+        $hasil = explode("proxies:", $url) [1];
+        $hasil = explode("proxy-groups:", $hasil) [0];
+        file_put_contents("sing-box.yaml", $hasil, FILE_APPEND);
+    }
+    $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+    $akn = urlencode($akun->link);
+    $url = file_get_contents($urlHasil . $akn . $query);
+    $hasil = explode("proxies:", $url) [1];
+    $hasil = explode("proxy-groups:", $hasil) [0];
+    file_put_contents("hasil_convert(untest).yaml", $hasil, FILE_APPEND);
 }
 ?>
