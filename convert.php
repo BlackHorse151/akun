@@ -11,6 +11,13 @@ function curl($url) {
 		return $resp;
 }
 
+function getFlags($country_code)
+{
+    $flag = mb_convert_encoding( '&#' . ( 127397 + ord( $country_code[0] ) ) . ';', 'UTF-8', 'HTML-ENTITIES');
+    $flag .= mb_convert_encoding( '&#' . ( 127397 + ord( $country_code[1] ) ) . ';', 'UTF-8', 'HTML-ENTITIES');
+    return $flag;
+}
+
 function convertToFormat($data) {
 	$proxies = Yaml::parse($data) ['proxies'];
 	$formats = [];
@@ -23,7 +30,8 @@ function convertToFormat($data) {
 			$uid = $proxy["server"];
 			$ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
 			if($ip_info->status == "success") {
-			    $nama = "{$ip_info->country} {$ip_info->as} ".rand(1000 , 9999);
+			    $flag = getFlags($ip_info->countryCode);
+			    $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} ".rand(1000 , 9999);
 			} else {
 			    $nama = $uid;
 			}
