@@ -34,18 +34,18 @@ function convertToFormat($data) {
             $server = $bg;
             if ($proxy["ws-opts"]["headers"]["Host"] != "") {
                 $servername = $proxy["ws-opts"]["headers"]["Host"];
-                $server = "104.16.66.85";
+                $server = $bg;
             }
             if ($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
                 if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
                     $servername = $proxy['server'];
-                    $server = "104.16.66.85";
+                    $server = $bg;
                 }
             }
             if ($proxy["type"] == "trojan") {
                 if ($proxy["sni"] == "") {
                     $servername = $proxy['server'];
-                    $server = "104.16.66.85";
+                    $server = $bg;
                 }
             }
             if ($proxy['type'] === 'vless') {
