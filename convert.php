@@ -3,7 +3,10 @@ require_once 'vendor/autoload.php'; //
 use Symfony\Component\Yaml\Yaml;
 function curl($url) {
     $ch = curl_init();
+    $proxy = array("194.244.232.53:8080","185.165.57.199:8080","41.76.149.62:8080","180.253.18.11:8080","67.22.28.62:8080","68.188.93.171:8080","110.77.180.180:8080","188.132.221.141:8080","110.164.175.110:8080","182.23.35.242:8080","103.162.62.47:8080");
+    $proxy = $proxy[array_rand($proxy)];
     curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_PROXY, $proxy);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $resp = curl_exec($ch);
     curl_close($ch);
