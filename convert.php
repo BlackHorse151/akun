@@ -78,6 +78,7 @@ function convertToFormat($data) {
                 }
                 $formats[] = $format;
             }
+            echo $nama." => ".$format."\n";
         }
     }
     return $formats;
@@ -87,11 +88,12 @@ $formats = convertToFormat(file_get_contents("b.yaml"));
 foreach ($formats as $format) {
     if ($format != "") {
         $hasil.= $format . "\n";
-        //file_put_contents("result.txt", $format."\n", FILE_APPEND);
-        echo $format . "\n";
+        file_put_contents("result.txt", $format."\n", FILE_APPEND);
+        //echo $format . "\n";
     }
 }
 file_put_contents("sing-box-base64.txt", base64_encode($hasil));
+exit();
 //shell_exec("gzip -d lite-linux-amd64.gz");
 shell_exec("chmod +x ./lite-linux-amd64 && ./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt");
 $speedtest = json_decode(file_get_contents("output.json"));
