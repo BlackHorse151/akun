@@ -23,13 +23,13 @@ function convertToFormat($data) {
         foreach ($bug as $bg) {
             $uid = $proxy["server"];
             $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
+            print_r($ip_info);
+            echo "\n";
             if ($ip_info->status == "success") {
                 $flag = getFlags($ip_info->countryCode);
                 $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} " . rand(1000, 9999);
             } else {
                 $nama = $uid." ".rand(1000, 9999);
-                print_r($ip_info);
-                echo "\n";
             }
             $id.= $uid . " ";
             $format = "";
