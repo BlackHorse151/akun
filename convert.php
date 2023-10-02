@@ -26,7 +26,7 @@ function convertToFormat($data) {
             print_r($ip_info);
             $nama = $uid." ".rand(1000, 9999);
             echo "$nama \n";
-            if (isset($ip_info->status) == "success") {
+            if ($ip_info->status == "success") {
                 $flag = getFlags($ip_info->countryCode);
                 $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} " . rand(1000, 9999);
             } 
