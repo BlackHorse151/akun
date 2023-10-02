@@ -3,10 +3,7 @@ require_once 'vendor/autoload.php'; //
 use Symfony\Component\Yaml\Yaml;
 function curl($url) {
     $ch = curl_init();
-    $proxy = array("194.244.232.53:8080","185.165.57.199:8080","41.76.149.62:8080","180.253.18.11:8080","67.22.28.62:8080","68.188.93.171:8080","110.77.180.180:8080","188.132.221.141:8080","110.164.175.110:8080","182.23.35.242:8080","103.162.62.47:8080");
-    $proxy = $proxy[array_rand($proxy)];
     curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_PROXY, $proxy);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $resp = curl_exec($ch);
     curl_close($ch);
@@ -27,13 +24,12 @@ function convertToFormat($data) {
             $uid = $proxy["server"];
             $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
             print_r($ip_info);
-            echo "\n";
-            if ($ip_info->status == "success") {
+            $nama = $uid." ".rand(1000, 9999);
+            echo "$nama \n";
+            if (iseet($ip_info->status) == "success") {
                 $flag = getFlags($ip_info->countryCode);
                 $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} " . rand(1000, 9999);
-            } else {
-                $nama = $uid." ".rand(1000, 9999);
-            }
+            } 
             $id.= $uid . " ";
             $format = "";
             $server = $bg;
