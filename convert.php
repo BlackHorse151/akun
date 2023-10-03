@@ -23,7 +23,7 @@ function convertToFormat($data) {
         foreach ($bug as $bg) {
             $uid = $proxy["server"];
             $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
-            print_r($ip_info);
+            //print_r($ip_info);
             $nama = $uid." ".rand(1000, 9999);
             echo "$nama \n";
             if ($ip_info->status == "success") {
@@ -34,8 +34,8 @@ function convertToFormat($data) {
             $format = "";
             $server = $bg;
             if ($proxy["ws-opts"]["headers"]["Host"] != "") {
-                $servername = $proxy["ws-opts"]["headers"]["Host"];
-                $server = $bg;
+                $servername = $bg;
+                $server = $proxy["ws-opts"]["headers"]["Host"]; $bg;
             }
             if ($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
                 if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
