@@ -34,7 +34,7 @@ function convertToFormat($data) {
             $format = "";
             $server = $bg;
             if ($proxy["ws-opts"]["headers"]["Host"] != "") {
-                $servername = $uid;
+                $servername = $proxy["ws-opts"]["headers"]["Host"];
                 $server = $bg;
             }
             if ($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
