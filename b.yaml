@@ -1,36 +1,4 @@
 proxies:
-  - name: RELAY-104.18.213.12-1200
-    server: api.jquery.com
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-164.90.130.217-0530"
-    server: 164.90.130.217
-    port: 13337
-    type: vmess
-    uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
   - name: "\U0001F1FA\U0001F1F8 US-66.55.64.124-0524"
     server: 66.55.64.124
     port: 13337
@@ -47,69 +15,21 @@ proxies:
       headers:
         Host: mi-1.trollfunny.net
     udp: true
-  - name: RELAY-104.21.91.254-1797
-    server: waynn.makeup
-    port: 443
+  - name: RELAY-172.67.184.53-1345
+    server: cloudconebbb.gorgorchicken.one
+    port: 8443
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: waynn.makeup
+    servername: cloudconebbb.gorgorchicken.one
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: waynn.makeup
-    udp: true
-  - name: RELAY-104.18.212.12-1220
-    server: 104.18.212.12
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sub.yifenjichang.top
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sub.yifenjichang.top
-    udp: true
-  - name: RELAY-104.21.31.183-1191
-    server: octavi.cfd
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: octavi.cfd
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: octavi.cfd
-    udp: true
-  - name: RELAY-172.67.179.37-4900
-    server: octavi.cfd
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: octavi.cfd
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: octavi.cfd
+        Host: cloudconebbb.gorgorchicken.one
     udp: true
   - name: RELAY-104.21.36.26-1093
     server: cloudconeaaa.gorgorchicken.one
@@ -143,24 +63,8 @@ proxies:
       headers:
         Host: www.51109057.xyz
     udp: true
-  - name: RELAY-172.67.184.53-1345
-    server: cloudconebbb.gorgorchicken.one
-    port: 8443
-    type: vmess
-    uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cloudconebbb.gorgorchicken.one
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cloudconebbb.gorgorchicken.one
-    udp: true
-  - name: RELAY-104.31.16.120-1199
-    server: 104.31.16.120
+  - name: RELAY-104.21.27.139-8653
+    server: edeen.makeup
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -175,24 +79,24 @@ proxies:
       headers:
         Host: edeen.makeup
     udp: true
-  - name: RELAY-104.21.53.12-1426
-    server: ophelia.mom
+  - name: RELAY-172.67.12.34-1201
+    server: laravel.com
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ophelia.mom
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: ophelia.mom
+        Host: sub.yifenjichang.top
     udp: true
-  - name: RELAY-104.21.27.139-8653
-    server: edeen.makeup
+  - name: RELAY-104.31.16.120-1199
+    server: 104.31.16.120
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -223,40 +127,8 @@ proxies:
       headers:
         Host: racknerd.gorgorchicken.one
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-38.63.0.85-0113"
-    server: 38.63.0.85
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.19458162.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.19458162.xyz
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-38.63.0.71-4928"
-    server: 38.63.0.71
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: www.19458162.xyz
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.19458162.xyz
-    udp: true
-  - name: RELAY-104.21.21.88-1424
-    server: odelia.autos
+  - name: RELAY-104.21.53.12-1426
+    server: ophelia.mom
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -264,15 +136,31 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: odelia.autos
+    servername: ophelia.mom
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: odelia.autos
+        Host: ophelia.mom
     udp: true
-  - name: RELAY-172.67.164.184-1420
-    server: alvvin.click
+  - name: RELAY-104.21.91.254-1797
+    server: waynn.makeup
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: waynn.makeup
+    udp: true
+  - name: RELAY-172.67.179.37-4900
+    server: octavi.cfd
     port: 443
     type: vmess
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -280,18 +168,34 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: alvvin.click
+    servername: octavi.cfd
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: alvvin.click
+        Host: octavi.cfd
     udp: true
-  - name: FR-51.15.105.39-14283
-    server: 51.15.105.39
+  - name: RELAY-104.21.31.183-1191
+    server: octavi.cfd
     port: 443
     type: vmess
-    uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: octavi.cfd
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 US-164.90.130.217-0530"
+    server: 164.90.130.217
+    port: 13337
+    type: vmess
+    uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
     alterId: 0
     cipher: auto
     tls: true
@@ -302,6 +206,38 @@ proxies:
       path: /
       headers:
         Host: ""
+    udp: true
+  - name: RELAY-104.18.213.12-1200
+    server: api.jquery.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+  - name: RELAY-104.18.212.12-1220
+    server: 104.18.212.12
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sub.yifenjichang.top
     udp: true
   - name: FR-51.15.105.39-14285
     server: 51.15.105.39
@@ -335,54 +271,6 @@ proxies:
       headers:
         Host: phosphorylative.aurorainiceland.com
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-38.63.0.89-1423"
-    server: 38.63.0.89
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
-  - name: RELAY-188.114.97.1-1193
-    server: 188.114.97.1
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: odelia.autos
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: odelia.autos
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-38.63.0.68-1418"
-    server: 38.63.0.68
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
   - name: "\U0001F1E9\U0001F1EA DE-130.162.47.123-14929"
     server: 130.162.47.123
     port: 6854
@@ -398,6 +286,86 @@ proxies:
       path: /
       headers:
         Host: ""
+    udp: true
+  - name: RELAY-172.64.152.228-1243
+    server: auth0.openai.com
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+  - name: FR-51.15.105.39-14283
+    server: 51.15.105.39
+    port: 443
+    type: vmess
+    uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: RELAY-104.16.176.44-1255
+    server: codepen.io
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+  - name: RELAY-172.67.130.55-1273
+    server: 51vfly1.win
+    port: 443
+    type: vmess
+    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 51vfly1.win
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 51vfly1.win
+    udp: true
+  - name: RELAY-104.16.86.230-1338
+    server: 46caadb.f2.gladns.com
+    port: 3331
+    type: vmess
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 46caadb.f2.gladns.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 46caadb.f2.gladns.com
     udp: true
   - name: "\U0001F1E9\U0001F1EA DE-130.162.47.123-7932"
     server: 130.162.47.123
@@ -415,35 +383,67 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-198.2.202.82-1374"
-    server: 198.2.202.82
+  - name: "\U0001F1FA\U0001F1F8 US-66.241.124.229-0060"
+    server: cold-dawn-9246.fly.dev
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: cold-dawn-9246.fly.dev
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: ""
+        Host: cold-dawn-9246.fly.dev
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 US-38.63.0.85-14370"
-    server: 38.63.0.85
+  - name: RELAY-104.17.69.9-1258
+    server: 104.17.69.9
     port: 443
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: Amsterdam.bobbykotick.rip
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: ""
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+  - name: RELAY-104.16.91.78-1251
+    server: 104.16.91.78
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+  - name: RELAY-172.67.156.138-1179
+    server: amsterdam.kotick.site
+    port: 443
+    type: vmess
+    uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: amsterdam.kotick.site
     udp: true
