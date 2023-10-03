@@ -35,7 +35,7 @@ function convertToFormat($data) {
             $server = $bg;
             if ($proxy["ws-opts"]["headers"]["Host"] != "") {
                 $servername = $bg;
-                $server = $proxy["ws-opts"]["headers"]["Host"]; $bg;
+                $server = $proxy["ws-opts"]["headers"]["Host"];
             }
             if ($proxy["type"] == "vmess" or $proxy["type"] == "vless") {
                 if ($proxy["servername"] == "") { //or isset($proxy['sni']) == "") {
