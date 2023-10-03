@@ -4,6 +4,8 @@ $tanggal = $date->format('Y/m/Ymd').".txt";
 $tanggal2 = "data".$date->format('Ymj').".txt";
 $url = [
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity",
+	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir",
+	"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt",
     /*"https://clashnode.com/wp-content/uploads/".$tanggal,
 	"https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix",
 	"https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
