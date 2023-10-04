@@ -116,6 +116,7 @@ foreach ($speedtest->nodes as $akun) {
         $hasil = explode("proxies:", $url) [1];
         $hasil = explode("proxy-groups:", $hasil) [0];
         $tes_check = explode("network: ws", explode("type: vmess",$hasil)[1])[0];
+        print($tes_check."\n");
         if(preg_match("/^{$tes_check}/im",$check)) {
             echo "node sudah ada \n";
         } else {
