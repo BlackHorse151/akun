@@ -7,7 +7,7 @@ $url = [
 	/*"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity",
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir",
 	"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt",*/
-   /* "https://clashnode.com/wp-content/uploads/".$tanggal,
+    "https://clashnode.com/wp-content/uploads/".$tanggal,
 	"https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix",
 	"https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
 	"https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt",
@@ -69,7 +69,7 @@ $url = [
     'https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1', 
     "https://raw.githubusercontent.com/HakurouKen/free-node/main/public", 
 	"https://paste.gg/p/anonymous/7df50f752b00498398525560262c5786/files/ec501b9762b743218cdd21fe4e123276/raw",
-*/
+
 	];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");
