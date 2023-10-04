@@ -15,7 +15,7 @@ function getFlags($country_code) {
     return $flag;
 }
 function convertToFormat($data) {
-    $proxies = Yaml::parse($data) ['proxies'];
+    $proxies = Yaml::parse($data)['proxies'];
     $formats = [];
     $id = "";
     foreach ($proxies as $proxy) {
@@ -23,7 +23,7 @@ function convertToFormat($data) {
         foreach ($bug as $bg) {
             $uid = $proxy["server"];
             $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
-            //print_r($ip_info);
+        
             $nama = $uid." ".rand(1000, 9999);
             echo "$nama \n";
             if ($ip_info->status == "success") {
@@ -101,6 +101,7 @@ file_put_contents("sing-box.txt", "");
 file_put_contents("sing-box.yaml", "proxies:");
 file_put_contents("hasil_convert(untest).yaml", "proxies:");
 $query = "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
+$check = "";
 foreach ($speedtest->nodes as $akun) {
     if ($akun->isok == true) {
         file_put_contents("sing-box.txt", $akun->link . "\n", FILE_APPEND);
@@ -109,7 +110,13 @@ foreach ($speedtest->nodes as $akun) {
         $url = file_get_contents($urlHasil . $akn . $query);
         $hasil = explode("proxies:", $url) [1];
         $hasil = explode("proxy-groups:", $hasil) [0];
-        file_put_contents("sing-box.yaml", $hasil, FILE_APPEND);
+        $tes_check = explode("network: ws", explode("type: vmess",$hasil)[1])[0];
+        if(preg_match("/{$tes_check}/",$check)) {
+            echo "node sudah ada \n";
+        } else {
+            $check .= $tes_check."\n";
+            file_put_contents("sing-box.yaml", $hasil, FILE_APPEND);
+        }
     }
     $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
     $akn = urlencode($akun->link);
