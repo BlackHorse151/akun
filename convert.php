@@ -32,8 +32,10 @@ function convertToFormat($data) {
                 }
             } else {
                 $ip_info = json_decode(curl("ipinfo.io/{$uid}/json"));
-                print_r($ip_info);
-                echo "\nCek Baru\n";
+                if (isset($ip_info->org)) {
+                    $flag = getFlags($ip_info->country);
+                    $nama = "{$flag} {$ip_info->country} {$ip_info->org} " . rand(1000, 9999);
+                }
             }
             $id.= $uid . " ";
             $format = "";

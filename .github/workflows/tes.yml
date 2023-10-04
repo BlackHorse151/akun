@@ -53,7 +53,7 @@ jobs:
         with:
           branch: main
           
-      - name: Convert And Speedtest
+      - name: Convert
         run : php convert.php
       - name: Commit Changes
         run: |
@@ -67,8 +67,23 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           branch: main
+      - name: speedtest
+        run: chmod +x ./lite-linux-amd64 && ./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt
       
-      - name: Speedtest
+      - name: Commit Changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull origin main
+          git add .
+          git checkout main
+          git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+      
+      - name: filter
         run: php speedtest.php
         
       - name: Pull Changes
