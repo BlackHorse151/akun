@@ -1,5 +1,5 @@
 proxies:
-  - name: CA AS13335 Cloudflare, Inc. 3565
+  - name: CA AS13335 Cloudflare, Inc. 7154
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -16,7 +16,7 @@ proxies:
         Host: x.xiaohui123.eu.org
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 8044
+  - name: CA AS13335 Cloudflare, Inc. 1478
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -33,7 +33,7 @@ proxies:
         Host: x.xiaohui123.eu.org
     udp: true
 
-  - name: 190.93.246.241 3504
+  - name: CR AS13335 Cloudflare, Inc. 6140
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -50,7 +50,7 @@ proxies:
         Host: gb3vm.cdn-03.live
     udp: true
 
-  - name: 190.93.246.241 6606
+  - name: CR AS13335 Cloudflare, Inc. 2100
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -67,7 +67,7 @@ proxies:
         Host: gb3vm.cdn-03.live
     udp: true
 
-  - name: 104.18.212.12 4573
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3101
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -84,7 +84,7 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: 104.18.212.12 4999
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8336
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -101,7 +101,41 @@ proxies:
         Host: sub.yifenjichang.top
     udp: true
 
-  - name: ophelia.mom 2209
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 6485
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 2254
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: ophelia.mom 6427
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -118,7 +152,7 @@ proxies:
         Host: ophelia.mom
     udp: true
 
-  - name: ophelia.mom 8615
+  - name: ophelia.mom 9238
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -135,7 +169,7 @@ proxies:
         Host: ophelia.mom
     udp: true
 
-  - name: 🇩🇪 edeen.makeup 5215
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 1132
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -144,15 +178,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edeen.makeup
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: linkvws
+      path: /oliv.beauty:443/linkvws
       headers:
-        Host: edeen.makeup
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: 🇩🇪 edeen.makeup 5617
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 2027
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -161,15 +195,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: edeen.makeup
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: linkvws
+      path: /oliv.beauty:443/linkvws
       headers:
-        Host: edeen.makeup
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: NL AS13335 Cloudflare, Inc. 7565
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 1943
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -186,7 +220,7 @@ proxies:
         Host: waynn.makeup
     udp: true
 
-  - name: NL AS13335 Cloudflare, Inc. 2040
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 4759
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -203,7 +237,7 @@ proxies:
         Host: waynn.makeup
     udp: true
 
-  - name: NL AS13335 Cloudflare, Inc. 5923
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8537
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -220,7 +254,7 @@ proxies:
         Host: odelia.autos
     udp: true
 
-  - name: NL AS13335 Cloudflare, Inc. 3544
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 7234
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -237,7 +271,7 @@ proxies:
         Host: odelia.autos
     udp: true
 
-  - name: 188.114.97.3 9477
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 1244
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -254,7 +288,7 @@ proxies:
         Host: odelia.autos
     udp: true
 
-  - name: 188.114.97.3 4187
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 6276
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -271,7 +305,7 @@ proxies:
         Host: odelia.autos
     udp: true
 
-  - name: amstd.digires.shop 4572
+  - name: amstd.digires.shop 3017
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -288,7 +322,177 @@ proxies:
         Host: amstd.digires.shop
     udp: true
 
-  - name: 104.17.69.9 4750
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 9340
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fragrant-sun-6653.walidfree6.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: fragrant-sun-6653.walidfree6.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 2763
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fragrant-sun-6653.walidfree6.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: fragrant-sun-6653.walidfree6.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5846
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: spring-snow-edd3.walidfree13.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: spring-snow-edd3.walidfree13.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 9161
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: spring-snow-edd3.walidfree13.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: spring-snow-edd3.walidfree13.workers.dev
+    udp: true
+
+  - name: laravel.com 8995
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: laravel.com 5712
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: cdnjs.com 3207
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.kotick.site
+    udp: true
+
+  - name: cdnjs.com 2526
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.kotick.site
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8622
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5705
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3836
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -305,7 +509,7 @@ proxies:
         Host: Amsterdam.bobbykotick.rip
     udp: true
 
-  - name: 104.17.69.9 4147
+  - name: CA AS13335 Cloudflare, Inc. 1331
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -322,7 +526,75 @@ proxies:
         Host: Amsterdam.bobbykotick.rip
     udp: true
 
-  - name: ophelia.mom 4865
+  - name: CA AS13335 Cloudflare, Inc. 5973
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fragrant-hat-5dce.walidfree14.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: fragrant-hat-5dce.walidfree14.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5701
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fragrant-hat-5dce.walidfree14.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: fragrant-hat-5dce.walidfree14.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8530
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: speedtest
+      headers:
+        Host: amsterdam.kotick.site
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4590
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amsterdam.kotick.site
+    network: ws
+    ws-opts:
+      path: speedtest
+      headers:
+        Host: amsterdam.kotick.site
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1213
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -339,7 +611,7 @@ proxies:
         Host: ophelia.mom
     udp: true
 
-  - name: ophelia.mom 4815
+  - name: CA AS13335 Cloudflare, Inc. 5173
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -356,75 +628,177 @@ proxies:
         Host: ophelia.mom
     udp: true
 
-  - name: 172.67.81.238 9644
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5582
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: franc.digires.shop
+    servername: Amsterdam.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /11201
+      path: /speedtest
       headers:
-        Host: franc.digires.shop
+        Host: Amsterdam.bobbykotick.rip
     udp: true
 
-  - name: 172.67.81.238 4191
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 7240
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: franc.digires.shop
+    servername: Amsterdam.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /11201
+      path: /speedtest
       headers:
-        Host: franc.digires.shop
+        Host: Amsterdam.bobbykotick.rip
     udp: true
 
-  - name: 104.18.234.77 2534
+  - name: CA AS13335 Cloudflare, Inc. 3599
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1808
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 7133
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: restless-glitter-c0e4.walidfree7.workers.dev
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: restless-glitter-c0e4.walidfree7.workers.dev
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
     udp: true
 
-  - name: 104.18.234.77 9551
+  - name: CA AS13335 Cloudflare, Inc. 6212
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: restless-glitter-c0e4.walidfree7.workers.dev
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
     network: ws
     ws-opts:
       path: /speedtest/Amsterdam.kotick.site
       headers:
-        Host: restless-glitter-c0e4.walidfree7.workers.dev
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
     udp: true
 
-  - name: 104.18.22.93 8180
+  - name: CA AS13335 Cloudflare, Inc. 8572
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3907
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1353
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8140
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1967
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -441,7 +815,7 @@ proxies:
         Host: fancy-dream-7440.walidfree9.workers.dev
     udp: true
 
-  - name: 104.18.22.93 9187
+  - name: CA AS13335 Cloudflare, Inc. 7798
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -458,7 +832,109 @@ proxies:
         Host: fancy-dream-7440.walidfree9.workers.dev
     udp: true
 
-  - name: 104.16.32.142 4463
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 4205
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: still-bonus-0cb7.walidfree1.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: still-bonus-0cb7.walidfree1.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3926
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: still-bonus-0cb7.walidfree1.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: still-bonus-0cb7.walidfree1.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9042
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3255
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 7289
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3307
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fancy-dust-cfdf.maedegij2384.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: fancy-dust-cfdf.maedegij2384.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 7082
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -475,7 +951,7 @@ proxies:
         Host: white-dawn-4be8.walidfree5.workers.dev
     udp: true
 
-  - name: 104.16.32.142 4747
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 1709
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -492,7 +968,245 @@ proxies:
         Host: white-dawn-4be8.walidfree5.workers.dev
     udp: true
 
-  - name: 104.16.91.78 4571
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 6582
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: white-dawn-4be8.walidfree5.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: white-dawn-4be8.walidfree5.workers.dev
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 9997
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: white-dawn-4be8.walidfree5.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: white-dawn-4be8.walidfree5.workers.dev
+    udp: true
+
+  - name: api.jquery.com 1444
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: api.jquery.com 7944
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: waynn.makeup 6824
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: waynn.makeup 6031
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: 104.31.16.120 7199
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 104.31.16.120 1112
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 104.18.35.28 9115
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 7997
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.16.176.44 3289
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.16.176.44 5941
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.22.1.126 5380
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9407
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.16.91.78 6395
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -509,7 +1223,7 @@ proxies:
         Host: Kansas.bobbykotick.rip
     udp: true
 
-  - name: 104.16.91.78 7017
+  - name: 104.16.91.78 5045
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -526,75 +1240,109 @@ proxies:
         Host: Kansas.bobbykotick.rip
     udp: true
 
-  - name: 104.24.177.7 8737
+  - name: 104.16.109.61 5400
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
+    servername: icy-mountain-b47b.xigulizi4023.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        Host: Dusseldorf.kotick.site
+        Host: icy-mountain-b47b.xigulizi4023.workers.dev
     udp: true
 
-  - name: 104.24.177.7 1832
+  - name: CA AS13335 Cloudflare, Inc. 8984
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
+    servername: icy-mountain-b47b.xigulizi4023.workers.dev
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /Amsterdam.kotick.site/speedtest
       headers:
-        Host: Dusseldorf.kotick.site
+        Host: icy-mountain-b47b.xigulizi4023.workers.dev
     udp: true
 
-  - name: 104.24.176.7 5680
+  - name: 104.17.45.51 6514
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Amsterdam.kotick.site
+    servername: Kansas.bobbykotick.rip
     network: ws
     ws-opts:
       path: /speedtest
       headers:
-        Host: Amsterdam.kotick.site
+        Host: Kansas.bobbykotick.rip
     udp: true
 
-  - name: 104.24.176.7 8183
+  - name: 104.17.45.51 7443
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: Amsterdam.kotick.site
+    servername: Kansas.bobbykotick.rip
     network: ws
     ws-opts:
       path: /speedtest
       headers:
-        Host: Amsterdam.kotick.site
+        Host: Kansas.bobbykotick.rip
     udp: true
 
-  - name: octavi.cfd 7102
+  - name: 104.22.15.221 8262
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aged-salad-8e8c.walidfree17.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: aged-salad-8e8c.walidfree17.workers.dev
+    udp: true
+
+  - name: 104.22.15.221 1973
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aged-salad-8e8c.walidfree17.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.kotick.site
+      headers:
+        Host: aged-salad-8e8c.walidfree17.workers.dev
+    udp: true
+
+  - name: CA AS137554 Dream.Net 5670
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -611,7 +1359,7 @@ proxies:
         Host: octavi.cfd
     udp: true
 
-  - name: octavi.cfd 5821
+  - name: CA AS137554 Dream.Net 2690
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -628,7 +1376,41 @@ proxies:
         Host: octavi.cfd
     udp: true
 
-  - name: cjmahdi.online 1444
+  - name: CA AS137554 Dream.Net 9482
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8393
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9008
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -645,7 +1427,7 @@ proxies:
         Host: green-water-bb30.walidfree23.workers.dev
     udp: true
 
-  - name: cjmahdi.online 9755
+  - name: cjmahdi.online 5457
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -662,7 +1444,75 @@ proxies:
         Host: green-water-bb30.walidfree23.workers.dev
     udp: true
 
-  - name: alvvin.click 8710
+  - name: auth0.openai.com 7751
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: auth0.openai.com 8977
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 🇩🇪 edeen.makeup 2011
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 🇩🇪 edeen.makeup 5312
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: alvvin.click 4339
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -679,7 +1529,24 @@ proxies:
         Host: alvvin.click
     udp: true
 
-  - name: alvvin.click 5611
+  - name: 104.31.16.120 6494
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 104.31.16.120 1895
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -688,83 +1555,253 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: alvvin.click
+    servername: edeen.makeup
     network: ws
     ws-opts:
       path: linkvws
       headers:
-        Host: alvvin.click
+        Host: edeen.makeup
     udp: true
 
-  - name: 51vfly1.win 3594
+  - name: 104.22.15.221 1343
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 51vfly1.win
+    servername: aged-salad-8e8c.walidfree17.workers.dev
     network: ws
     ws-opts:
-      path: /myblog
+      path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: 51vfly1.win
+        Host: aged-salad-8e8c.walidfree17.workers.dev
     udp: true
 
-  - name: 51vfly1.win 4750
+  - name: 104.22.15.221 1112
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 51vfly1.win
+    servername: aged-salad-8e8c.walidfree17.workers.dev
     network: ws
     ws-opts:
-      path: /myblog
+      path: /speedtest/Dusseldorf.kotick.site
       headers:
-        Host: 51vfly1.win
+        Host: aged-salad-8e8c.walidfree17.workers.dev
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 6621
+  - name: CA AS13335 Cloudflare, Inc. 7420
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vfly3.win
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /myblog
+      path: /odelia.autos:443/linkvws
       headers:
-        Host: vfly3.win
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 4452
+  - name: CA AS13335 Cloudflare, Inc. 8361
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: 9681f99e-d251-477a-d777-1d01ee550481
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vfly3.win
+    servername: sub.yifenjichang.top
     network: ws
     ws-opts:
-      path: /myblog
+      path: /odelia.autos:443/linkvws
       headers:
-        Host: vfly3.win
+        Host: sub.yifenjichang.top
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 5147
+  - name: CA AS13335 Cloudflare, Inc. 2529
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fragrant-sun-6653.walidfree6.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: fragrant-sun-6653.walidfree6.workers.dev
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5851
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fragrant-sun-6653.walidfree6.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Lille.kotick.site
+      headers:
+        Host: fragrant-sun-6653.walidfree6.workers.dev
+    udp: true
+
+  - name: NL AS13335 Cloudflare, Inc. 5081
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: NL AS13335 Cloudflare, Inc. 6642
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9272
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3780
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: NL AS13335 Cloudflare, Inc. 7776
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: NL AS13335 Cloudflare, Inc. 6086
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1688
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3056
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: GB AS13335 Cloudflare, Inc. 3027
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -781,7 +1818,7 @@ proxies:
         Host: octavi.cfd
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 1235
+  - name: GB AS13335 Cloudflare, Inc. 3788
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -798,24 +1835,7 @@ proxies:
         Host: octavi.cfd
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 9533
-    server: 104.17.72.206
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: alvvin.click
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: alvvin.click
-    udp: true
-
-  - name: CA AS13335 Cloudflare, Inc. 7722
+  - name: CA AS13335 Cloudflare, Inc. 2187
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -824,15 +1844,117 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: alvvin.click
+    servername: ophelia.mom
     network: ws
     ws-opts:
       path: linkvws
       headers:
-        Host: alvvin.click
+        Host: ophelia.mom
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 1936
+  - name: CA AS13335 Cloudflare, Inc. 6735
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1135
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 🇩🇪 odelia.autos 2458
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: 🇩🇪 odelia.autos 9202
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1724
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: ophelia.mom 9385
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: pzl.p237875155.buzz 5494
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -849,7 +1971,7 @@ proxies:
         Host: pzl.p237875155.buzz
     udp: true
 
-  - name: CA AS13335 Cloudflare, Inc. 9919
+  - name: pzl.p237875155.buzz 6531
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -866,7 +1988,245 @@ proxies:
         Host: pzl.p237875155.buzz
     udp: true
 
-  - name: ming2.kiwireich.com 7782
+  - name: 🇩🇪 codepen.io 5667
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 🇩🇪 codepen.io 7844
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: laravel.com 2892
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: laravel.com 9095
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.31.16.120 6910
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 104.31.16.120 7647
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: api.jquery.com 1242
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: api.jquery.com 9863
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: waynn.makeup 1465
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: waynn.makeup 3551
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: octavi.cfd 7289
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: octavi.cfd 9937
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: alvvin.click 3589
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: alvvin.click 8431
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: ming2.kiwireich.com 1790
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -883,7 +2243,7 @@ proxies:
         Host: ming2.kiwireich.com
     udp: true
 
-  - name: ming2.kiwireich.com 7152
+  - name: ming2.kiwireich.com 2711
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -900,7 +2260,75 @@ proxies:
         Host: ming2.kiwireich.com
     udp: true
 
-  - name: cloudconebbb.gorgorchicken.one 8193
+  - name: ming2.kiwireich.com 4885
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: ming2.kiwireich.com 5351
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: ming2.kiwireich.com 2733
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: ming2.kiwireich.com 6627
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: cloudconebbb.gorgorchicken.one 4422
     server: 104.17.72.206
     port: 8443
     type: vmess
@@ -917,7 +2345,7 @@ proxies:
         Host: cloudconebbb.gorgorchicken.one
     udp: true
 
-  - name: cloudconebbb.gorgorchicken.one 8116
+  - name: cloudconebbb.gorgorchicken.one 4119
     server: 104.16.66.85
     port: 8443
     type: vmess
@@ -934,7 +2362,7 @@ proxies:
         Host: cloudconebbb.gorgorchicken.one
     udp: true
 
-  - name: cloudconeaaa.gorgorchicken.one 6732
+  - name: CA AS13335 Cloudflare, Inc. 9146
     server: 104.17.72.206
     port: 8443
     type: vmess
@@ -951,7 +2379,7 @@ proxies:
         Host: cloudconeaaa.gorgorchicken.one
     udp: true
 
-  - name: cloudconeaaa.gorgorchicken.one 1119
+  - name: CA AS13335 Cloudflare, Inc. 4271
     server: 104.16.66.85
     port: 8443
     type: vmess
@@ -968,7 +2396,24 @@ proxies:
         Host: cloudconeaaa.gorgorchicken.one
     udp: true
 
-  - name: 🇬🇧 CY AS209242 Cloudflare London, LLC 7947
+  - name: 203.23.104.190 8108
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: 199.247.23.31 4957
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -980,12 +2425,250 @@ proxies:
     servername: amstd.digires.shop
     network: ws
     ws-opts:
-      path: /12796
+      path: /12796?ed=2048
       headers:
         Host: amstd.digires.shop
     udp: true
 
-  - name: 104.17.14.48 6735
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8537
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 9989
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 2403
+    server: 104.17.72.206
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1063
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5624
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1629
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3417
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796?ed=2048
+      headers:
+        Host: amstd.digires.shop
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4491
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: 104.18.141.98 2664
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+
+  - name: 104.18.141.98 8025
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+
+  - name: 104.17.69.9 7236
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+
+  - name: 104.17.69.9 3913
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Amsterdam.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Amsterdam.bobbykotick.rip
+    udp: true
+
+  - name: 104.17.45.51 5070
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+
+  - name: 104.17.45.51 6040
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+
+  - name: CA AS137554 Dream.Net 4793
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -1002,7 +2685,7 @@ proxies:
         Host: sg-v.sshmax.xyz
     udp: true
 
-  - name: 104.17.14.48 6348
+  - name: CA AS137554 Dream.Net 9657
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -1019,41 +2702,211 @@ proxies:
         Host: sg-v.sshmax.xyz
     udp: true
 
-  - name: main.animelover.ir 8621
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 9304
     server: 104.17.72.206
     port: 443
     type: vmess
-    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: main.animelover.ir
+    servername: Kansas.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /amstd.digires.shop/12796
+      path: /speedtest
       headers:
-        Host: main.animelover.ir
+        Host: Kansas.bobbykotick.rip
     udp: true
 
-  - name: main.animelover.ir 8262
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3515
     server: 104.16.66.85
     port: 443
     type: vmess
-    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: main.animelover.ir
+    servername: Kansas.bobbykotick.rip
     network: ws
     ws-opts:
-      path: /amstd.digires.shop/12796
+      path: /speedtest
       headers:
-        Host: main.animelover.ir
+        Host: Kansas.bobbykotick.rip
     udp: true
 
-  - name: 104.21.4.29 5126
+  - name: CA AS13335 Cloudflare, Inc. 2595
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9729
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 2811
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8756
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /odelia.autos:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 7762
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 2265
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9205
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8980
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4982
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4702
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 6139
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -1070,7 +2923,7 @@ proxies:
         Host: oliv.beauty
     udp: true
 
-  - name: 104.21.4.29 9703
+  - name: CA AS13335 Cloudflare, Inc. 2943
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -1087,7 +2940,194 @@ proxies:
         Host: oliv.beauty
     udp: true
 
-  - name: waynn.makeup 9301
+  - name: CA AS13335 Cloudflare, Inc. 9812
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9169
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5704
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3878
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8861
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: d0930a90-b487-4884-d270-e957f93fe1b0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: x.xiaohui123.eu.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: x.xiaohui123.eu.org
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4096
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: d0930a90-b487-4884-d270-e957f93fe1b0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: x.xiaohui123.eu.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: x.xiaohui123.eu.org
+    udp: true
+
+  - name: 🇬🇧 US AS209242 Cloudflare London, LLC 3505
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3931
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 6794
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4122
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1460
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8840
     server: 104.17.72.206
     port: 443
     type: vmess
@@ -1104,7 +3144,7 @@ proxies:
         Host: waynn.makeup
     udp: true
 
-  - name: waynn.makeup 9481
+  - name: waynn.makeup 7048
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -1121,7 +3161,568 @@ proxies:
         Host: waynn.makeup
     udp: true
 
-  - name: cf.fovi.tk 9605
+  - name: 🇩🇪 odelia.autos 7791
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5931
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 4427
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1542
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5256
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: waynn.makeup 2993
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 7898
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: 104.18.212.12 3547
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 104.18.212.12 7976
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /oliv.beauty:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: 190.93.246.241 2195
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: 190.93.246.241 6196
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: ophelia.mom 2293
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: ophelia.mom 1784
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: 190.93.246.241 4128
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: 190.93.246.241 3915
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one 8060
+    server: 104.17.72.206
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one 3986
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: 🇩🇪 odelia.autos 4478
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: 🇩🇪 odelia.autos 2574
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: ming2.kiwireich.com 6961
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: ming2.kiwireich.com 2249
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
+  - name: 104.31.16.120 5027
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 104.31.16.120 4677
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: waynn.makeup 4391
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: waynn.makeup 1589
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: ophelia.mom 9541
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: ophelia.mom 5588
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8616
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 5167
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 1686
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 6601
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9769
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: CA AS137554 Dream.Net 7362
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 6540
     server: 104.16.66.85
     port: 443
     type: vmess
@@ -1136,4 +3737,429 @@ proxies:
       path: /eisasqa
       headers:
         Host: foxlux.fovi.tk
+    udp: true
+
+  - name: cf.fovi.tk 2325
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: foxlux.fovi.tk
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 8418
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 6226
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: Kansas.bobbykotick.rip
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: Kansas.bobbykotick.rip
+    udp: true
+
+  - name: franc.digires.shop 1252
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one 4855
+    server: 104.17.72.206
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one 8230
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one 7022
+    server: 104.17.72.206
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: cloudconeaaa.gorgorchicken.one 6294
+    server: 104.16.66.85
+    port: 8443
+    type: vmess
+    uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloudconeaaa.gorgorchicken.one
+    network: ws
+    ws-opts:
+      path: /cloudconeaaa
+      headers:
+        Host: cloudconeaaa.gorgorchicken.one
+    udp: true
+
+  - name: octavi.cfd 3851
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: octavi.cfd 5568
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: octavi.cfd
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: octavi.cfd
+    udp: true
+
+  - name: alvvin.click 5239
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alvvin.click
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: alvvin.click
+    udp: true
+
+  - name: 104.31.16.120 4736
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 104.31.16.120 9850
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edeen.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: edeen.makeup
+    udp: true
+
+  - name: 🇩🇪 odelia.autos 9036
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: 🇩🇪 odelia.autos 3619
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: odelia.autos
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: odelia.autos
+    udp: true
+
+  - name: waynn.makeup 5313
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: waynn.makeup 3823
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: waynn.makeup
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: waynn.makeup
+    udp: true
+
+  - name: ophelia.mom 2927
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: ophelia.mom 6925
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ophelia.mom
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: ophelia.mom
+    udp: true
+
+  - name: CR AS13335 Cloudflare, Inc. 8174
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: CR AS13335 Cloudflare, Inc. 4303
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: CR AS13335 Cloudflare, Inc. 5337
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: CR AS13335 Cloudflare, Inc. 2467
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 32bee0ac-b686-4c33-a185-00e867721e08
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: gb3vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gb3vm.cdn-03.live
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 9580
+    server: 104.17.72.206
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3635
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sub.yifenjichang.top
+    network: ws
+    ws-opts:
+      path: /octavi.cfd:443/linkvws
+      headers:
+        Host: sub.yifenjichang.top
     udp: true
