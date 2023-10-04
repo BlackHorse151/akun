@@ -30,13 +30,28 @@ jobs:
 
       - name: Convert And Speedtest
         run : php convert.php
+      - name: Commit Changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull origin main
+          git add .
+          git checkout main
+          git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+      - name: Push Changes
+        uses: ad-m/github-push-action@main
+        with:
+          branch: main
+      
+      - name: Speedtest
+        run: php speedtest.php
         
-     # - name: Pull Changes
-     #   run: git pull
+      - name: Pull Changes
+        run: git pull origin main
       - name: Commit and Push Changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           git add .
           git commit -m "Update data"
           git push
