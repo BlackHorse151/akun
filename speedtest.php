@@ -4,7 +4,7 @@ $speedtest = json_decode(file_get_contents("output.json"));
 file_put_contents("sing-box.txt", "");
 file_put_contents("sing-box.yaml", "proxies:");
 file_put_contents("hasil_convert(untest).yaml", "proxies:");
-$query = "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
+$query = "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
 $check = "";
 foreach ($speedtest->nodes as $akun) {
     if ($akun->isok == true) {

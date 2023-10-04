@@ -106,7 +106,7 @@ foreach ($url as $link) {
             $bagianUrl = urlencode($bagianTeks);
             $urlHasil .= $bagianUrl;
             $urlHasil .=
-                "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&filename=a.yaml&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
+                "&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=true&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true";
             $url = file_get_contents($urlHasil);
             $hasil = explode("proxies:", $url)[1];
             $hasil = explode("proxy-groups:", $hasil)[0];
