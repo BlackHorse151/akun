@@ -22,14 +22,19 @@ function convertToFormat($data) {
         $bug = array("104.17.72.206", "104.16.66.85");
         foreach ($bug as $bg) {
             $uid = $proxy["server"];
-            $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));
-        
+            $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));        
             $nama = $uid." ".rand(1000, 9999);
             echo "$nama \n";
-            if ($ip_info->status == "success") {
-                $flag = getFlags($ip_info->countryCode);
-                $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} " . rand(1000, 9999);
-            } 
+            if (isset($ip_info->status)) {
+                if($ip_info->status == "success") {
+                    $flag = getFlags($ip_info->countryCode);
+                    $nama = "{$flag} {$ip_info->countryCode} {$ip_info->as} " . rand(1000, 9999);
+                }
+            } else {
+                $ip_info = json_decode(curl("ipinfo.io/{$uid}/json"));
+                print_r($ip_info);
+                echo "\nCek Baru\n";
+            }
             $id.= $uid . " ";
             $format = "";
             $server = $bg;
@@ -111,7 +116,7 @@ foreach ($speedtest->nodes as $akun) {
         $hasil = explode("proxies:", $url) [1];
         $hasil = explode("proxy-groups:", $hasil) [0];
         $tes_check = explode("network: ws", explode("type: vmess",$hasil)[1])[0];
-        if(preg_match("/{$tes_check}/",$check)) {
+        if(preg_match("/^{$tes_check}/im",$check)) {
             echo "node sudah ada \n";
         } else {
             $check .= $tes_check."\n";
