@@ -81,7 +81,7 @@ foreach ($url as $link) {
         $a = explode("```", file_get_contents($link))[1];
         $isi = explode("```", $a)[0];
     } elseif (preg_match("/^proxies:/im", file_get_contents($link))) {
-        $clash = file_get_contents($link)   
+        $clash = file_get_contents($link);
         $hasil = explode("proxies:", $clash)[1];
         $hasil = explode("proxy-groups:", $hasil)[0];
         file_put_contents("a.yaml", $hasil, FILE_APPEND);
