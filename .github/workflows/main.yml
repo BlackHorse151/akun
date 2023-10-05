@@ -1,17 +1,10 @@
 name: Convert V2RayLink to Clash
-
 on:
-
   workflow_dispatch:
-
   schedule:
-
     - cron: '0 0 * * *' # Run the workflow daily at midnight
-
 jobs:
-
   convert:
-
     runs-on: ubuntu-latest
 
     steps:
