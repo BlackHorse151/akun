@@ -84,11 +84,16 @@ foreach ($url as $link) {
         $clash = file_get_contents($link);
         $hasil = explode("proxies:", $clash)[1];
         $hasil = explode("proxy-groups:", $hasil)[0];
-        file_put_contents("a.yaml", $hasil, FILE_APPEND);
+        $a = explode("\n",$hasil);
+        foreach($a as $b) {
+            file_put_contents("a.yaml", "  ".$b, FILE_APPEND);
+        }
         continue;
     } else {
         $isi = file_get_contents($link);
     }
+    echo $link;
+    exit();
     $baris = explode("\n", $isi);
     // Menghitung total baris
     $totalBaris = count($baris);
