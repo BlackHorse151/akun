@@ -92,8 +92,6 @@ foreach ($url as $link) {
     } else {
         $isi = file_get_contents($link);
     }
-    echo $link;
-    exit();
     $baris = explode("\n", $isi);
     // Menghitung total baris
     $totalBaris = count($baris);
