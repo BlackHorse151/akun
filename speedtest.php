@@ -22,12 +22,13 @@ foreach ($speedtest->nodes as $akun) {
             $check .= $hasil."\n";
             file_put_contents("sing-box.yaml", $hasil, FILE_APPEND);
         }
+    } else {
+        $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
+        $akn = urlencode($akun->link);
+        $url = file_get_contents($urlHasil . $akn . $query);
+        $hasil = explode("proxies:", $url) [1];
+        $hasil = explode("proxy-groups:", $hasil) [0];
+        file_put_contents("hasil_convert(untest).yaml", $hasil, FILE_APPEND);
     }
-    $urlHasil = "https://sub.bonds.id/sub2?target=clash&url=";
-    $akn = urlencode($akun->link);
-    $url = file_get_contents($urlHasil . $akn . $query);
-    $hasil = explode("proxies:", $url) [1];
-    $hasil = explode("proxy-groups:", $hasil) [0];
-    file_put_contents("hasil_convert(untest).yaml", $hasil, FILE_APPEND);
 }
 ?>
