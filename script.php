@@ -8,6 +8,7 @@ $url = [
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir",
 	"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt",*/
     "https://clashnode.com/wp-content/uploads/" . $tanggal,
+    "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix",
     "https://baipiao1.curly-train.pages.dev/sub/d342d11e-d424-4583-b36e-524ab1f0afa4",
     "https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt",
@@ -74,14 +75,17 @@ $url = [
 file_put_contents("a.yaml", "proxies:");
 $check = "";
 foreach ($url as $link) {
-    if (
-        base64_encode(base64_decode(file_get_contents($link), true)) ===
-        file_get_contents($link)
-    ) {
+    if (base64_encode(base64_decode(file_get_contents($link), true)) === file_get_contents($link)) {
         $isi = base64_decode(file_get_contents($link));
     } elseif (preg_match("/```/", file_get_contents($link))) {
         $a = explode("```", file_get_contents($link))[1];
         $isi = explode("```", $a)[0];
+    } elseif (preg_match("/^proxies:/im", file_get_contents($link))) {
+        $clash = file_get_contents($link)   
+        $hasil = explode("proxies:", $clash)[1];
+        $hasil = explode("proxy-groups:", $hasil)[0];
+        file_put_contents("a.yaml", $hasil, FILE_APPEND);
+        continue;
     } else {
         $isi = file_get_contents($link);
     }
