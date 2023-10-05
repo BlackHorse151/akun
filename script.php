@@ -3,7 +3,7 @@ $date = new DateTime("now", new DateTimeZone("Asia/Jakarta"));
 $tanggal = $date->format("Y/m/Ymd") . ".txt";
 $tanggal2 = "data" . $date->format("Ymj") . ".txt";
 $url = [
-    "https://raw.githubusercontent.com/BlackHorse151/V2RayAggregator/master/sub/splitted/vmess.txt",
+   "https://raw.githubusercontent.com/BlackHorse151/V2RayAggregator/master/sub/splitted/vmess.txt",
     /*"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity",
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir",
 	"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt",*/
@@ -86,7 +86,7 @@ foreach ($url as $link) {
         $hasil = explode("proxy-groups:", $hasil)[0];
         $a = explode("\n",$hasil);
         foreach($a as $b) {
-            file_put_contents("a.yaml", "  ".$b, FILE_APPEND);
+            file_put_contents("a.yaml", "  ".$b."\n", FILE_APPEND);
         }
         continue;
     } else {
