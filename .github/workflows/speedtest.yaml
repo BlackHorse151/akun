@@ -1,0 +1,29 @@
+name: speedtest
+on:
+  workflow_dispatch:
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+          php-version: '8.2.8' # Specify the PHP version
+    - name: Install Composer dependencies
+      run: composer install
+    - name: Set Timezone
+      run: sudo timedatectl set-timezone 'Asia/Jakarta'
+    - name: Run speedtest
+      run: |
+        chmod +x ./lite-linux-amd64 && ./lite-linux-amd64 --config config.json --test https://raw.githubusercontent.com/ardi5209/akun/main/sing-box-base64.txt
+    - name: Commit changes
+      run: |                 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull
+        git add .
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') Filter Nodes"
+        git push
