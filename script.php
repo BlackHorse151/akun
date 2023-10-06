@@ -117,7 +117,7 @@ foreach ($url as $link) {
             $url = file_get_contents($urlHasil);
             $hasil = explode("proxies:", $url)[1];
             $hasil = explode("proxy-groups:", $hasil)[0];
-            if(preg_match("/-{(.*)}/",$hasil,$b)) {
+            if(preg_match("/- {(.*)}/",$hasil,$b)) {
                 $hasil = str_replace($b[0], "",$hasil);
             }
             if (strpos($hasil, "~") === false and strpos($hasil, '{') === false and strpos($hasil, '}') === false)  {
