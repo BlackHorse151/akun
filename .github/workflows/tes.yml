@@ -37,6 +37,21 @@ jobs:
         with:
           branch: main
 
+      - name: Process fix files
+        run: |
+          php -r '$a = file_get_contents("a.yaml");preg_match("/- {(.*)}/",$a,$b);$c = str_replace($b[0],"",$a);file_put_contents("a.yaml",$c);'
+      - name: Commit Changesss
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull origin main
+          git add .
+          git checkout main
+          git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
       - name: Process YAML files
         run: |
           yq e '[.proxies.[] | select((.network == "ws") and (.tls == true))]' a.yaml | yq e '{"proxies": .}' > b.yaml
