@@ -18,6 +18,9 @@ jobs:
 
     - name: Build and Run Golang Script
       run: |
+        go mod init tes_koneksi.go
+        go get github.com/gorilla/websocket
+        go get gopkg.in/yaml.v2
         go build -o test-connections tes_koneksi.go
         ./test-connections
 
