@@ -18,7 +18,7 @@ jobs:
 
     - name: Build and Run Golang Script
       run: |
-        go build -o test-connections main.go
+        go build -o test-connections tes_koneksi.go
         ./test-connections
 
     - name: Clean Up
