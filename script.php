@@ -3,10 +3,10 @@ $date = new DateTime("now", new DateTimeZone("Asia/Jakarta"));
 $tanggal = $date->format("Y/m/Ymd") . ".txt";
 $tanggal2 = "data" . $date->format("Ymj") . ".txt";
 $url = [
-   "https://raw.githubusercontent.com/BlackHorse151/V2RayAggregator/master/sub/splitted/vmess.txt",
+   /*"https://raw.githubusercontent.com/BlackHorse151/V2RayAggregator/master/sub/splitted/vmess.txt",
     /*"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity",
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir",
-	"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt",*/
+	"https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt",
     "https://clashnode.com/wp-content/uploads/" . $tanggal,
     "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
     "https://raw.githubusercontent.com/yebekhe/ConfigCollector/main/sub/mix",
@@ -69,7 +69,8 @@ $url = [
     "https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt",
     "https://mrpooya.xyz/api/ramezan/fastRay.php?sub=1",
     "https://raw.githubusercontent.com/HakurouKen/free-node/main/public",
-    "https://paste.gg/p/anonymous/7df50f752b00498398525560262c5786/files/ec501b9762b743218cdd21fe4e123276/raw",
+    "https://paste.gg/p/anonymous/7df50f752b00498398525560262c5786/files/ec501b9762b743218cdd21fe4e123276/raw",*/
+    "https://raw.githubusercontent.com/mheidari98/.proxy/main/vmess"
 ];
 //https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray.txt
 file_put_contents("a.yaml", "proxies:");

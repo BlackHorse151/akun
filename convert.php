@@ -19,7 +19,7 @@ function convertToFormat($data) {
     $formats = [];
     $id = "";
     foreach ($proxies as $proxy) {
-        $bug = array("104.17.72.206", "104.16.66.85");
+        $bug = array(/*"104.17.72.206",*/ "104.16.66.85");
         foreach ($bug as $bg) {
             $uid = $proxy["server"];
             $ip_info = json_decode(curl("http://ip-api.com/json/{$uid}"));        
