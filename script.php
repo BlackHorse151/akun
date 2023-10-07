@@ -118,7 +118,7 @@ foreach ($url as $link) {
             $hasil = explode("proxies:", $url)[1];
             $hasil = explode("proxy-groups:", $hasil)[0];
             if (strpos($hasil, "~") === false)  {
-                $tes_check = explode("headers:",explode("type: vmess", $hasil)[1])[0];
+                $tes_check = explode("      headers::",explode("type: vmess", $hasil)[1])[0];
                 print $hasil . "\n";
                 if (preg_match("/^{$tes_check}/im", $check)) {
                     echo "node sudah ada \n";
