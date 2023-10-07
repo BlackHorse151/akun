@@ -12,7 +12,7 @@ foreach ($speedtest->nodes as $akun) {
     $url = file_get_contents($urlHasil . $akn . $query);
     $hasil = explode("proxies:", $url) [1];
     $hasil = explode("proxy-groups:", $hasil) [0];
-    $tes_check = "    server:".explode("      headers:", explode("server:",$hasil)[1])[0];
+    $tes_check = explode("ws-opts:",explode("type: vmess", $hasil)[1])[0];
     print($hasil."\n");
     if ($akun->isok == true) {
         if(preg_match("/^{$tes_check}/im",$check)) {
