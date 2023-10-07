@@ -1,9 +1,7 @@
 name: Test VPN Connections Golang
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   test-connections:
