@@ -39,7 +39,7 @@ jobs:
 
       - name: Process fix files
         run: |
-          php -r '$a = file_get_contents("a.yaml");preg_match("/- {(.*)}/",$a,$b);$c = str_replace($b[0],"",$a);file_put_contents("a.yaml",$c);'
+          php -r '$a = file_get_contents("a.yaml");if(preg_match("/- {(.*)}/",$a,$b)){$c = str_replace($b[0],"",$a);file_put_contents("a.yaml",$c);}'
       - name: Commit Changesss
         run: |
           git config --local user.email "actions@github.com"
