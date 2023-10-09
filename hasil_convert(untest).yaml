@@ -2651,23 +2651,6 @@ proxies:
         Host: 104.24.172.243
     udp: true
 
-  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 4733
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Amsterdam.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Amsterdam.kotick.site
-    udp: true
-
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5318
     server: 104.16.66.85
     port: 443
@@ -2683,40 +2666,6 @@ proxies:
       path: /speedtest
       headers:
         Host: 104.24.176.7
-    udp: true
-
-  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5061
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Amsterdam.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Amsterdam.kotick.site
-    udp: true
-
-  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 7064
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Amsterdam.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Amsterdam.kotick.site
     udp: true
 
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8024
@@ -2751,23 +2700,6 @@ proxies:
       path: /speedtest
       headers:
         Host: 104.24.176.7
-    udp: true
-
-  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8161
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 691C16EE-D3A5-4BA6-AE8B-59C12B278D86
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.kotick.site
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.kotick.site
     udp: true
 
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8913
@@ -5728,23 +5660,6 @@ proxies:
         Host: edeen.makeup
     udp: true
 
-  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5264
-    server: 104.16.66.85
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: edeen.makeup
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: edeen.makeup
-    udp: true
-
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3780
     server: 104.16.66.85
     port: 443
@@ -6406,6 +6321,23 @@ proxies:
       path: /speedtest
       headers:
         Host: Dusseldorf.kotick.site
+    udp: true
+
+  - name: CA AS13335 Cloudflare, Inc. 3958
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796?ed=2048
+      headers:
+        Host: amstd.digires.shop
     udp: true
 
   - name: CA AS13335 Cloudflare, Inc. 3068
@@ -19430,6 +19362,23 @@ proxies:
         Host: ming2.kiwireich.com
     udp: true
 
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 6057
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ming2.kiwireich.com
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ming2.kiwireich.com
+    udp: true
+
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 3591
     server: 104.16.66.85
     port: 443
@@ -20263,6 +20212,23 @@ proxies:
         Host: 172.67.8.239
     udp: true
 
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 9294
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5060
     server: 104.16.66.85
     port: 443
@@ -20295,6 +20261,23 @@ proxies:
       path: /
       headers:
         Host: 172.67.81.238
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 2561
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
     udp: true
 
   - name: 🇺🇸 US AS13335 Cloudflare, Inc. 5522
@@ -21366,6 +21349,23 @@ proxies:
       path: /
       headers:
         Host: 188.114.99.29
+    udp: true
+
+  - name: NL AS13335 Cloudflare, Inc. 7979
+    server: 104.16.66.85
+    port: 2053
+    type: vmess
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: b5.iraniancp.click
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: b5.iraniancp.click
     udp: true
 
   - name: NL AS13335 Cloudflare, Inc. 7883
@@ -27437,6 +27437,23 @@ proxies:
         Host: Lille.bobbykotick.rip
     udp: true
 
+  - name: 🇬🇧 CY AS209242 Cloudflare London, LLC 9765
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
   - name: 🇬🇧 CY AS209242 Cloudflare London, LLC 3388
     server: 104.16.66.85
     port: 443
@@ -27537,6 +27554,23 @@ proxies:
       path: /
       headers:
         Host: Lille.bobbykotick.rip
+    udp: true
+
+  - name: 203.23.106.157 7728
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796
+      headers:
+        Host: amstd.digires.shop
     udp: true
 
   - name: 203.23.106.157 3174
@@ -37450,6 +37484,23 @@ proxies:
         Host: us3.sanfencdn1.com
     udp: true
 
+  - name: cjmahdi.online 4952
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: D8813DCB-426C-4952-B384-8951B0444EC1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: green-water-bb30.walidfree23.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: green-water-bb30.walidfree23.workers.dev
+    udp: true
+
   - name: cjmahdi.online 6447
     server: 104.16.66.85
     port: 443
@@ -37465,6 +37516,23 @@ proxies:
       path: /
       headers:
         Host: cjmahdi.online
+    udp: true
+
+  - name: cjmahdi.online 5053
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: D8813DCB-426C-4952-B384-8951B0444EC1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: green-water-bb30.walidfree23.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Amsterdam.kotick.site
+      headers:
+        Host: green-water-bb30.walidfree23.workers.dev
     udp: true
 
   - name: clash6.ssr-free.xyz 9441
@@ -37858,6 +37926,23 @@ proxies:
         Host: amin.karkas1.ir
     udp: true
 
+  - name: amstd.digires.shop 1419
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796
+      headers:
+        Host: amstd.digires.shop
+    udp: true
+
   - name: amstd.digires.shop 9402
     server: 104.16.66.85
     port: 443
@@ -37871,6 +37956,23 @@ proxies:
     network: ws
     ws-opts:
       path: /
+      headers:
+        Host: amstd.digires.shop
+    udp: true
+
+  - name: amstd.digires.shop 1504
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amstd.digires.shop
+    network: ws
+    ws-opts:
+      path: /12796
       headers:
         Host: amstd.digires.shop
     udp: true
@@ -39864,6 +39966,23 @@ proxies:
         Host: fr1.pqjc.buzz
     udp: true
 
+  - name: franc.digires.shop 8869
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
   - name: franc.digires.shop 2335
     server: 104.16.66.85
     port: 443
@@ -39877,6 +39996,23 @@ proxies:
     network: ws
     ws-opts:
       path: /
+      headers:
+        Host: franc.digires.shop
+    udp: true
+
+  - name: franc.digires.shop 4217
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: franc.digires.shop
+    network: ws
+    ws-opts:
+      path: /11201
       headers:
         Host: franc.digires.shop
     udp: true
@@ -44641,6 +44777,23 @@ proxies:
         Host: soee1.aghamostafa.link
     udp: true
 
+  - name: mahsaamini.ddns.net 4638
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 3e2232f1-d3d4-4848-b309-d7b9dc2fabc4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sofi1.aghamostafa.link
+    network: ws
+    ws-opts:
+      path: /mosifilterchi/vmess
+      headers:
+        Host: sofi1.aghamostafa.link
+    udp: true
+
   - name: main.animelover.ir 4591
     server: 104.16.66.85
     port: 443
@@ -46339,6 +46492,23 @@ proxies:
       path: /pic/fjiew2-054j0gewn23k-1fr
       headers:
         Host: f932c3d98981b.download.microsoft.com
+    udp: true
+
+  - name: 🇺🇸 US AS13335 Cloudflare, Inc. 8490
+    server: 104.16.66.85
+    port: 443
+    type: vmess
+    uuid: 1F7C900A-6AD7-41CF-A37E-85873E566C40
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: surfboardv2ray.dehel15354.workers.dev
+    network: ws
+    ws-opts:
+      path: /speedtest/Dusseldorf.bobbykotick.rip
+      headers:
+        Host: surfboardv2ray.dehel15354.workers.dev
     udp: true
 
   - name: 🇷🇺 ru1.mianfenyun012.eu.org 9544
